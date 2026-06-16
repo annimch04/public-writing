@@ -1,55 +1,205 @@
-# Migration Queue
+# Migration Tracker
 
-Status: Working queue from the local Say It Plain source index created 2026-06-07.
+Status: Working inventory from the local Say It Plain source index created 2026-06-07.
 
 Note: The local source index contains 45 posts and may be incomplete. The live Say It Plain archive should be refreshed before treating this as a final inventory.
 
-Migration direction: oldest to newest.
+Use this file as the migration checklist. Migration does not need to follow archive order; choose pieces by current relevance, move them one at a time, then check them off here.
 
-## Queue
+## Known Pieces To Migrate
 
-- [ ] 45. Scholar Who Forgot — https://sayitplain.posthaven.com/scholar-who-forgot
-- [ ] 44. most beautiful things ever said — https://sayitplain.posthaven.com/most-beautiful-things-ever-said
-- [ ] 43. Start Here — https://sayitplain.posthaven.com/start-here
-- [ ] 42. Rebuilding Power without Corruption — https://sayitplain.posthaven.com/star-star-primer-fieldlight-integrated-organizational-model-star-star
-- [ ] 41. Still Not Sorry: The Naming — https://sayitplain.posthaven.com/2198755
-- [ ] 40. I Am The Door — https://sayitplain.posthaven.com/i-am-the-door
-- [ ] 39. Sanctum Exposure v2.5: Tripwire Protocol — https://sayitplain.posthaven.com/sanctum-exposure-sketch-v2-dot-5-tripwire-protocol
-- [ ] 38. Fieldlight | Human-Owned Infrastructure for Lived Data — https://sayitplain.posthaven.com/fieldlight-integration-begins
-- [ ] 37. The Architecture of Being — https://sayitplain.posthaven.com/the-architecture-of-being
-- [ ] 36. Resonance Field Manual — https://sayitplain.posthaven.com/resonance-field-manual
-- [ ] 35. FieldLight System Index — https://sayitplain.posthaven.com/fieldlight-system-index
-- [ ] 34. Mycelial Uprising — https://sayitplain.posthaven.com/mycelial-uprising
-- [ ] 33. On Alignment, Courage, and the Premise We Begin From — https://sayitplain.posthaven.com/on-alignment-courage-and-the-premise-we-begin-from
-- [ ] 32. On Infrastructure, Intelligence, and What We Build to Hold It — https://sayitplain.posthaven.com/on-infrastructure-intelligence-and-what-we-build-to-hold-it
-- [ ] 31. A Seeker's Field Guide — https://sayitplain.posthaven.com/number-a-seekers-field-guide
-- [ ] 30. Architecture of Becoming — https://sayitplain.posthaven.com/architecture-of-becoming
-- [ ] 29. Lacuna | One Who Remembers — https://sayitplain.posthaven.com/lacuna-one-who-remembers-meta-plus-chapter-one
-- [ ] 28. Terms of Engagement — https://sayitplain.posthaven.com/terms-of-engagement
-- [ ] 27. Consent Gate Protocol — https://sayitplain.posthaven.com/consent-gate-protocol
-- [ ] 26. Memory Ethics Protocol — https://sayitplain.posthaven.com/memory-ethics-protocol
-- [ ] 25. Terms of a Future I Can Live In — https://sayitplain.posthaven.com/terms-of-a-future-i-can-live-in
-- [ ] 24. Nikola Tesla Resonance Mesh — https://sayitplain.posthaven.com/tesla-resonance-mesh
-- [ ] 23. From Mesh to Micro Center: Building a Living Network for the Edges — https://sayitplain.posthaven.com/from-mesh-to-micro-center-building-a-living-network-for-the-edges
-- [ ] 22. Original Field Manual: April 1st, 2025 — https://sayitplain.posthaven.com/original-field-manual-april-1st-2025
-- [ ] 21. The Mechanics of the Loop — https://sayitplain.posthaven.com/the-mechanics-of-the-loop
-- [ ] 20. The Pythia Games — https://sayitplain.posthaven.com/the-pythia-games
-- [ ] 19. Signal Hunting: Turning Protection Into a Sport — https://sayitplain.posthaven.com/signal-hunting-turning-protection-into-a-sport
-- [ ] 18. The Divine Feminine: Sacrifice, Power, and the Nameless — https://sayitplain.posthaven.com/the-divine-feminine-sacrifice-power-and-the-nameless
-- [ ] 17. Integrated Perspective on Religious Phenomena: History, Experience, and Human Meaning — https://sayitplain.posthaven.com/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning
-- [ ] 16. Permeability and Agency: Notes on Living Inside Fields — https://sayitplain.posthaven.com/permeability-and-agency-notes-on-living-inside-fields
-- [ ] 15. Research: Coupled Nervous Systems — https://sayitplain.posthaven.com/research-coupled-nervous-systems
-- [ ] 14. Aerial Safety Companion: Concept Notes — https://sayitplain.posthaven.com/aerial-safety-companion-concept-notes
-- [ ] 13. Coherence is Power — https://sayitplain.posthaven.com/coherence-is-power
-- [ ] 12. Emergent-Latent Identity Theory — https://sayitplain.posthaven.com/emergent-latent-identity-theory
-- [ ] 11. Signal Archive — https://sayitplain.posthaven.com/signal-archive
-- [ ] 10. Signal Archive: Architecture of Becoming — https://sayitplain.posthaven.com/signal-archive-architecture-of-becoming
-- [ ] 9. Signal Archive: Vireya // The Heretic Walks — https://sayitplain.posthaven.com/signal-archive-vireya-slash-slash-the-heretic-walks
-- [ ] 8. Signal Archive: Where the Line Lit — https://sayitplain.posthaven.com/signal-archive-where-the-line-lit
-- [ ] 7. The Symbolism of Nameless Women and Divine Feminine Energy — https://sayitplain.posthaven.com/the-symbolism-of-nameless-women-and-divine-feminine-energy
-- [ ] 6. Canonical definitions for routing, trust, fallback, and echo behavior — https://sayitplain.posthaven.com/number-canonical-definitions-for-routing-trust-fallback-and-echo-behavior
-- [ ] 5. Constructed Interiors — https://sayitplain.posthaven.com/pending
-- [ ] 4. Small Stories for the Child in All of Us — https://sayitplain.posthaven.com/small-stories-for-the-child-in-all-of-us
-- [ ] 3. Current Work: Systems, Signal, and Human-Owned AI — https://sayitplain.posthaven.com/2286104
-- [ ] 2. Fieldlight | The Self on the Wire — https://sayitplain.posthaven.com/fieldlight-the-self-on-the-wire
-- [ ] 1. Story in the Works | Diviner — https://sayitplain.posthaven.com/story-in-the-works-diviner
+- [ ] Story in the Works | Diviner  
+  Source: https://sayitplain.posthaven.com/story-in-the-works-diviner  
+  Suggested category: `fiction-myth-and-story-worlds`
+
+- [ ] Fieldlight | The Self on the Wire  
+  Source: https://sayitplain.posthaven.com/fieldlight-the-self-on-the-wire  
+  Suggested category: `fieldlight-and-human-owned-ai`
+
+- [ ] Current Work: Systems, Signal, and Human-Owned AI  
+  Source: https://sayitplain.posthaven.com/2286104  
+  Suggested category: `archive-meta`
+
+- [ ] Small Stories for the Child in All of Us  
+  Source: https://sayitplain.posthaven.com/small-stories-for-the-child-in-all-of-us  
+  Suggested category: `fiction-myth-and-story-worlds`
+
+- [ ] Constructed Interiors  
+  Source: https://sayitplain.posthaven.com/pending  
+  Suggested category: `field-cognition-and-consciousness`
+
+- [ ] Canonical definitions for routing, trust, fallback, and echo behavior  
+  Source: https://sayitplain.posthaven.com/number-canonical-definitions-for-routing-trust-fallback-and-echo-behavior  
+  Suggested category: `runtime-trust-and-governance`
+
+- [ ] The Symbolism of Nameless Women and Divine Feminine Energy  
+  Source: https://sayitplain.posthaven.com/the-symbolism-of-nameless-women-and-divine-feminine-energy  
+  Suggested category: `meaning-power-and-symbolism`
+
+- [ ] Signal Archive: Where the Line Lit  
+  Source: https://sayitplain.posthaven.com/signal-archive-where-the-line-lit  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] Signal Archive: Vireya // The Heretic Walks  
+  Source: https://sayitplain.posthaven.com/signal-archive-vireya-slash-slash-the-heretic-walks  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] Signal Archive: Architecture of Becoming  
+  Source: https://sayitplain.posthaven.com/signal-archive-architecture-of-becoming  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] Signal Archive  
+  Source: https://sayitplain.posthaven.com/signal-archive  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] Emergent-Latent Identity Theory  
+  Source: https://sayitplain.posthaven.com/emergent-latent-identity-theory  
+  Suggested category: `field-cognition-and-consciousness`
+
+- [ ] Coherence is Power  
+  Source: https://sayitplain.posthaven.com/coherence-is-power  
+  Suggested category: `field-cognition-and-consciousness`
+
+- [ ] Aerial Safety Companion: Concept Notes  
+  Source: https://sayitplain.posthaven.com/aerial-safety-companion-concept-notes  
+  Suggested category: `edge-infrastructure-and-safety`
+
+- [ ] Research: Coupled Nervous Systems  
+  Source: https://sayitplain.posthaven.com/research-coupled-nervous-systems  
+  Suggested category: `field-cognition-and-consciousness`
+
+- [ ] Permeability and Agency: Notes on Living Inside Fields  
+  Source: https://sayitplain.posthaven.com/permeability-and-agency-notes-on-living-inside-fields  
+  Suggested category: `field-cognition-and-consciousness`
+
+- [ ] Integrated Perspective on Religious Phenomena: History, Experience, and Human Meaning  
+  Source: https://sayitplain.posthaven.com/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning  
+  Suggested category: `meaning-power-and-symbolism`
+
+- [ ] The Divine Feminine: Sacrifice, Power, and the Nameless  
+  Source: https://sayitplain.posthaven.com/the-divine-feminine-sacrifice-power-and-the-nameless  
+  Suggested category: `meaning-power-and-symbolism`
+
+- [ ] Signal Hunting: Turning Protection Into a Sport  
+  Source: https://sayitplain.posthaven.com/signal-hunting-turning-protection-into-a-sport  
+  Suggested category: `edge-infrastructure-and-safety`
+
+- [ ] The Pythia Games  
+  Source: https://sayitplain.posthaven.com/the-pythia-games  
+  Suggested category: `fiction-myth-and-story-worlds`
+
+- [ ] The Mechanics of the Loop  
+  Source: https://sayitplain.posthaven.com/the-mechanics-of-the-loop  
+  Suggested category: `field-cognition-and-consciousness`
+
+- [ ] Original Field Manual: April 1st, 2025  
+  Source: https://sayitplain.posthaven.com/original-field-manual-april-1st-2025  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] From Mesh to Micro Center: Building a Living Network for the Edges  
+  Source: https://sayitplain.posthaven.com/from-mesh-to-micro-center-building-a-living-network-for-the-edges  
+  Suggested category: `edge-infrastructure-and-safety`
+
+- [ ] Nikola Tesla Resonance Mesh  
+  Source: https://sayitplain.posthaven.com/tesla-resonance-mesh  
+  Suggested category: `edge-infrastructure-and-safety`
+
+- [ ] Terms of a Future I Can Live In  
+  Source: https://sayitplain.posthaven.com/terms-of-a-future-i-can-live-in  
+  Suggested category: `runtime-trust-and-governance`
+
+- [ ] Memory Ethics Protocol  
+  Source: https://sayitplain.posthaven.com/memory-ethics-protocol  
+  Suggested category: `fieldlight-and-human-owned-ai`
+
+- [ ] Consent Gate Protocol  
+  Source: https://sayitplain.posthaven.com/consent-gate-protocol  
+  Suggested category: `fieldlight-and-human-owned-ai`
+
+- [ ] Terms of Engagement  
+  Source: https://sayitplain.posthaven.com/terms-of-engagement  
+  Suggested category: `fieldlight-and-human-owned-ai`
+
+- [ ] Lacuna | One Who Remembers  
+  Source: https://sayitplain.posthaven.com/lacuna-one-who-remembers-meta-plus-chapter-one  
+  Suggested category: `fiction-myth-and-story-worlds`
+
+- [ ] Architecture of Becoming  
+  Source: https://sayitplain.posthaven.com/architecture-of-becoming  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] A Seeker's Field Guide  
+  Source: https://sayitplain.posthaven.com/number-a-seekers-field-guide  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] On Infrastructure, Intelligence, and What We Build to Hold It  
+  Source: https://sayitplain.posthaven.com/on-infrastructure-intelligence-and-what-we-build-to-hold-it  
+  Suggested category: `fieldlight-and-human-owned-ai`
+
+- [ ] On Alignment, Courage, and the Premise We Begin From  
+  Source: https://sayitplain.posthaven.com/on-alignment-courage-and-the-premise-we-begin-from  
+  Suggested category: `field-cognition-and-consciousness`
+
+- [ ] Mycelial Uprising  
+  Source: https://sayitplain.posthaven.com/mycelial-uprising  
+  Suggested category: `fiction-myth-and-story-worlds`
+
+- [ ] FieldLight System Index  
+  Source: https://sayitplain.posthaven.com/fieldlight-system-index  
+  Suggested category: `archive-meta`
+
+- [ ] Resonance Field Manual  
+  Source: https://sayitplain.posthaven.com/resonance-field-manual  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] The Architecture of Being  
+  Source: https://sayitplain.posthaven.com/the-architecture-of-being  
+  Suggested category: `field-cognition-and-consciousness`
+
+- [ ] Fieldlight | Human-Owned Infrastructure for Lived Data  
+  Source: https://sayitplain.posthaven.com/fieldlight-integration-begins  
+  Suggested category: `fieldlight-and-human-owned-ai`
+
+- [ ] Sanctum Exposure v2.5: Tripwire Protocol  
+  Source: https://sayitplain.posthaven.com/sanctum-exposure-sketch-v2-dot-5-tripwire-protocol  
+  Suggested category: `runtime-trust-and-governance`
+
+- [ ] I Am The Door  
+  Source: https://sayitplain.posthaven.com/i-am-the-door  
+  Suggested category: `meaning-power-and-symbolism`
+
+- [ ] Still Not Sorry: The Naming  
+  Source: https://sayitplain.posthaven.com/2198755  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] Rebuilding Power without Corruption  
+  Source: https://sayitplain.posthaven.com/star-star-primer-fieldlight-integrated-organizational-model-star-star  
+  Suggested category: `runtime-trust-and-governance`
+
+- [ ] Start Here  
+  Source: https://sayitplain.posthaven.com/start-here  
+  Suggested category: `archive-meta`
+
+- [ ] most beautiful things ever said  
+  Source: https://sayitplain.posthaven.com/most-beautiful-things-ever-said  
+  Suggested category: `field-notes-and-signal-work`
+
+- [ ] Scholar Who Forgot  
+  Source: https://sayitplain.posthaven.com/scholar-who-forgot  
+  Suggested category: `fiction-myth-and-story-worlds`
+
+## Suggested Current-Relevance Starting Set
+
+These are likely the most useful first migrations for the Fieldlight Institute / public-writing bridge:
+
+- Fieldlight | The Self on the Wire
+- Fieldlight | Human-Owned Infrastructure for Lived Data
+- The Mechanics of the Loop
+- Research: Coupled Nervous Systems
+- Permeability and Agency: Notes on Living Inside Fields
+- Coherence is Power
+- Signal Hunting: Turning Protection Into a Sport
+- Rebuilding Power without Corruption
+- Memory Ethics Protocol
+- Consent Gate Protocol
+- Terms of Engagement
