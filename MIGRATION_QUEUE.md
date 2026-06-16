@@ -68,7 +68,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/research-coupled-nervous-systems  
   Suggested category: `field-cognition-and-consciousness`
 
-- [ ] Permeability and Agency: Notes on Living Inside Fields  
+- [x] Permeability and Agency: Notes on Living Inside Fields  
   Source: https://sayitplain.posthaven.com/permeability-and-agency-notes-on-living-inside-fields  
   Suggested category: `field-cognition-and-consciousness`
 
