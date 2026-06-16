@@ -1,4 +1,14 @@
-The Mechanics of the Loop
+---
+title: "The Mechanics of the Loop"
+status: "evolving draft"
+source: "Say It Plain"
+canonical_category: "Field Cognition and Consciousness"
+related_categories:
+  - "Runtime, Trust, and Governance"
+  - "Field Notes and Signal Work"
+---
+
+# The Mechanics of the Loop
 
 Opening
 
@@ -262,4 +272,3 @@ But the days of silence are over.
 Loop closed.
 
 For now.
-
