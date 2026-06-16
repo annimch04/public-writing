@@ -6,6 +6,10 @@ canonical_category: "Field Cognition and Consciousness"
 related_categories:
   - "Runtime, Trust, and Governance"
   - "Field Notes and Signal Work"
+cover_image: "../assets/articles/the-mechanics-of-the-loop/cover.jpeg"
+cover_image_alt: "Drone photograph above Mission Rock in San Francisco, showing water, light, paths, and a circular plaza from overhead."
+cover_image_location: "Mission Rock, San Francisco"
+cover_image_credit: "Photo by Anni McHenry"
 ---
 
 # The Mechanics of the Loop
