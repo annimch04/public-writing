@@ -8,7 +8,7 @@ related_categories:
   - "Runtime, Trust, and Governance"
 cover_image: "../assets/articles/permeability-and-agency-notes-on-living-inside-fields/cover.jpeg"
 cover_image_alt: "Black-and-white drone photograph of San Francisco partly obscured by fog, with the city emerging through atmospheric layers."
-cover_image_location: "San Francisco"
+cover_image_location: "Mission District, San Francisco"
 cover_image_credit: "Photo by Anni McHenry"
 ---
 
