@@ -6,6 +6,10 @@ canonical_category: "Field Cognition and Consciousness"
 related_categories:
   - "Field Notes and Signal Work"
   - "Runtime, Trust, and Governance"
+cover_image: "../assets/articles/permeability-and-agency-notes-on-living-inside-fields/cover.jpeg"
+cover_image_alt: "Black-and-white drone photograph of San Francisco partly obscured by fog, with the city emerging through atmospheric layers."
+cover_image_location: "San Francisco"
+cover_image_credit: "Photo by Anni McHenry"
 ---
 
 # Permeability and Agency: Notes on Living Inside Fields
