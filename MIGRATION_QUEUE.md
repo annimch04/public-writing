@@ -64,7 +64,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/aerial-safety-companion-concept-notes  
   Suggested category: `edge-infrastructure-and-safety`
 
-- [ ] Research: Coupled Nervous Systems  
+- [x] Research: Coupled Nervous Systems
   Source: https://sayitplain.posthaven.com/research-coupled-nervous-systems  
   Suggested category: `field-cognition-and-consciousness`
 
