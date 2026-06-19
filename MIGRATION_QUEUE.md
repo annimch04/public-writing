@@ -80,7 +80,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/the-divine-feminine-sacrifice-power-and-the-nameless  
   Suggested category: `meaning-power-and-symbolism`
 
-- [ ] Signal Hunting: Turning Protection Into a Sport  
+- [x] Signal Hunting: Turning Protection Into a Sport
   Source: https://sayitplain.posthaven.com/signal-hunting-turning-protection-into-a-sport  
   Suggested category: `edge-infrastructure-and-safety`
 
