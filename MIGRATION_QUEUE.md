@@ -56,7 +56,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/emergent-latent-identity-theory  
   Suggested category: `field-cognition-and-consciousness`
 
-- [ ] Coherence is Power  
+- [x] Coherence is Power
   Source: https://sayitplain.posthaven.com/coherence-is-power  
   Suggested category: `field-cognition-and-consciousness`
 
