@@ -152,9 +152,9 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/resonance-field-manual  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] The Architecture of Being  
+- [x] The Architecture of Being
   Source: https://sayitplain.posthaven.com/the-architecture-of-being  
-  Suggested category: `field-cognition-and-consciousness`
+  Canonical category: `fieldlight-and-human-owned-ai`
 
 - [ ] Fieldlight | Human-Owned Infrastructure for Lived Data  
   Source: https://sayitplain.posthaven.com/fieldlight-integration-begins  
