@@ -52,7 +52,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/signal-archive  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] Emergent-Latent Identity Theory  
+- [x] Emergent-Latent Identity Theory
   Source: https://sayitplain.posthaven.com/emergent-latent-identity-theory  
   Suggested category: `field-cognition-and-consciousness`
 
