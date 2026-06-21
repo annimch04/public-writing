@@ -12,7 +12,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/story-in-the-works-diviner  
   Suggested category: `fiction-myth-and-story-worlds`
 
-- [ ] Fieldlight | The Self on the Wire  
+- [x] Fieldlight | The Self on the Wire
   Source: https://sayitplain.posthaven.com/fieldlight-the-self-on-the-wire  
   Suggested category: `fieldlight-and-human-owned-ai`
 
