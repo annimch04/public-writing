@@ -156,7 +156,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/the-architecture-of-being  
   Canonical category: `fieldlight-and-human-owned-ai`
 
-- [ ] Fieldlight | Human-Owned Infrastructure for Lived Data  
+- [x] Fieldlight | Human-Owned Infrastructure for Lived Data
   Source: https://sayitplain.posthaven.com/fieldlight-integration-begins  
   Suggested category: `fieldlight-and-human-owned-ai`
 
