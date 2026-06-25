@@ -116,7 +116,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/consent-gate-protocol  
   Suggested category: `fieldlight-and-human-owned-ai`
 
-- [ ] Terms of Engagement  
+- [x] Terms of Engagement
   Source: https://sayitplain.posthaven.com/terms-of-engagement  
   Suggested category: `fieldlight-and-human-owned-ai`
 
