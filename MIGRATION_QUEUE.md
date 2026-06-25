@@ -28,7 +28,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/pending  
   Suggested category: `field-cognition-and-consciousness`
 
-- [ ] Canonical definitions for routing, trust, fallback, and echo behavior  
+- [x] Canonical definitions for routing, trust, fallback, and echo behavior
   Source: https://sayitplain.posthaven.com/number-canonical-definitions-for-routing-trust-fallback-and-echo-behavior  
   Suggested category: `runtime-trust-and-governance`
 
