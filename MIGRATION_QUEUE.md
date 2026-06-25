@@ -112,7 +112,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/memory-ethics-protocol  
   Suggested category: `fieldlight-and-human-owned-ai`
 
-- [ ] Consent Gate Protocol  
+- [x] Consent Gate Protocol
   Source: https://sayitplain.posthaven.com/consent-gate-protocol  
   Suggested category: `fieldlight-and-human-owned-ai`
 
