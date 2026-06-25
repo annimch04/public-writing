@@ -108,7 +108,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/terms-of-a-future-i-can-live-in  
   Suggested category: `runtime-trust-and-governance`
 
-- [ ] Memory Ethics Protocol  
+- [x] Memory Ethics Protocol
   Source: https://sayitplain.posthaven.com/memory-ethics-protocol  
   Suggested category: `fieldlight-and-human-owned-ai`
 
