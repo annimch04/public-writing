@@ -104,7 +104,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/tesla-resonance-mesh  
   Suggested category: `edge-infrastructure-and-safety`
 
-- [ ] Terms of a Future I Can Live In  
+- [x] Terms of a Future I Can Live In
   Source: https://sayitplain.posthaven.com/terms-of-a-future-i-can-live-in  
   Suggested category: `runtime-trust-and-governance`
 
