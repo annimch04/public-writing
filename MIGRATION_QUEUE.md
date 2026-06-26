@@ -172,7 +172,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/2198755  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] Rebuilding Power without Corruption  
+- [x] Rebuilding Power without Corruption
   Source: https://sayitplain.posthaven.com/star-star-primer-fieldlight-integrated-organizational-model-star-star  
   Suggested category: `runtime-trust-and-governance`
 
