@@ -132,7 +132,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/number-a-seekers-field-guide  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] On Infrastructure, Intelligence, and What We Build to Hold It  
+- [x] On Infrastructure, Intelligence, and What We Build to Hold It
   Source: https://sayitplain.posthaven.com/on-infrastructure-intelligence-and-what-we-build-to-hold-it  
   Suggested category: `fieldlight-and-human-owned-ai`
 
