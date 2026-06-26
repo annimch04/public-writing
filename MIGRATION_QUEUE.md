@@ -100,7 +100,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/from-mesh-to-micro-center-building-a-living-network-for-the-edges  
   Suggested category: `edge-infrastructure-and-safety`
 
-- [ ] Nikola Tesla Resonance Mesh  
+- [x] Nikola Tesla Resonance Mesh
   Source: https://sayitplain.posthaven.com/tesla-resonance-mesh  
   Suggested category: `edge-infrastructure-and-safety`
 
