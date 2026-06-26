@@ -96,7 +96,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/original-field-manual-april-1st-2025  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] From Mesh to Micro Center: Building a Living Network for the Edges  
+- [x] From Mesh to Micro Center: Building a Living Network for the Edges
   Source: https://sayitplain.posthaven.com/from-mesh-to-micro-center-building-a-living-network-for-the-edges  
   Suggested category: `edge-infrastructure-and-safety`
 
