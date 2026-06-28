@@ -128,7 +128,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/architecture-of-becoming  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] A Seeker's Field Guide  
+- [x] A Seeker's Field Guide
   Source: https://sayitplain.posthaven.com/number-a-seekers-field-guide  
   Suggested category: `field-notes-and-signal-work`
 
