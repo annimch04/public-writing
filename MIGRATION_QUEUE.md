@@ -60,7 +60,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/coherence-is-power  
   Suggested category: `field-cognition-and-consciousness`
 
-- [ ] Aerial Safety Companion: Concept Notes  
+- [x] Aerial Safety Companion: Concept Notes
   Source: https://sayitplain.posthaven.com/aerial-safety-companion-concept-notes  
   Suggested category: `edge-infrastructure-and-safety`
 
