@@ -11,8 +11,8 @@ related_categories:
   - "Field Notes and Signal Work"
 archive_note: "An ongoing archive of sentences that stopped me: proof that language can still rearrange a soul."
 cover_image: "../assets/articles/most-beautiful-things-ever-said/cover.jpeg"
-cover_image_alt: "Black-and-white photograph of a sailboat on the bay at dusk, with a crescent moon above the mast and the San Francisco skyline in the distance."
-cover_image_credit: "Photo by Anni McHenry"
+cover_image_alt: "Black-and-white photograph of a sailboat near the Berkeley Yacht Club at dusk, with a crescent moon above the mast and the San Francisco skyline in the distance."
+cover_image_credit: "Photo by Anni McHenry, Berkeley Yacht Club"
 ---
 
 # Most Beautiful Things Ever Said
