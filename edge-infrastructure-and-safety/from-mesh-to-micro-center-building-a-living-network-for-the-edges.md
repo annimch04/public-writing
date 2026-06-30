@@ -23,6 +23,8 @@ The mobile field unit—the Lemur / drone / Supra stack I already run—extends 
 
 It acts as a portable private network and telemetry collector, a temporary edge node when stationary (event, disaster zone, test range), and syncs encrypted data back to the nearest fixed micro center when within range. Together they form a true mesh: stationary nodes provide backbone compute; mobile nodes sense and feed them.
 
+See also: [Fieldlight Mobile Edge Node](fieldlight-mobile-edge-node.md), the vehicle-based sovereign compute architecture that specifies the Supra / Raspberry Pi / iPad node layer.
+
 ## The Human Core
 
 Every micro data center houses a resident AI operations team. These people live and work on-site, maintaining the node, training local talent, and adapting systems to the community’s needs.
