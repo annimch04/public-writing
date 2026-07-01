@@ -120,7 +120,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/terms-of-engagement  
   Suggested category: `fieldlight-and-human-owned-ai`
 
-- [ ] Lacuna | One Who Remembers  
+- [x] Lacuna | One Who Remembers
   Source: https://sayitplain.posthaven.com/lacuna-one-who-remembers-meta-plus-chapter-one  
   Suggested category: `fiction-myth-and-story-worlds`
 

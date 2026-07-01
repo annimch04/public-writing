@@ -1,3 +1,9 @@
-# Fiction Myth And Story Worlds
+# Fiction, Myth, and Story Worlds
 
-Migrated pieces in this category will be added one at a time from the Say It Plain archive.
+Fiction, fragments, mythic systems, and story-world architecture.
+
+These pieces are not separate from the Fieldlight system; they are one of the places its symbolic logic becomes narrative, character, image, body, and consequence.
+
+## Migrated Pieces
+
+- [Lacuna | One Who Remembers](./lacuna-one-who-remembers.md)
