@@ -15,15 +15,11 @@ Pythia is a split-realm system:
 
 ## Published Artifacts
 
-- [The Pythia Games | Story Framework](pythia-games-framework.md)
-- [The Pythia Games | Opening Pages](pythia-games-opening-pages.md)
-- [The Pythia Games | Original Posthaven Anchor](the-pythia-games.md)
+- [The Pythia Games](the-pythia-games.md)
 
-## Fieldlight Reading Surfaces
+## Fieldlight Reading Surface
 
 - [Pythia Story World](https://fieldlight.com/story-worlds/pythia/)
-- [The Pythia Games | Story Framework](https://fieldlight.com/story-worlds/pythia/framework/)
-- [The Pythia Games | Opening Pages](https://fieldlight.com/story-worlds/pythia/opening-pages/)
 
 ## Active Build Layers
 
