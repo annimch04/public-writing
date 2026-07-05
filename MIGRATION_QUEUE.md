@@ -84,9 +84,9 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/signal-hunting-turning-protection-into-a-sport  
   Suggested category: `edge-infrastructure-and-safety`
 
-- [ ] The Pythia Games  
+- [x] The Pythia Games  
   Source: https://sayitplain.posthaven.com/the-pythia-games  
-  Suggested category: `fiction-myth-and-story-worlds`
+  Suggested category: `story-worlds/pythia`
 
 - [x] The Mechanics of the Loop  
   Source: https://sayitplain.posthaven.com/the-mechanics-of-the-loop  
@@ -140,7 +140,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/on-alignment-courage-and-the-premise-we-begin-from  
   Suggested category: `field-cognition-and-consciousness`
 
-- [ ] Mycelial Uprising  
+- [x] Mycelial Uprising  
   Source: https://sayitplain.posthaven.com/mycelial-uprising  
   Suggested category: `fiction-myth-and-story-worlds`
 

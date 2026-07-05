@@ -7,3 +7,8 @@ These pieces are not separate from the Fieldlight system; they are one of the pl
 ## Migrated Pieces
 
 - [Lacuna | One Who Remembers](./lacuna-one-who-remembers.md)
+- [Mycelial Uprising](./mycelial-uprising.md)
+
+## Story-World Dossiers
+
+- [Pythia](../story-worlds/pythia/)

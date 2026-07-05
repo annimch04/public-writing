@@ -25,6 +25,7 @@ See [Migration Queue](MIGRATION_QUEUE.md).
 - [Runtime, Trust, and Governance](runtime-trust-and-governance/)
 - [Edge Infrastructure and Safety](edge-infrastructure-and-safety/)
 - [Field Notes and Signal Work](field-notes-and-signal-work/)
+- [Story Worlds](story-worlds/)
 - [Fiction, Myth, and Story Worlds](fiction-myth-and-story-worlds/)
 - [Meaning, Power, and Symbolism](meaning-power-and-symbolism/)
 - [Archive Meta](archive-meta/)
