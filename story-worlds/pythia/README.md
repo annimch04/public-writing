@@ -23,6 +23,8 @@ Pythia is a split-realm system:
 - Delphi / Ninneva persona work
 - Archers extraction-class lore
 - music and signal references
+  - "Play With Fire" by Sam Tinnesz feat. Yacht Money
+  - "Siren" by Kailee Morgue
 - possible interactive/game structures
 - links back into Fieldlight technical architecture
 
