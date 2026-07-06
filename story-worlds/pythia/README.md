@@ -2,7 +2,7 @@
 
 Pythia is a myth-tech story world where Fieldlight architecture becomes character, conflict, interface, and consequence.
 
-It is part oracle system, part hacker-house arena, part intelligence market, part astral underworld. It translates questions of signal, extraction, memory, consent, erotic power, governance, and authorship into a world people can enter.
+It is part oracle system, part hacker-house arena, part intelligence market, part astral underworld. It translates questions of signal, extraction, memory, consent, erotic power, governance, authorship, reincarnation, and embodied recognition into a world people can enter.
 
 ## Core Frame
 
@@ -20,6 +20,7 @@ Pythia is a split-realm system:
 ## Fieldlight Reading Surface
 
 - [Pythia Story World](https://fieldlight.com/story-worlds/pythia/)
+- [The Pythia Games](https://fieldlight.com/writing/the-pythia-games/)
 
 ## Active Build Layers
 
