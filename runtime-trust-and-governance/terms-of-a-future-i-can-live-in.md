@@ -9,6 +9,12 @@ canonical_category: "Runtime, Trust, and Governance"
 related_categories:
   - "Fieldlight and Human-Owned AI"
   - "Meaning, Power, and Symbolism"
+audio:
+  status: "recorded"
+  reader: "Anni McHenry"
+  recorded_at: "2026-07-09T10:19:49-05:00"
+  public_derivative: "../audio/terms-of-a-future-i-can-live-in/terms-of-a-future-i-can-live-in_author-read_public_mono.wav"
+  manifest: "../audio/terms-of-a-future-i-can-live-in/artifact-manifest.json"
 ---
 
 # Terms of a Future I Can Live In

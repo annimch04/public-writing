@@ -1,0 +1,25 @@
+{
+  "schema": "fieldlight.audio_artifact.v0",
+  "title": "Terms of a Future I Can Live In",
+  "slug": "terms-of-a-future-i-can-live-in",
+  "creator": "Anni McHenry",
+  "artifact_type": "author_read_audio",
+  "recorded_at": "2026-07-09T10:19:49-05:00",
+  "source_app": "Shure MOTIV Mix",
+  "source_file": {
+    "path": "/Users/annimchenry/Documents/Shure/MOTIV Mix/Library/My_Activity_2026-07-09_10-19-49/MainOutput_2026-07-09_10-19-49_Enhanced.wav",
+    "role": "enhanced_source",
+    "sha256": "519797851f46c2a91d130d42ad5bf7a09a1b3378ce7aee474fc694ec86ff1643"
+  },
+  "public_derivative": {
+    "path": "terms-of-a-future-i-can-live-in_author-read_public_mono.wav",
+    "role": "public_audio",
+    "format": "wav",
+    "channels": 1,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "duration_seconds": 210.248005,
+    "sha256": "57073bfb753bb8c2ebd4eb193e2f8252367e439ee8db52e3cc3973019fa510dc"
+  },
+  "custody_note": "MOTIV Mix retains the raw recording library; the Shure/MOTIV enhanced WAV remains the enhanced source; this repository stores the public derivative for publishing and proof generation."
+}
