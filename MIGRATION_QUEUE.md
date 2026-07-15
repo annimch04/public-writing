@@ -72,7 +72,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/permeability-and-agency-notes-on-living-inside-fields  
   Suggested category: `field-cognition-and-consciousness`
 
-- [ ] Integrated Perspective on Religious Phenomena: History, Experience, and Human Meaning  
+- [x] Integrated Perspective on Religious Phenomena: History, Experience, and Human Meaning  
   Source: https://sayitplain.posthaven.com/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning  
   Suggested category: `meaning-power-and-symbolism`
 
