@@ -76,7 +76,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning  
   Suggested category: `meaning-power-and-symbolism`
 
-- [ ] The Divine Feminine: Sacrifice, Power, and the Nameless  
+- [x] The Divine Feminine: Sacrifice, Power, and the Nameless
   Source: https://sayitplain.posthaven.com/the-divine-feminine-sacrifice-power-and-the-nameless  
   Suggested category: `meaning-power-and-symbolism`
 
