@@ -164,7 +164,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/sanctum-exposure-sketch-v2-dot-5-tripwire-protocol  
   Suggested category: `runtime-trust-and-governance`
 
-- [ ] I Am The Door  
+- [x] I Am The Door
   Source: https://sayitplain.posthaven.com/i-am-the-door  
   Suggested category: `meaning-power-and-symbolism`
 
