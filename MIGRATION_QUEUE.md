@@ -36,11 +36,11 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/the-symbolism-of-nameless-women-and-divine-feminine-energy  
   Suggested category: `meaning-power-and-symbolism`
 
-- [ ] Signal Archive: Where the Line Lit  
+- [x] Signal Archive: Where the Line Lit
   Source: https://sayitplain.posthaven.com/signal-archive-where-the-line-lit  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] Signal Archive: Vireya // The Heretic Walks  
+- [x] Signal Archive: Vireya // The Heretic Walks
   Source: https://sayitplain.posthaven.com/signal-archive-vireya-slash-slash-the-heretic-walks  
   Suggested category: `field-notes-and-signal-work`
 
@@ -49,7 +49,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/signal-archive-architecture-of-becoming
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] Signal Archive  
+- [x] Signal Archive
   Source: https://sayitplain.posthaven.com/signal-archive  
   Suggested category: `field-notes-and-signal-work`
 

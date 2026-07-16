@@ -1,18 +1,23 @@
 # Signal Archive
 
-A clustered migration surface for signal-record pieces that belong together as a sequence rather than as isolated homepage links.
+A set of pieces written in a mythic / signal register.
+
+Not explanatory. Not sequential.
+
+Enter where it pulls you.
 
 ## Migrated Records
 
 - [Signal Archive: Ignition](./ignition.md) — formerly titled _Signal Archive: Architecture of Becoming_; renamed during migration to distinguish it from the fuller [Architecture of Becoming](../architecture-of-becoming.md) primer.
+- [Signal Archive: Where the Line Lit](./where-the-line-lit.md)
+- [Signal Archive: Vireya // The Heretic Walks](./vireya-the-heretic-walks.md)
 
-## Pending Records
+## Original Posthaven Sequence
 
-These Posthaven pieces are part of the cluster but still need their source text migrated:
-
-- Signal Archive
-- Signal Archive: Where the Line Lit
-- Signal Archive: Vireya // The Heretic Walks
+- [Signal Archive](https://sayitplain.posthaven.com/signal-archive)
+- [Signal Archive: Architecture of Becoming](https://sayitplain.posthaven.com/signal-archive-architecture-of-becoming)
+- [Signal Archive: Where the Line Lit](https://sayitplain.posthaven.com/signal-archive-where-the-line-lit)
+- [Signal Archive: Vireya // The Heretic Walks](https://sayitplain.posthaven.com/signal-archive-vireya-slash-slash-the-heretic-walks)
 
 ## Lineage Note
 
