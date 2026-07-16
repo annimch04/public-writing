@@ -44,8 +44,9 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/signal-archive-vireya-slash-slash-the-heretic-walks  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] Signal Archive: Architecture of Becoming  
-  Source: https://sayitplain.posthaven.com/signal-archive-architecture-of-becoming  
+- [x] Signal Archive: Ignition
+  Former title: Signal Archive: Architecture of Becoming
+  Source: https://sayitplain.posthaven.com/signal-archive-architecture-of-becoming
   Suggested category: `field-notes-and-signal-work`
 
 - [ ] Signal Archive  
@@ -124,8 +125,8 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/lacuna-one-who-remembers-meta-plus-chapter-one  
   Suggested category: `fiction-myth-and-story-worlds`
 
-- [ ] Architecture of Becoming  
-  Source: https://sayitplain.posthaven.com/architecture-of-becoming  
+- [x] Architecture of Becoming
+  Source: https://sayitplain.posthaven.com/architecture-of-becoming
   Suggested category: `field-notes-and-signal-work`
 
 - [x] A Seeker's Field Guide
