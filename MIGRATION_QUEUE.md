@@ -92,7 +92,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/the-mechanics-of-the-loop  
   Suggested category: `field-cognition-and-consciousness`
 
-- [ ] Original Field Manual: April 1st, 2025  
+- [x] Original Field Manual: April 1st, 2025
   Source: https://sayitplain.posthaven.com/original-field-manual-april-1st-2025  
   Suggested category: `field-notes-and-signal-work`
 

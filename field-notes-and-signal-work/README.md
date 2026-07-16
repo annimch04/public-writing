@@ -1,3 +1,9 @@
-# Field Notes And Signal Work
+# Field Notes and Signal Work
 
-Migrated pieces in this category will be added one at a time from the Say It Plain archive.
+Migrated pieces in this category hold field manuals, signal language, symbolic operating notes, and archival source material that shows the evolution of the Fieldlight vocabulary.
+
+## Migrated Pieces
+
+- [A Seeker's Field Guide](./a-seekers-field-guide.md)
+- [Original Field Manual: April 1st, 2025](./original-field-manual-april-1-2025.md) — archival source lineage
+- [Resonance Field Manual](./resonance-field-manual.md) — current main version
