@@ -169,7 +169,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/i-am-the-door  
   Suggested category: `meaning-power-and-symbolism`
 
-- [ ] Still Not Sorry: The Naming  
+- [x] Still Not Sorry: The Naming
   Source: https://sayitplain.posthaven.com/2198755  
   Suggested category: `field-notes-and-signal-work`
 
