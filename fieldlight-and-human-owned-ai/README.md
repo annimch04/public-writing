@@ -4,4 +4,5 @@ Migrated pieces in this category will be added one at a time from the Say It Pla
 
 ## Source Notes
 
+- [Hybrid Accord](hybrid-accord.md)
 - [Hybrid Accord: Original Handwritten Notes](hybrid-accord-original-handwritten-notes.md)

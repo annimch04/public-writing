@@ -191,6 +191,10 @@ Use this file as the migration checklist. Migration does not need to follow arch
 
 ## Unpublished Source Notes Added
 
+- [x] Hybrid Accord
+  Source: edited from handwritten notes; San Clemente, CA; Always Inn; 2025-06-10
+  Category: `fieldlight-and-human-owned-ai`
+
 - [x] Hybrid Accord: Original Handwritten Notes
   Source: handwritten notes; San Clemente, CA; Always Inn; 2025-06-10
   Category: `fieldlight-and-human-owned-ai`
