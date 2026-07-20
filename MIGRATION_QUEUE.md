@@ -189,6 +189,12 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/scholar-who-forgot  
   Suggested category: `fiction-myth-and-story-worlds`
 
+## Unpublished Source Notes Added
+
+- [x] Hybrid Accord: Original Handwritten Notes
+  Source: handwritten notes; San Clemente, CA; Always Inn; 2025-06-10
+  Category: `fieldlight-and-human-owned-ai`
+
 ## Suggested Current-Relevance Starting Set
 
 These are likely the most useful first migrations for the Fieldlight Institute / public-writing bridge:
