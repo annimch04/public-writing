@@ -137,7 +137,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/on-infrastructure-intelligence-and-what-we-build-to-hold-it  
   Suggested category: `fieldlight-and-human-owned-ai`
 
-- [ ] On Alignment, Courage, and the Premise We Begin From  
+- [x] On Alignment, Courage, and the Premise We Begin From
   Source: https://sayitplain.posthaven.com/on-alignment-courage-and-the-premise-we-begin-from  
   Suggested category: `field-cognition-and-consciousness`
 
