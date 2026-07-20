@@ -149,7 +149,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/fieldlight-system-index  
   Suggested category: `archive-meta`
 
-- [ ] Resonance Field Manual  
+- [x] Resonance Field Manual
   Source: https://sayitplain.posthaven.com/resonance-field-manual  
   Suggested category: `field-notes-and-signal-work`
 
@@ -161,7 +161,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/fieldlight-integration-begins  
   Suggested category: `fieldlight-and-human-owned-ai`
 
-- [ ] Sanctum Exposure v2.5: Tripwire Protocol  
+- [x] Sanctum Exposure v2.5: Tripwire Protocol
   Source: https://sayitplain.posthaven.com/sanctum-exposure-sketch-v2-dot-5-tripwire-protocol  
   Suggested category: `runtime-trust-and-governance`
 
@@ -181,7 +181,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/start-here  
   Suggested category: `archive-meta`
 
-- [ ] most beautiful things ever said  
+- [x] most beautiful things ever said
   Source: https://sayitplain.posthaven.com/most-beautiful-things-ever-said  
   Suggested category: `field-notes-and-signal-work`
 
