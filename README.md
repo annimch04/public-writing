@@ -18,6 +18,14 @@ The migration process is intentionally one piece at a time:
 
 See [Migration Queue](MIGRATION_QUEUE.md).
 
+## Public Post Archive
+
+This repository may also preserve public social posts as archival source material, including the exported Twitter/X archive.
+
+Those posts are contemporaneous artifacts, not retroactively edited canon. Essays and developed pieces remain the canonical expression of the work. Over time, public posts may be linked across years by theme to show how an idea moved from fragment, signal, reply, or thread into notebook work, Markdown source, Git history, published essays, and fieldlight.com reading surfaces.
+
+The goal is not to flatten every public post into the same status as an essay. The goal is to preserve lineage: where an idea appeared, how it changed, what it touched, and when it became part of a larger authored body of work.
+
 ## Current Categories
 
 - [Fieldlight and Human-Owned AI](fieldlight-and-human-owned-ai/)
@@ -28,6 +36,7 @@ See [Migration Queue](MIGRATION_QUEUE.md).
 - [Story Worlds](story-worlds/)
 - [Fiction, Myth, and Story Worlds](fiction-myth-and-story-worlds/)
 - [Meaning, Power, and Symbolism](meaning-power-and-symbolism/)
+- [Archive](archive/)
 - [Archive Meta](archive-meta/)
 
 ## Source Principle
