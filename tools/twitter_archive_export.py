@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a sanitized staging export from a Twitter/X archive.
+"""Create sanitized public exports from a Twitter/X archive.
 
 This script reads only data/tweets.js from the archive. It does not parse or
 export deleted tweets, direct messages, ads, account-security records, contacts,
@@ -83,6 +83,12 @@ def iso_date(created_at: str) -> str:
 
 def safe_year(created_at: str) -> str:
     return datetime.strptime(created_at, TWITTER_DATE).strftime("%Y")
+
+
+def safe_month(created_at_utc: str | None) -> str:
+    if not created_at_utc:
+        return "undated"
+    return datetime.fromisoformat(created_at_utc).strftime("%Y-%m")
 
 
 def collect_media(tweet: dict[str, Any]) -> list[dict[str, Any]]:
@@ -180,6 +186,92 @@ def sanitize(root: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]], di
     return records, media_map, manifest
 
 
+def markdown_escape(text: str) -> str:
+    return (text or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+
+
+def write_year_markdown(records: list[dict[str, Any]], manifest: dict[str, Any], root: Path) -> None:
+    by_year: dict[str, list[dict[str, Any]]] = {}
+    for record in records:
+        by_year.setdefault(str(record.get("year") or "undated"), []).append(record)
+
+    index_lines = [
+        "# Twitter/X Signal Feed Archive",
+        "",
+        "This is a sanitized public export of active Twitter/X posts from the downloaded archive.",
+        "It is preserved as primary source material, not as the canonical expression of developed ideas.",
+        "",
+        "Essays remain the canonical surface. These posts are archival fragments that can be linked",
+        "over time to published work by theme, thread, date, and provenance.",
+        "",
+        "## Years",
+        "",
+    ]
+
+    for year in sorted(by_year):
+        year_dir = root / year
+        year_dir.mkdir(parents=True, exist_ok=True)
+        year_records = sorted(by_year[year], key=lambda r: r.get("created_at_utc") or "")
+        year_counts = Counter(r.get("kind") for r in year_records)
+
+        index_lines.append(f"- [{year}]({year}/README.md): {len(year_records)} posts")
+
+        lines = [
+            f"# Twitter/X Signal Feed Archive: {year}",
+            "",
+            "These posts are archival source material. They are preserved as contemporaneous",
+            "public fragments, not retroactively edited into a coherent narrative.",
+            "",
+            "## Counts",
+            "",
+        ]
+        for kind, count in sorted(year_counts.items()):
+            lines.append(f"- `{kind}`: {count}")
+        lines.extend(["", "## Posts", ""])
+
+        current_month = None
+        for record in year_records:
+            month = safe_month(record.get("created_at_utc"))
+            if month != current_month:
+                current_month = month
+                lines.extend([f"### {month}", ""])
+
+            text = markdown_escape(record.get("text") or "")
+            text_block = "\n".join(f"> {line}" if line else ">" for line in text.split("\n"))
+            meta = [
+                f"- `date`: {record.get('created_at_utc')}",
+                f"- `kind`: {record.get('kind')}",
+                f"- `canonical_status`: {record.get('canonical_status')}",
+            ]
+            if record.get("tweet_url"):
+                meta.append(f"- `source`: {record.get('tweet_url')}")
+            if record.get("media"):
+                meta.append(f"- `media_references`: {len(record.get('media') or [])}")
+            if record.get("urls"):
+                meta.append(f"- `expanded_urls`: {len(record.get('urls') or [])}")
+
+            lines.extend([f"#### {record.get('created_at_utc')} / {record.get('kind')}", ""])
+            lines.extend(meta)
+            lines.extend(["", text_block, "", "---", ""])
+
+        (year_dir / "README.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+    index_lines.extend(
+        [
+            "",
+            "## Export Manifest",
+            "",
+            f"- `generated_at_utc`: {manifest.get('generated_at_utc')}",
+            f"- `active_tweets`: {manifest.get('active_tweets')}",
+            f"- `media_references`: {manifest.get('media_references')}",
+            "",
+            "Deleted posts, direct messages, account security records, IP logs, contacts, ads,",
+            "likes, followers, and following records are excluded by policy.",
+        ]
+    )
+    (root / "index.md").write_text("\n".join(index_lines).rstrip() + "\n", encoding="utf-8")
+
+
 def write_outputs(records: list[dict[str, Any]], media_map: list[dict[str, Any]], manifest: dict[str, Any], out: Path) -> None:
     out.mkdir(parents=True, exist_ok=True)
 
@@ -232,15 +324,17 @@ def write_outputs(records: list[dict[str, Any]], media_map: list[dict[str, Any]]
                 }
             )
 
+    write_year_markdown(records, manifest, out.parent)
+
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Sanitize a Twitter/X archive into local staging files.")
+    parser = argparse.ArgumentParser(description="Sanitize a Twitter/X archive into public archive exports.")
     parser.add_argument("archive", type=Path, help="Path to the unzipped Twitter/X archive folder")
     parser.add_argument(
         "--out",
         type=Path,
         default=Path("archive/twitter/staging"),
-        help="Output directory for local staging files",
+        help="Output directory for sanitized review files",
     )
     args = parser.parse_args()
 
