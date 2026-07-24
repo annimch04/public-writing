@@ -11,12 +11,16 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import re
 import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
 from twitter_archive_export import (
     classify,
@@ -30,6 +34,8 @@ from twitter_archive_export import (
 
 DEFAULT_BASELINE = Path("archive/twitter/staging/tweets.sanitized.jsonl")
 DEFAULT_STATE = Path("archive/twitter/sync/state.json")
+DEFAULT_API_BASE = "https://api.x.com/2"
+DEFAULT_TOKEN_ENV = "X_BEARER_TOKEN"
 
 FORBIDDEN_EXACT_NAMES = {
     "deleted-tweets.js",
@@ -62,6 +68,10 @@ PRIVATE_RECORD_KEYS = {
 
 class PrivacyBoundaryError(ValueError):
     """Raised when an input may contain intentionally excluded private data."""
+
+
+class XApiError(RuntimeError):
+    """Raised when the public-post collector cannot complete an X API request."""
 
 
 def utc_now() -> str:
@@ -213,6 +223,201 @@ def archive_cursor(records: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def x_api_get(
+    path: str,
+    params: dict[str, Any],
+    token: str,
+    api_base: str = DEFAULT_API_BASE,
+) -> dict[str, Any]:
+    """Read a public X API resource without persisting credentials or raw responses."""
+    query = urlencode({key: value for key, value in params.items() if value is not None})
+    url = f"{api_base.rstrip('/')}/{path.lstrip('/')}"
+    if query:
+        url = f"{url}?{query}"
+    request = Request(
+        url,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "User-Agent": "fieldlight-public-writing-twitter-sync/1.0",
+        },
+    )
+    try:
+        with urlopen(request, timeout=30) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except HTTPError as exc:
+        detail = exc.reason
+        try:
+            body = json.loads(exc.read().decode("utf-8"))
+            detail = body.get("detail") or body.get("title") or detail
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            pass
+        raise XApiError(f"X API returned HTTP {exc.code}: {detail}") from exc
+    except URLError as exc:
+        raise XApiError(f"Could not reach X API: {exc.reason}") from exc
+
+    if not isinstance(payload, dict):
+        raise XApiError("X API returned an unexpected response shape.")
+    if payload.get("errors") and not payload.get("data"):
+        raise XApiError(f"X API request failed: {payload['errors']}")
+    return payload
+
+
+def resolve_x_user_id(
+    username: str,
+    token: str,
+    api_base: str = DEFAULT_API_BASE,
+    request_json: Any = x_api_get,
+) -> str:
+    payload = request_json(
+        f"users/by/username/{username}",
+        {},
+        token,
+        api_base,
+    )
+    user = payload.get("data") or {}
+    user_id = str(user.get("id") or "").strip()
+    if not user_id:
+        raise XApiError(f"Could not resolve X user ID for @{username}.")
+    return user_id
+
+
+def classify_x_api_post(post: dict[str, Any], user_id: str) -> str:
+    references = post.get("referenced_tweets") or []
+    reference_types = {item.get("type") for item in references}
+    if "retweeted" in reference_types:
+        return "retweet"
+    if "replied_to" in reference_types or post.get("in_reply_to_user_id"):
+        if str(post.get("in_reply_to_user_id") or "") == user_id:
+            return "self_thread_reply"
+        return "reply"
+    if "quoted" in reference_types:
+        return "quote"
+    return "original"
+
+
+def normalize_x_api_post(
+    post: dict[str, Any],
+    username: str,
+    user_id: str,
+    media_by_key: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    post_id = str(post.get("id") or "").strip()
+    created_at = str(post.get("created_at") or "").strip()
+    if not post_id or not created_at:
+        raise XApiError("X API post is missing id or created_at.")
+
+    created = datetime.fromisoformat(created_at.replace("Z", "+00:00")).astimezone(timezone.utc)
+    entities = post.get("entities") or {}
+    urls = entities.get("urls") or []
+    references = post.get("referenced_tweets") or []
+    reference_ids = {item.get("type"): str(item.get("id")) for item in references if item.get("id")}
+    attachments = post.get("attachments") or {}
+    media = []
+    for media_key in attachments.get("media_keys") or []:
+        item = media_by_key.get(media_key, {})
+        media.append(
+            {
+                "media_id": item.get("media_key") or media_key,
+                "type": item.get("type"),
+                "media_url": item.get("url") or item.get("preview_image_url"),
+                "expanded_url": None,
+                "display_url": None,
+            }
+        )
+
+    record = {
+        "id": post_id,
+        "created_at": created_at,
+        "created_at_utc": created.isoformat(),
+        "year": created.strftime("%Y"),
+        "kind": classify_x_api_post(post, user_id),
+        "text": clean_text(post.get("text") or "", urls),
+        "tweet_url": f"https://x.com/{username}/status/{post_id}",
+        "in_reply_to_status_id": reference_ids.get("replied_to"),
+        "in_reply_to_screen_name": username
+        if str(post.get("in_reply_to_user_id") or "") == user_id
+        else None,
+        "quoted_status_id": reference_ids.get("quoted"),
+        "urls": [
+            {
+                "expanded_url": item.get("expanded_url"),
+                "display_url": item.get("display_url"),
+            }
+            for item in urls
+        ],
+        "media": media,
+        "review_status": "pending",
+        "canonical_status": "archive_fragment_not_canon",
+    }
+    validate_record(record)
+    return record
+
+
+def collect_x_posts(
+    username: str,
+    since_id: str,
+    token: str,
+    user_id: str | None = None,
+    api_base: str = DEFAULT_API_BASE,
+    request_json: Any = x_api_get,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Collect authored public posts after the baseline cursor, including replies."""
+    resolved_user_id = user_id or resolve_x_user_id(
+        username,
+        token,
+        api_base=api_base,
+        request_json=request_json,
+    )
+    posts: list[dict[str, Any]] = []
+    page_count = 0
+    pagination_token: str | None = None
+
+    while True:
+        params = {
+            "since_id": since_id,
+            "max_results": 100,
+            "tweet.fields": (
+                "id,text,created_at,conversation_id,in_reply_to_user_id,"
+                "referenced_tweets,entities,attachments"
+            ),
+            "expansions": "attachments.media_keys",
+            "media.fields": "media_key,type,url,preview_image_url,width,height,alt_text",
+            "pagination_token": pagination_token,
+        }
+        payload = request_json(
+            f"users/{resolved_user_id}/tweets",
+            params,
+            token,
+            api_base,
+        )
+        page_count += 1
+        includes = payload.get("includes") or {}
+        media_by_key = {
+            str(item.get("media_key")): item
+            for item in includes.get("media") or []
+            if item.get("media_key")
+        }
+        for post in payload.get("data") or []:
+            posts.append(normalize_x_api_post(post, username, resolved_user_id, media_by_key))
+
+        meta = payload.get("meta") or {}
+        pagination_token = meta.get("next_token")
+        if not pagination_token:
+            break
+
+    source = {
+        "adapter": "official_x_api_v2_user_posts",
+        "account_username": username,
+        "account_user_id": resolved_user_id,
+        "collected_at_utc": utc_now(),
+        "since_id": since_id,
+        "pages_read": page_count,
+        "public_posts_returned": len(posts),
+        "private_sources_requested": False,
+    }
+    return posts, source
+
+
 def stage(
     rows: list[dict[str, Any]],
     baseline: list[dict[str, Any]],
@@ -336,6 +541,33 @@ def dry_run_command(args: argparse.Namespace) -> int:
     return 0
 
 
+def collect_command(args: argparse.Namespace) -> int:
+    token = os.environ.get(args.token_env, "").strip()
+    if not token:
+        raise XApiError(
+            f"Missing {args.token_env}. Set an X API bearer token in the environment; "
+            "tokens are never read from or written to the repository."
+        )
+
+    baseline = load_baseline(args.baseline)
+    cursor = archive_cursor(baseline)
+    since_id = str(cursor.get("last_archived_post_id") or "").strip()
+    if not since_id:
+        raise ValueError("The baseline has no last archived post ID for incremental collection.")
+
+    rows, source = collect_x_posts(
+        username=args.username,
+        since_id=since_id,
+        token=token,
+        user_id=args.user_id,
+        api_base=args.api_base,
+    )
+    records, report = stage(rows, baseline, args.username)
+    write_review_bundle(args.output_dir, records, report, source)
+    print(json.dumps({**report, "source": source, "review_bundle": str(args.output_dir)}, indent=2))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Review new public X posts without mutating the published archive."
@@ -353,17 +585,35 @@ def build_parser() -> argparse.ArgumentParser:
     dry_parser.add_argument("--output-dir", type=Path, default=None)
     dry_parser.add_argument("--username", default="SayitSalty")
     dry_parser.set_defaults(func=dry_run_command)
+
+    collect_parser = subparsers.add_parser(
+        "collect",
+        help="Fetch public posts newer than the archive cursor and build a review bundle.",
+    )
+    collect_parser.add_argument("--baseline", type=Path, default=DEFAULT_BASELINE)
+    collect_parser.add_argument("--output-dir", type=Path, default=None)
+    collect_parser.add_argument("--username", default="SayitSalty")
+    collect_parser.add_argument("--user-id", default=None)
+    collect_parser.add_argument("--token-env", default=DEFAULT_TOKEN_ENV)
+    collect_parser.add_argument("--api-base", default=DEFAULT_API_BASE, help=argparse.SUPPRESS)
+    collect_parser.set_defaults(func=collect_command)
     return parser
 
 
 def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
-    if getattr(args, "output_dir", None) is None and args.command == "dry-run":
+    if getattr(args, "output_dir", None) is None and args.command in {"dry-run", "collect"}:
         args.output_dir = default_output_dir()
     try:
         return args.func(args)
-    except (PrivacyBoundaryError, ValueError, FileNotFoundError, json.JSONDecodeError) as exc:
+    except (
+        PrivacyBoundaryError,
+        XApiError,
+        ValueError,
+        FileNotFoundError,
+        json.JSONDecodeError,
+    ) as exc:
         print(f"twitter-sync: {exc}", file=sys.stderr)
         return 2
 
