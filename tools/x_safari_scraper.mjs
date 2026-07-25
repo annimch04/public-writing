@@ -12,6 +12,7 @@ function parseArgs(argv) {
   const values = {
     username: "SayitSalty",
     cursor: "",
+    cutoff: "",
     output: "",
     maxScrolls: 80,
   };
@@ -20,6 +21,7 @@ function parseArgs(argv) {
     const value = argv[index];
     if (value === "--username") values.username = argv[++index];
     else if (value === "--cursor") values.cursor = argv[++index];
+    else if (value === "--cutoff") values.cutoff = argv[++index];
     else if (value === "--output") values.output = argv[++index];
     else if (value === "--max-scrolls") values.maxScrolls = Number(argv[++index]);
     else throw new Error(`Unknown argument: ${value}`);
@@ -190,6 +192,7 @@ function extractionScript(username) {
     return JSON.stringify({
       ready: document.querySelectorAll('article[data-testid="tweet"]').length > 0,
       loginRequired: Boolean(document.querySelector('a[href="/login"]')),
+      temporarilyLimited: /temporarily limited|rate limit|try again later/i.test(document.body.innerText),
       posts,
     });
   })()`;
@@ -197,13 +200,18 @@ function extractionScript(username) {
 
 async function scrape(options) {
   if (!options.cursor) throw new Error("--cursor is required.");
+  if (!options.cutoff || Number.isNaN(new Date(options.cutoff).getTime())) {
+    throw new Error("--cutoff must be a valid date.");
+  }
   if (!options.output) throw new Error("--output is required.");
 
   await prepareProfileTab(options.username);
   await sleep(5000);
 
   const found = new Map();
+  const cutoffTime = new Date(options.cutoff).getTime();
   let cursorSeen = false;
+  let cutoffReached = false;
   let unchangedRounds = 0;
   let previousSize = 0;
   let scrolls = 0;
@@ -216,11 +224,23 @@ async function scrape(options) {
         "The trusted Safari tab is not signed in to X. Do not retry while X has a temporary login limit.",
       );
     }
+    if (observation.temporarilyLimited && !observation.ready) {
+      throw new Error(
+        "X is temporarily limiting this Safari session. No review bundle was written; wait before retrying.",
+      );
+    }
     for (const post of observation.posts || []) {
       found.set(post.id, post);
       if (post.id === options.cursor) cursorSeen = true;
     }
-    if (cursorSeen) break;
+    const postsAtOrBeforeCutoff = [...found.values()].filter((post) => {
+      const timestamp = new Date(post.datetime).getTime();
+      return Number.isFinite(timestamp) && timestamp <= cutoffTime;
+    });
+    // X can omit an individual post from profile pagination. Multiple older
+    // authored posts prove that the scraper crossed the saved time boundary.
+    cutoffReached = postsAtOrBeforeCutoff.length >= 3;
+    if (cursorSeen || cutoffReached) break;
 
     unchangedRounds = found.size === previousSize ? unchangedRounds + 1 : 0;
     previousSize = found.size;
@@ -231,6 +251,13 @@ async function scrape(options) {
       "window.scrollBy(0, Math.max(window.innerHeight * 0.85, 800)); 'ok'",
     );
     await sleep(1300);
+  }
+
+  if (!cursorSeen && !cutoffReached) {
+    throw new Error(
+      `The scraper stopped after ${scrolls} scrolls without crossing the saved archive boundary. ` +
+        "No partial review bundle was written. Retry later or increase --max-scrolls.",
+    );
   }
 
   const records = [...found.values()]
@@ -246,7 +273,9 @@ async function scrape(options) {
       account_username: options.username,
       collected_at_utc: new Date().toISOString(),
       since_id: options.cursor,
+      cutoff_at_utc: new Date(cutoffTime).toISOString(),
       cursor_seen: cursorSeen,
+      cutoff_reached: cutoffReached,
       scrolls,
       public_posts_observed: found.size,
       private_surfaces_requested: false,

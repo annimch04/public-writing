@@ -59,6 +59,19 @@ class TwitterSyncTests(unittest.TestCase):
         self.assertEqual(report["duplicate_records"], 1)
         self.assertEqual(report["new_public_records"], 1)
 
+    def test_public_scraper_iso_timestamp_with_z_is_accepted(self) -> None:
+        row = dict(self.baseline[0])
+        row.update(
+            {
+                "id": "101",
+                "created_at": "2026-07-25T16:28:38.000Z",
+                "created_at_utc": "2026-07-25T16:28:38.000Z",
+            }
+        )
+        new_records, report = stage([row], self.baseline, "SayitSalty")
+        self.assertEqual([record["id"] for record in new_records], ["101"])
+        self.assertEqual(report["new_public_records"], 1)
+
     def test_forbidden_direct_message_source_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             path = Path(temp) / "direct-messages.js"

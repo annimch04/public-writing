@@ -205,7 +205,7 @@ def validate_record(record: dict[str, Any]) -> None:
         raise ValueError(f"Sanitized record is missing required fields: {', '.join(missing)}")
     if record.get("canonical_status") != "archive_fragment_not_canon":
         raise ValueError("Incremental posts must remain archive fragments, not public canon.")
-    datetime.fromisoformat(str(record["created_at_utc"]))
+    datetime.fromisoformat(str(record["created_at_utc"]).replace("Z", "+00:00"))
 
 
 def archive_cursor(records: list[dict[str, Any]]) -> dict[str, Any]:
@@ -576,6 +576,9 @@ def scrape_command(args: argparse.Namespace) -> int:
     since_id = str(cursor.get("last_archived_post_id") or "").strip()
     if not since_id:
         raise ValueError("The baseline has no last archived post ID for incremental scraping.")
+    cutoff = str(cursor.get("last_archived_at_utc") or "").strip()
+    if not cutoff:
+        raise ValueError("The baseline has no archive timestamp for incremental scraping.")
 
     scraper = Path(__file__).with_name("x_safari_scraper.mjs")
     with tempfile.TemporaryDirectory(prefix="fieldlight-x-scrape-") as temp:
@@ -587,6 +590,8 @@ def scrape_command(args: argparse.Namespace) -> int:
             args.username,
             "--cursor",
             since_id,
+            "--cutoff",
+            cutoff,
             "--output",
             str(scraped),
             "--max-scrolls",
