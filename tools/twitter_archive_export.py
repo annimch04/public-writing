@@ -187,7 +187,8 @@ def sanitize(root: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]], di
 
 
 def markdown_escape(text: str) -> str:
-    return (text or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+    normalized = (text or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+    return "\n".join(line.rstrip() for line in normalized.split("\n"))
 
 
 def write_year_markdown(records: list[dict[str, Any]], manifest: dict[str, Any], root: Path) -> None:
@@ -208,10 +209,14 @@ def write_year_markdown(records: list[dict[str, Any]], manifest: dict[str, Any],
         "",
     ]
 
-    for year in sorted(by_year):
+    for year in sorted(by_year, reverse=True):
         year_dir = root / year
         year_dir.mkdir(parents=True, exist_ok=True)
-        year_records = sorted(by_year[year], key=lambda r: r.get("created_at_utc") or "")
+        year_records = sorted(
+            by_year[year],
+            key=lambda r: r.get("created_at_utc") or "",
+            reverse=True,
+        )
         year_counts = Counter(r.get("kind") for r in year_records)
 
         index_lines.append(f"- [{year}]({year}/README.md): {len(year_records)} posts")
@@ -276,7 +281,11 @@ def write_outputs(records: list[dict[str, Any]], media_map: list[dict[str, Any]]
     out.mkdir(parents=True, exist_ok=True)
 
     with (out / "tweets.sanitized.jsonl").open("w", encoding="utf-8") as f:
-        for record in sorted(records, key=lambda r: r.get("created_at_utc") or ""):
+        for record in sorted(
+            records,
+            key=lambda r: r.get("created_at_utc") or "",
+            reverse=True,
+        ):
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
     with (out / "media-map.json").open("w", encoding="utf-8") as f:
@@ -304,10 +313,15 @@ def write_outputs(records: list[dict[str, Any]], media_map: list[dict[str, Any]]
                 "theme",
                 "linked_work",
             ],
+            lineterminator="\n",
         )
         writer.writeheader()
-        for record in sorted(records, key=lambda r: r.get("created_at_utc") or ""):
-            preview = re.sub(r"\s+", " ", record.get("text") or "")[:220]
+        for record in sorted(
+            records,
+            key=lambda r: r.get("created_at_utc") or "",
+            reverse=True,
+        ):
+            preview = re.sub(r"\s+", " ", record.get("text") or "")[:220].strip()
             writer.writerow(
                 {
                     "review_status": "pending",
