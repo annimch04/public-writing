@@ -15,9 +15,12 @@ from twitter_sync import (  # noqa: E402
     XApiError,
     collect_x_posts,
     load_input,
+    self_repost_meta,
     stage,
+    stage_repost_observations,
     write_review_bundle,
 )
+from twitter_archive_export import resolve_self_reposts  # noqa: E402
 
 
 def public_record(post_id: str, created_at: str = "Wed Jul 22 04:00:00 +0000 2026") -> dict:
@@ -28,6 +31,34 @@ def public_record(post_id: str, created_at: str = "Wed Jul 22 04:00:00 +0000 202
             "full_text": "A public test fragment.",
             "entities": {"urls": []},
         }
+    }
+
+
+def repost_observation(
+    source_post_id: str = "200",
+    observed_at: str = "2026-07-25T16:00:00+00:00",
+) -> dict:
+    return {
+        "observation_id": f"x-repost-sighting-{source_post_id}",
+        "observation_kind": "repost",
+        "recurrence_key": f"x:SayitSalty:source:{source_post_id}",
+        "observed_at_utc": observed_at,
+        "source_post": {
+            "id": source_post_id,
+            "author_username": "SayitSalty",
+            "created_at_utc": "2026-07-24T12:00:00+00:00",
+            "text": "An idea worth bringing forward again.",
+            "tweet_url": f"https://x.com/SayitSalty/status/{source_post_id}",
+            "media": [],
+        },
+        "self_repost": True,
+        "canonical_status": "provisional_profile_observation",
+        "provenance": {
+            "adapter": "trusted_safari_public_profile_scraper",
+            "event_identity": "unavailable_on_public_profile",
+            "event_timestamp": "unavailable_on_public_profile",
+            "counting_rule": "Repeat sightings do not establish additional repost actions.",
+        },
     }
 
 
@@ -98,13 +129,111 @@ class TwitterSyncTests(unittest.TestCase):
             before = hashlib.sha256(baseline_path.read_bytes()).hexdigest()
             records, report = stage([public_record("101")], self.baseline, "SayitSalty")
             output = root / "review"
-            write_review_bundle(output, records, report, {"adapter": "test"})
+            observations = [repost_observation()]
+            write_review_bundle(output, records, observations, report, {"adapter": "test"})
             after = hashlib.sha256(baseline_path.read_bytes()).hexdigest()
 
             self.assertEqual(before, after)
             self.assertTrue((output / "new-posts.jsonl").exists())
+            self.assertTrue((output / "repost-observations.jsonl").exists())
+            self.assertTrue((output / "repost-review.csv").exists())
             self.assertTrue((output / "review.csv").exists())
             self.assertTrue((output / "sync-report.json").exists())
+
+    def test_public_batch_loads_repost_observations_separately(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "public-batch.json"
+            path.write_text(
+                json.dumps(
+                    {
+                        "schema_version": 2,
+                        "source": {"adapter": "test"},
+                        "posts": [public_record("101")],
+                        "repost_observations": [repost_observation()],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            posts, observations, metadata = load_input(path)
+
+        self.assertEqual(len(posts), 1)
+        self.assertEqual(len(observations), 1)
+        self.assertEqual(metadata["collector"]["adapter"], "test")
+
+    def test_repeated_repost_sighting_does_not_create_another_event(self) -> None:
+        first = repost_observation()
+        repeated = repost_observation(observed_at="2026-07-26T16:00:00+00:00")
+        staged, report = stage_repost_observations([first, repeated])
+
+        self.assertEqual(len(staged), 1)
+        self.assertEqual(report["duplicate_repost_observations"], 1)
+        self.assertEqual(report["provisional_self_repost_source_count"], 1)
+
+    def test_self_repost_meta_keeps_canonical_events_separate_from_sightings(self) -> None:
+        baseline = self.baseline + [
+            {
+                **self.baseline[0],
+                "id": "99",
+                "kind": "retweet",
+                "text": "RT @SayitSalty: An idea returning through the archive.",
+            }
+        ]
+        staged, _ = stage_repost_observations(
+            [
+                repost_observation(),
+                repost_observation(observed_at="2026-07-26T16:00:00+00:00"),
+            ]
+        )
+        meta = self_repost_meta(baseline, staged, "SayitSalty")
+
+        self.assertEqual(meta["canonical_event_count_in_official_archive"], 1)
+        self.assertEqual(meta["provisional_distinct_source_count_in_batch"], 1)
+        self.assertIn("recursive thinking", meta["interpretation"])
+
+    def test_official_self_repost_resolves_to_original_for_per_post_count(self) -> None:
+        tweets = [
+            {
+                "id_str": "100",
+                "full_text": "An idea worth bringing forward again.",
+            },
+            {
+                "id_str": "200",
+                "full_text": "RT @SayitSalty: An idea worth bringing forward again.",
+            },
+        ]
+
+        by_source, by_event, counts = resolve_self_reposts(tweets, "SayitSalty")
+
+        self.assertEqual(by_source, {"100": ["200"]})
+        self.assertEqual(by_event["200"]["source_post_id"], "100")
+        self.assertEqual(by_event["200"]["source_match"], "exact")
+        self.assertEqual(counts["resolved"], 1)
+
+    def test_ambiguous_truncated_self_repost_is_not_assigned(self) -> None:
+        tweets = [
+            {
+                "id_str": "100",
+                "full_text": "The same long opening text continues one way.",
+            },
+            {
+                "id_str": "101",
+                "full_text": "The same long opening text continues another way.",
+            },
+            {
+                "id_str": "200",
+                "full_text": "RT @SayitSalty: The same long opening text…",
+            },
+        ]
+
+        by_source, by_event, counts = resolve_self_reposts(tweets, "SayitSalty")
+
+        self.assertEqual(by_source, {})
+        self.assertIsNone(by_event["200"]["source_post_id"])
+        self.assertEqual(
+            by_event["200"]["source_match"],
+            "ambiguous_truncated_prefix",
+        )
+        self.assertEqual(counts["ambiguous"], 1)
 
     def test_official_collector_uses_baseline_cutoff_and_normalizes_posts(self) -> None:
         requests = []

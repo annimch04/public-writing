@@ -112,10 +112,13 @@ def load_jsonl(path: Path) -> list[dict[str, Any]]:
     return rows
 
 
-def load_input(path: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+def load_input(
+    path: Path,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, Any]]:
     assert_public_source(path)
     suffix = path.suffix.lower()
     metadata: dict[str, Any] = {"source_path": str(path), "adapter": suffix.lstrip(".")}
+    repost_observations: list[dict[str, Any]] = []
 
     if suffix == ".js":
         rows = load_js_array(path)
@@ -129,6 +132,11 @@ def load_input(path: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
             rows = payload
         elif isinstance(payload, dict) and isinstance(payload.get("posts"), list):
             rows = payload["posts"]
+            observations = payload.get("repost_observations")
+            if observations is not None:
+                if not isinstance(observations, list):
+                    raise ValueError("repost_observations must be a list.")
+                repost_observations = observations
             source = payload.get("source")
             if isinstance(source, dict):
                 metadata["collector"] = source
@@ -144,7 +152,12 @@ def load_input(path: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
         if not isinstance(row, dict):
             raise ValueError("Every input record must be a JSON object.")
         assert_public_record(row)
-    return rows, metadata
+    for observation in repost_observations:
+        if not isinstance(observation, dict):
+            raise ValueError("Every repost observation must be a JSON object.")
+        assert_public_record(observation)
+        validate_repost_observation(observation)
+    return rows, repost_observations, metadata
 
 
 def load_baseline(path: Path) -> list[dict[str, Any]]:
@@ -206,6 +219,34 @@ def validate_record(record: dict[str, Any]) -> None:
     if record.get("canonical_status") != "archive_fragment_not_canon":
         raise ValueError("Incremental posts must remain archive fragments, not public canon.")
     datetime.fromisoformat(str(record["created_at_utc"]).replace("Z", "+00:00"))
+
+
+def validate_repost_observation(observation: dict[str, Any]) -> None:
+    required = (
+        "observation_id",
+        "observation_kind",
+        "recurrence_key",
+        "observed_at_utc",
+        "source_post",
+        "self_repost",
+        "canonical_status",
+        "provenance",
+    )
+    missing = [
+        name
+        for name in required
+        if observation.get(name) is None or observation.get(name) == ""
+    ]
+    if missing:
+        raise ValueError(f"Repost observation is missing required fields: {', '.join(missing)}")
+    if observation["observation_kind"] != "repost":
+        raise ValueError("Only public repost observations are accepted.")
+    if observation["canonical_status"] != "provisional_profile_observation":
+        raise ValueError("Profile observations must remain provisional until archive reconciliation.")
+    source_post = observation["source_post"]
+    if not isinstance(source_post, dict) or not source_post.get("id"):
+        raise ValueError("Repost observation is missing its source post identity.")
+    datetime.fromisoformat(str(observation["observed_at_utc"]).replace("Z", "+00:00"))
 
 
 def archive_cursor(records: list[dict[str, Any]]) -> dict[str, Any]:
@@ -462,9 +503,81 @@ def stage(
     return new_records, report
 
 
+def stage_repost_observations(
+    observations: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    staged: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    duplicate_count = 0
+
+    for observation in observations:
+        validate_repost_observation(observation)
+        observation_id = str(observation["observation_id"])
+        if observation_id in seen:
+            duplicate_count += 1
+            continue
+        seen.add(observation_id)
+        staged.append(dict(observation))
+
+    staged.sort(
+        key=lambda row: (
+            str(row.get("observed_at_utc") or ""),
+            str((row.get("source_post") or {}).get("id") or ""),
+        )
+    )
+    return staged, {
+        "input_repost_observations": len(observations),
+        "duplicate_repost_observations": duplicate_count,
+        "provisional_repost_observations": len(staged),
+        "provisional_self_repost_source_count": len(
+            {
+                str((row.get("source_post") or {}).get("id"))
+                for row in staged
+                if row.get("self_repost")
+            }
+        ),
+    }
+
+
+def self_repost_meta(
+    baseline: list[dict[str, Any]],
+    observations: list[dict[str, Any]],
+    username: str,
+) -> dict[str, Any]:
+    canonical_count = sum(
+        1
+        for row in baseline
+        if row.get("kind") == "retweet"
+        and re.match(
+            rf"^RT @{re.escape(username)}\b",
+            str(row.get("text") or ""),
+            flags=re.IGNORECASE,
+        )
+    )
+    provisional_sources = {
+        str((row.get("source_post") or {}).get("id"))
+        for row in observations
+        if row.get("self_repost")
+    }
+    provisional_sources.discard("None")
+    return {
+        "canonical_event_count_in_official_archive": canonical_count,
+        "provisional_distinct_source_count_in_batch": len(provisional_sources),
+        "counting_policy": (
+            "Canonical events and provisional profile observations remain separate. "
+            "Repeated daily sightings do not increment the number of repost actions."
+        ),
+        "interpretation": (
+            "Self-reposts are preserved as recursive thinking: ideas deliberately "
+            "resurfaced so their recurrence and changing context remain visible."
+        ),
+    }
+
+
 def write_review_bundle(
     output_dir: Path,
     records: list[dict[str, Any]],
+    repost_observations: list[dict[str, Any]],
     report: dict[str, Any],
     source: dict[str, Any],
 ) -> None:
@@ -473,6 +586,10 @@ def write_review_bundle(
     with (output_dir / "new-posts.jsonl").open("w", encoding="utf-8") as handle:
         for record in records:
             handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+    with (output_dir / "repost-observations.jsonl").open("w", encoding="utf-8") as handle:
+        for observation in repost_observations:
+            handle.write(json.dumps(observation, ensure_ascii=False) + "\n")
 
     with (output_dir / "review.csv").open("w", newline="", encoding="utf-8") as handle:
         fields = [
@@ -503,6 +620,36 @@ def write_review_bundle(
                 }
             )
 
+    with (output_dir / "repost-review.csv").open("w", newline="", encoding="utf-8") as handle:
+        fields = [
+            "decision",
+            "observed_at_utc",
+            "self_repost",
+            "source_author",
+            "source_post_id",
+            "source_url",
+            "text_preview",
+            "theme",
+            "linked_work",
+        ]
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        for observation in repost_observations:
+            source_post = observation.get("source_post") or {}
+            writer.writerow(
+                {
+                    "decision": "pending",
+                    "observed_at_utc": observation["observed_at_utc"],
+                    "self_repost": observation["self_repost"],
+                    "source_author": source_post.get("author_username"),
+                    "source_post_id": source_post.get("id"),
+                    "source_url": source_post.get("url"),
+                    "text_preview": re.sub(r"\s+", " ", source_post.get("text") or "")[:220],
+                    "theme": "",
+                    "linked_work": "",
+                }
+            )
+
     full_report = dict(report)
     full_report["source"] = source
     (output_dir / "sync-report.json").write_text(
@@ -513,7 +660,11 @@ def write_review_bundle(
         "# Twitter/X Incremental Review Bundle\n\n"
         "This is a dry-run artifact. Nothing in this folder has been added to the\n"
         "published archive. Review `review.csv` before a separate publish step is\n"
-        "ever introduced or run.\n\n"
+        "ever introduced or run. `repost-review.csv` holds public-profile repost\n"
+        "observations separately because X does not expose their event IDs or exact\n"
+        "repost times on the profile surface.\n\n"
+        "Self-reposts are retained as evidence of recursive thinking and deliberate\n"
+        "resurfacing. Repeated daily sightings do not count as new repost actions.\n\n"
         "Direct messages, deleted posts, IP/security data, contacts, device records,\n"
         "ads, likes, followers, and following records are outside this pipeline.\n",
         encoding="utf-8",
@@ -535,10 +686,17 @@ def status_command(args: argparse.Namespace) -> int:
 
 
 def dry_run_command(args: argparse.Namespace) -> int:
-    rows, source = load_input(args.input)
+    rows, observations, source = load_input(args.input)
     baseline = load_baseline(args.baseline)
     records, report = stage(rows, baseline, args.username)
-    write_review_bundle(args.output_dir, records, report, source)
+    staged_observations, observation_report = stage_repost_observations(observations)
+    report.update(observation_report)
+    report["self_repost_meta"] = self_repost_meta(
+        baseline, staged_observations, args.username
+    )
+    write_review_bundle(
+        args.output_dir, records, staged_observations, report, source
+    )
     print(json.dumps({**report, "review_bundle": str(args.output_dir)}, indent=2))
     return 0
 
@@ -565,7 +723,14 @@ def collect_command(args: argparse.Namespace) -> int:
         api_base=args.api_base,
     )
     records, report = stage(rows, baseline, args.username)
-    write_review_bundle(args.output_dir, records, report, source)
+    staged_observations, observation_report = stage_repost_observations([])
+    report.update(observation_report)
+    report["self_repost_meta"] = self_repost_meta(
+        baseline, staged_observations, args.username
+    )
+    write_review_bundle(
+        args.output_dir, records, staged_observations, report, source
+    )
     print(json.dumps({**report, "source": source, "review_bundle": str(args.output_dir)}, indent=2))
     return 0
 
@@ -612,9 +777,16 @@ def scrape_command(args: argparse.Namespace) -> int:
                 f"The public-profile scraper did not complete: {detail or 'unknown error'}"
             ) from exc
 
-        rows, source = load_input(scraped)
+        rows, observations, source = load_input(scraped)
         records, report = stage(rows, baseline, args.username)
-        write_review_bundle(args.output_dir, records, report, source)
+        staged_observations, observation_report = stage_repost_observations(observations)
+        report.update(observation_report)
+        report["self_repost_meta"] = self_repost_meta(
+            baseline, staged_observations, args.username
+        )
+        write_review_bundle(
+            args.output_dir, records, staged_observations, report, source
+        )
 
     print(json.dumps({**report, "source": source, "review_bundle": str(args.output_dir)}, indent=2))
     return 0
@@ -652,7 +824,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     scrape_parser = subparsers.add_parser(
         "scrape",
-        help="Scrape authored public posts newer than the archive cursor into a review bundle.",
+        help=(
+            "Scrape authored public posts and provisional repost observations "
+            "into a review bundle."
+        ),
     )
     scrape_parser.add_argument("--baseline", type=Path, default=DEFAULT_BASELINE)
     scrape_parser.add_argument("--output-dir", type=Path, default=None)

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { execFile } from "node:child_process";
+import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
@@ -79,6 +80,46 @@ function canonicalize(post, username) {
   };
 }
 
+function canonicalizeRepost(observation, username, observedAt) {
+  const sourceCreated = new Date(observation.datetime);
+  if (!observation.id || !observation.sourceUsername || Number.isNaN(sourceCreated.getTime())) {
+    return null;
+  }
+
+  const recurrenceKey = [
+    "x-repost",
+    username.toLowerCase(),
+    observation.sourceUsername.toLowerCase(),
+    observation.id,
+  ].join(":");
+  const observationId = createHash("sha256").update(recurrenceKey).digest("hex");
+
+  return {
+    observation_id: observationId,
+    observation_kind: "repost",
+    recurrence_key: recurrenceKey,
+    observed_at_utc: observedAt,
+    source_post: {
+      id: observation.id,
+      author_username: observation.sourceUsername,
+      created_at_utc: sourceCreated.toISOString(),
+      text: normalizeText(observation.text),
+      url: `https://x.com/${observation.sourceUsername}/status/${observation.id}`,
+      media: observation.media,
+    },
+    self_repost: observation.sourceUsername.toLowerCase() === username.toLowerCase(),
+    canonical_status: "provisional_profile_observation",
+    provenance: {
+      surface: "public_profile",
+      exact_repost_event_id_available: false,
+      exact_repost_timestamp_available: false,
+      counting_note:
+        "A repeated daily sighting is not counted as another repost action. " +
+        "Canonical event counts require an official X archive.",
+    },
+  };
+}
+
 async function runAppleScript(script, args = []) {
   try {
     const { stdout } = await execFileAsync("osascript", ["-e", script, ...args], {
@@ -150,15 +191,45 @@ function extractionScript(username) {
     const clean = (value) => String(value || "").replace(/\\u00a0/g, " ").trim();
     const ownPattern = new RegExp("/" + account + "/status/(\\\\d+)", "i");
     const statusPattern = /\\/([^/]+)\\/status\\/(\\d+)/i;
-    const posts = [...document.querySelectorAll('article[data-testid="tweet"]')].flatMap((article) => {
+    const authoredPosts = [];
+    const repostObservations = [];
+    for (const article of document.querySelectorAll('article[data-testid="tweet"]')) {
       const anchors = [...article.querySelectorAll('a[href*="/status/"]')];
+      const timedAnchor = anchors.find((anchor) => anchor.querySelector("time"));
+      const socialNode = article.querySelector('[data-testid="socialContext"]');
+      const socialContext = clean(socialNode?.innerText);
+      const isRepost = /reposted/i.test(socialContext);
+      const textNode = article.querySelector('[data-testid="tweetText"]');
+      const articleText = clean(article.innerText);
+      const media = [...article.querySelectorAll('[data-testid="tweetPhoto"] img, video[poster]')]
+        .map((node) => ({
+          type: node.tagName.toLowerCase() === "video" ? "video" : "photo",
+          media_url: node.getAttribute("src") || node.getAttribute("poster"),
+          alt_text: node.getAttribute("alt") || null,
+        }));
+
+      if (isRepost && timedAnchor) {
+        const sourceMatch = (timedAnchor.getAttribute("href") || "").match(statusPattern);
+        if (sourceMatch) {
+          repostObservations.push({
+            id: sourceMatch[2],
+            sourceUsername: sourceMatch[1],
+            datetime: timedAnchor.querySelector("time")?.getAttribute("datetime") || null,
+            text: clean(textNode?.innerText),
+            socialContext,
+            media,
+          });
+        }
+        continue;
+      }
+
       const ownAnchor =
         anchors.find((anchor) => anchor.querySelector("time") && ownPattern.test(anchor.getAttribute("href") || "")) ||
         anchors.find((anchor) => ownPattern.test(anchor.getAttribute("href") || ""));
-      if (!ownAnchor) return [];
+      if (!ownAnchor) continue;
 
       const ownMatch = (ownAnchor.getAttribute("href") || "").match(ownPattern);
-      if (!ownMatch) return [];
+      if (!ownMatch) continue;
 
       const statusLinks = anchors
         .map((anchor) => (anchor.getAttribute("href") || "").match(statusPattern))
@@ -167,34 +238,26 @@ function extractionScript(username) {
         .filter((item, index, items) =>
           items.findIndex((candidate) => candidate.username === item.username && candidate.id === item.id) === index
         );
-      const textNode = article.querySelector('[data-testid="tweetText"]');
       const timeNode = ownAnchor.querySelector("time") || article.querySelector("time");
-      const socialNode = article.querySelector('[data-testid="socialContext"]');
-      const articleText = clean(article.innerText);
       const replyMatch = articleText.match(/Replying to\\s+([^\\n]+)/i);
-      const media = [...article.querySelectorAll('[data-testid="tweetPhoto"] img, video[poster]')]
-        .map((node) => ({
-          type: node.tagName.toLowerCase() === "video" ? "video" : "photo",
-          media_url: node.getAttribute("src") || node.getAttribute("poster"),
-          alt_text: node.getAttribute("alt") || null,
-        }));
 
-      return [{
+      authoredPosts.push({
         id: ownMatch[1],
         datetime: timeNode?.getAttribute("datetime") || null,
         text: clean(textNode?.innerText),
-        socialContext: clean(socialNode?.innerText),
+        socialContext,
         pinned: /^Pinned(?:\\n|$)/i.test(articleText),
         replyContext: replyMatch ? clean(replyMatch[1]) : "",
         statusLinks,
         media,
-      }];
-    });
+      });
+    }
     return JSON.stringify({
       ready: document.querySelectorAll('article[data-testid="tweet"]').length > 0,
       loginRequired: Boolean(document.querySelector('a[href="/login"]')),
       temporarilyLimited: /temporarily limited|rate limit|try again later/i.test(document.body.innerText),
-      posts,
+      posts: authoredPosts,
+      repostObservations,
     });
   })()`;
 }
@@ -210,6 +273,8 @@ async function scrape(options) {
   await sleep(5000);
 
   const found = new Map();
+  const foundReposts = new Map();
+  const collectedAt = new Date().toISOString();
   const cutoffTime = new Date(options.cutoff).getTime();
   let cursorSeen = false;
   let cutoffReached = false;
@@ -234,6 +299,10 @@ async function scrape(options) {
       found.set(post.id, post);
       if (post.id === options.cursor) cursorSeen = true;
     }
+    for (const repost of observation.repostObservations || []) {
+      const key = `${repost.sourceUsername.toLowerCase()}:${repost.id}`;
+      foundReposts.set(key, repost);
+    }
     const boundaryPosts = [...found.values()].filter((post) => {
       const timestamp = new Date(post.datetime).getTime();
       return (
@@ -249,8 +318,9 @@ async function scrape(options) {
     cutoffReached = boundaryPosts.length >= 3;
     if (cursorSeen || cutoffReached) break;
 
-    unchangedRounds = found.size === previousSize ? unchangedRounds + 1 : 0;
-    previousSize = found.size;
+    const observedSize = found.size + foundReposts.size;
+    unchangedRounds = observedSize === previousSize ? unchangedRounds + 1 : 0;
+    previousSize = observedSize;
     if (unchangedRounds >= 5) break;
 
     await safariEvaluate(
@@ -272,23 +342,33 @@ async function scrape(options) {
     .map((post) => canonicalize(post, options.username))
     .filter(Boolean)
     .sort((left, right) => left.created_at_utc.localeCompare(right.created_at_utc));
+  const repostObservations = [...foundReposts.values()]
+    .map((post) => canonicalizeRepost(post, options.username, collectedAt))
+    .filter(Boolean)
+    .sort((left, right) =>
+      left.source_post.created_at_utc.localeCompare(right.source_post.created_at_utc),
+    );
 
   const payload = {
-    schema_version: 1,
+    schema_version: 2,
     source: {
       adapter: "trusted_safari_public_profile_scraper",
       account_username: options.username,
-      collected_at_utc: new Date().toISOString(),
+      collected_at_utc: collectedAt,
       since_id: options.cursor,
       cutoff_at_utc: new Date(cutoffTime).toISOString(),
       cursor_seen: cursorSeen,
       cutoff_reached: cutoffReached,
       scrolls,
       public_posts_observed: found.size,
+      repost_observations: repostObservations.length,
+      self_repost_observations: repostObservations.filter((item) => item.self_repost).length,
+      repost_event_identity: "unavailable_on_public_profile",
       private_surfaces_requested: false,
       cookies_exported: false,
     },
     posts: records,
+    repost_observations: repostObservations,
   };
   await fs.mkdir(path.dirname(path.resolve(options.output)), { recursive: true });
   await fs.writeFile(options.output, `${JSON.stringify(payload, null, 2)}\n`, "utf8");

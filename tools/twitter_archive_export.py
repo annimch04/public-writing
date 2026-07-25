@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import html
 import json
 import re
 from collections import Counter
@@ -76,6 +77,94 @@ def classify(tweet: dict[str, Any], account_username: str | None) -> str:
     return "original"
 
 
+def is_self_repost(tweet: dict[str, Any], account_username: str | None) -> bool:
+    if not account_username or classify(tweet, account_username) != "retweet":
+        return False
+    text = tweet.get("full_text") or tweet.get("text") or ""
+    return bool(re.match(rf"^RT @{re.escape(account_username)}\b", text, flags=re.IGNORECASE))
+
+
+def normalized_match_text(text: str) -> str:
+    return re.sub(r"\s+", " ", html.unescape(text or "")).strip()
+
+
+def self_repost_body(tweet: dict[str, Any], account_username: str) -> str:
+    text = normalized_match_text(tweet.get("full_text") or tweet.get("text") or "")
+    return re.sub(
+        rf"^RT @{re.escape(account_username)}:\s*",
+        "",
+        text,
+        count=1,
+        flags=re.IGNORECASE,
+    )
+
+
+def resolve_self_reposts(
+    tweets: list[dict[str, Any]],
+    account_username: str | None,
+) -> tuple[dict[str, list[str]], dict[str, dict[str, Any]], Counter]:
+    """Map exact archive repost events back to originals without guessing."""
+    if not account_username:
+        return {}, {}, Counter()
+
+    originals: list[tuple[str, str]] = []
+    for tweet in tweets:
+        if classify(tweet, account_username) == "retweet":
+            continue
+        tweet_id = str(tweet.get("id_str") or tweet.get("id") or "")
+        text = normalized_match_text(tweet.get("full_text") or tweet.get("text") or "")
+        if tweet_id and text:
+            originals.append((tweet_id, text))
+
+    by_source: dict[str, list[str]] = {}
+    by_event: dict[str, dict[str, Any]] = {}
+    resolution_counts: Counter = Counter()
+
+    for tweet in tweets:
+        if not is_self_repost(tweet, account_username):
+            continue
+
+        event_id = str(tweet.get("id_str") or tweet.get("id") or "")
+        body = self_repost_body(tweet, account_username)
+        candidates = [post_id for post_id, text in originals if text == body]
+        match_method = "exact"
+
+        if not candidates:
+            # X truncates some archived repost text. Match only when the visible
+            # prefix identifies one original unambiguously.
+            prefix = body.removesuffix("…").removesuffix("...").strip()
+            candidates = [
+                post_id
+                for post_id, text in originals
+                if len(prefix) >= 20 and text.startswith(prefix)
+            ]
+            match_method = "truncated_prefix"
+
+        if len(candidates) == 1:
+            source_id = candidates[0]
+            by_source.setdefault(source_id, []).append(event_id)
+            by_event[event_id] = {
+                "source_post_id": source_id,
+                "source_match": match_method,
+            }
+            resolution_counts["resolved"] += 1
+        elif len(candidates) > 1:
+            by_event[event_id] = {
+                "source_post_id": None,
+                "source_match": "ambiguous_truncated_prefix",
+                "candidate_source_post_ids": candidates,
+            }
+            resolution_counts["ambiguous"] += 1
+        else:
+            by_event[event_id] = {
+                "source_post_id": None,
+                "source_match": "unresolved",
+            }
+            resolution_counts["unresolved"] += 1
+
+    return by_source, by_event, resolution_counts
+
+
 def iso_date(created_at: str) -> str:
     dt = datetime.strptime(created_at, TWITTER_DATE)
     return dt.astimezone(timezone.utc).isoformat()
@@ -129,19 +218,27 @@ def sanitize(root: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]], di
 
     username = account_username(root)
     rows = load_js_array(tweets_path)
+    tweets = [parse_tweet(row) for row in rows]
+    reposts_by_source, reposts_by_event, repost_resolution = resolve_self_reposts(
+        tweets,
+        username,
+    )
     records: list[dict[str, Any]] = []
     media_map: list[dict[str, Any]] = []
     counts = Counter()
     years = Counter()
+    self_repost_events = 0
 
-    for row in rows:
-        tweet = parse_tweet(row)
+    for tweet in tweets:
         created_at = tweet.get("created_at")
-        tweet_id = tweet.get("id_str")
+        tweet_id = str(tweet.get("id_str") or tweet.get("id") or "")
         entities = tweet.get("entities") or {}
         urls = entities.get("urls") or []
         media = collect_media(tweet)
         kind = classify(tweet, username)
+        self_repost = is_self_repost(tweet, username)
+        if self_repost:
+            self_repost_events += 1
 
         record = {
             "id": tweet_id,
@@ -165,6 +262,17 @@ def sanitize(root: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]], di
             "review_status": "pending",
             "canonical_status": "archive_fragment_not_canon",
         }
+        if kind == "retweet":
+            record["self_repost"] = self_repost
+            if self_repost:
+                record["repost_source"] = reposts_by_event.get(
+                    tweet_id,
+                    {"source_post_id": None, "source_match": "unresolved"},
+                )
+        else:
+            event_ids = reposts_by_source.get(tweet_id, [])
+            record["self_repost_count"] = len(event_ids)
+            record["self_repost_event_ids"] = event_ids
         records.append(record)
         counts[kind] += 1
         if created_at:
@@ -178,6 +286,18 @@ def sanitize(root: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]], di
         "account_username": username,
         "active_tweets": len(records),
         "kind_counts": dict(counts),
+        "repost_meta": {
+            "canonical_repost_events": counts["retweet"],
+            "canonical_self_repost_events": self_repost_events,
+            "distinct_original_posts_self_reposted": len(reposts_by_source),
+            "resolved_self_repost_events": repost_resolution["resolved"],
+            "ambiguous_self_repost_events": repost_resolution["ambiguous"],
+            "unresolved_self_repost_events": repost_resolution["unresolved"],
+            "interpretation": (
+                "Self-reposts are preserved as recursive resurfacing: a record of ideas "
+                "returning, repeating, and gathering meaning across time."
+            ),
+        },
         "year_counts": dict(sorted(years.items())),
         "media_references": len(media_map),
         "excluded_by_policy": EXCLUDED_BY_POLICY,
@@ -254,6 +374,10 @@ def write_year_markdown(records: list[dict[str, Any]], manifest: dict[str, Any],
                 meta.append(f"- `media_references`: {len(record.get('media') or [])}")
             if record.get("urls"):
                 meta.append(f"- `expanded_urls`: {len(record.get('urls') or [])}")
+            if record.get("kind") == "retweet":
+                meta.append(f"- `self_repost`: {str(bool(record.get('self_repost'))).lower()}")
+            elif record.get("self_repost_count"):
+                meta.append(f"- `self_repost_count`: {record.get('self_repost_count')}")
 
             lines.extend([f"#### {record.get('created_at_utc')} / {record.get('kind')}", ""])
             lines.extend(meta)
@@ -268,6 +392,8 @@ def write_year_markdown(records: list[dict[str, Any]], manifest: dict[str, Any],
             "",
             f"- `generated_at_utc`: {manifest.get('generated_at_utc')}",
             f"- `active_tweets`: {manifest.get('active_tweets')}",
+            f"- `canonical_repost_events`: {manifest.get('repost_meta', {}).get('canonical_repost_events')}",
+            f"- `canonical_self_repost_events`: {manifest.get('repost_meta', {}).get('canonical_self_repost_events')}",
             f"- `media_references`: {manifest.get('media_references')}",
             "",
             "Deleted posts, direct messages, account security records, IP logs, contacts, ads,",
@@ -310,6 +436,8 @@ def write_outputs(records: list[dict[str, Any]], media_map: list[dict[str, Any]]
                 "text_preview",
                 "has_media",
                 "has_urls",
+                "self_repost",
+                "self_repost_count",
                 "theme",
                 "linked_work",
             ],
@@ -333,6 +461,8 @@ def write_outputs(records: list[dict[str, Any]], media_map: list[dict[str, Any]]
                     "text_preview": preview,
                     "has_media": bool(record.get("media")),
                     "has_urls": bool(record.get("urls")),
+                    "self_repost": bool(record.get("self_repost")),
+                    "self_repost_count": record.get("self_repost_count", ""),
                     "theme": "",
                     "linked_work": "",
                 }
