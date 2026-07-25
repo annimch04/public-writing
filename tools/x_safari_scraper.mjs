@@ -184,6 +184,7 @@ function extractionScript(username) {
         datetime: timeNode?.getAttribute("datetime") || null,
         text: clean(textNode?.innerText),
         socialContext: clean(socialNode?.innerText),
+        pinned: /^Pinned(?:\\n|$)/i.test(articleText),
         replyContext: replyMatch ? clean(replyMatch[1]) : "",
         statusLinks,
         media,
@@ -233,13 +234,19 @@ async function scrape(options) {
       found.set(post.id, post);
       if (post.id === options.cursor) cursorSeen = true;
     }
-    const postsAtOrBeforeCutoff = [...found.values()].filter((post) => {
+    const boundaryPosts = [...found.values()].filter((post) => {
       const timestamp = new Date(post.datetime).getTime();
-      return Number.isFinite(timestamp) && timestamp <= cutoffTime;
+      return (
+        !post.pinned &&
+        !/reposted/i.test(post.socialContext) &&
+        BigInt(post.id) <= BigInt(options.cursor) &&
+        Number.isFinite(timestamp) &&
+        timestamp <= cutoffTime
+      );
     });
-    // X can omit an individual post from profile pagination. Multiple older
-    // authored posts prove that the scraper crossed the saved time boundary.
-    cutoffReached = postsAtOrBeforeCutoff.length >= 3;
+    // Ignore pinned and reposted cards because they can surface old IDs at the
+    // top. Multiple ordinary authored IDs prove traversal crossed the boundary.
+    cutoffReached = boundaryPosts.length >= 3;
     if (cursorSeen || cutoffReached) break;
 
     unchangedRounds = found.size === previousSize ? unchangedRounds + 1 : 0;
