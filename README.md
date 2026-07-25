@@ -1,5 +1,7 @@
 # Public Writing
 
+![Public Writing social preview](assets/social-preview.jpg)
+
 This repository is the canonical source archive for public writing by Anni McHenry.
 
 It is separate from Fieldlight Institute. Fieldlight Institute may cite, link, license, commission, purchase, or adapt work from this repository, but this repository preserves the authorship source of the writing itself.

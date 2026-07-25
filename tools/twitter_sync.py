@@ -13,7 +13,9 @@ import csv
 import json
 import os
 import re
+import subprocess
 import sys
+import tempfile
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -568,6 +570,51 @@ def collect_command(args: argparse.Namespace) -> int:
     return 0
 
 
+def scrape_command(args: argparse.Namespace) -> int:
+    baseline = load_baseline(args.baseline)
+    cursor = archive_cursor(baseline)
+    since_id = str(cursor.get("last_archived_post_id") or "").strip()
+    if not since_id:
+        raise ValueError("The baseline has no last archived post ID for incremental scraping.")
+
+    scraper = Path(__file__).with_name("x_safari_scraper.mjs")
+    with tempfile.TemporaryDirectory(prefix="fieldlight-x-scrape-") as temp:
+        scraped = Path(temp) / "public-posts.json"
+        command = [
+            args.node,
+            str(scraper),
+            "--username",
+            args.username,
+            "--cursor",
+            since_id,
+            "--output",
+            str(scraped),
+            "--max-scrolls",
+            str(args.max_scrolls),
+        ]
+        try:
+            subprocess.run(command, check=True, capture_output=True, text=True)
+        except FileNotFoundError as exc:
+            raise ValueError(f"Node executable not found: {args.node}") from exc
+        except subprocess.CalledProcessError as exc:
+            detail = (exc.stderr or exc.stdout or "").strip()
+            if "Safari blocks local page automation" in detail:
+                raise ValueError(
+                    "Safari blocks local page automation. In Safari Settings, enable "
+                    "Developer > Allow JavaScript from Apple Events, then run the scraper again."
+                ) from exc
+            raise ValueError(
+                f"The public-profile scraper did not complete: {detail or 'unknown error'}"
+            ) from exc
+
+        rows, source = load_input(scraped)
+        records, report = stage(rows, baseline, args.username)
+        write_review_bundle(args.output_dir, records, report, source)
+
+    print(json.dumps({**report, "source": source, "review_bundle": str(args.output_dir)}, indent=2))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Review new public X posts without mutating the published archive."
@@ -597,13 +644,28 @@ def build_parser() -> argparse.ArgumentParser:
     collect_parser.add_argument("--token-env", default=DEFAULT_TOKEN_ENV)
     collect_parser.add_argument("--api-base", default=DEFAULT_API_BASE, help=argparse.SUPPRESS)
     collect_parser.set_defaults(func=collect_command)
+
+    scrape_parser = subparsers.add_parser(
+        "scrape",
+        help="Scrape authored public posts newer than the archive cursor into a review bundle.",
+    )
+    scrape_parser.add_argument("--baseline", type=Path, default=DEFAULT_BASELINE)
+    scrape_parser.add_argument("--output-dir", type=Path, default=None)
+    scrape_parser.add_argument("--username", default="SayitSalty")
+    scrape_parser.add_argument("--max-scrolls", type=int, default=80)
+    scrape_parser.add_argument("--node", default="node")
+    scrape_parser.set_defaults(func=scrape_command)
     return parser
 
 
 def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
-    if getattr(args, "output_dir", None) is None and args.command in {"dry-run", "collect"}:
+    if getattr(args, "output_dir", None) is None and args.command in {
+        "dry-run",
+        "collect",
+        "scrape",
+    }:
         args.output_dir = default_output_dir()
     try:
         return args.func(args)
