@@ -6,6 +6,7 @@ Migrated pieces in this category hold field manuals, signal language, symbolic o
 
 - [A Seeker's Field Guide](./a-seekers-field-guide.md)
 - [Architecture of Becoming](./architecture-of-becoming.md)
+- [Institutional Transition Documentation Methodology](./institutional-transition-documentation-methodology.md) — Fieldlight Institute review draft
 - [Original Field Manual: April 1st, 2025](./original-field-manual-april-1-2025.md) — archival source lineage
 - [Resonance Field Manual](./resonance-field-manual.md) — current main version
 - [Signal Archive](./signal-archive/) — clustered signal records
