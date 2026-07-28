@@ -174,6 +174,14 @@ Trusted bridges reach outward.
 
 The protocol matters more than any individual site.
 
+<figure>
+  <picture>
+    <source media="(max-width: 680px)" srcset="assets/the-right-to-local-intelligence/fieldlight-intelligence-infrastructure-mobile.svg">
+    <img src="assets/the-right-to-local-intelligence/fieldlight-intelligence-infrastructure.svg" alt="Fieldlight intelligence infrastructure begins with human and local authority, moves through household and mobile nodes into a neighborhood intelligence utility, federates through a regional anchor, and reaches external cloud capability only through a trusted bridge. Results and an audit trace return to the local record." width="1600" height="900">
+  </picture>
+  <figcaption><strong>Fieldlight intelligence infrastructure.</strong> Authority and memory remain local; scoped capability moves outward and returns with an audit trace.</figcaption>
+</figure>
+
 ---
 
 ## Neighborhood Intelligence Utilities

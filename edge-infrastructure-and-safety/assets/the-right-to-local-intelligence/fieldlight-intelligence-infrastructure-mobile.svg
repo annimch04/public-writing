@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="mobile-map" width="680" height="1800" viewBox="0 0 680 1800" role="img" aria-labelledby="fieldlight-mobile-title fieldlight-mobile-desc">
+    <title id="fieldlight-mobile-title">Fieldlight intelligence infrastructure topology</title>
+    <desc id="fieldlight-mobile-desc">A mobile arrangement of the Fieldlight topology, beginning with human local authority, branching to household and mobile nodes, and continuing through neighborhood utility, regional anchor, trusted bridge, and external cloud.</desc>
+    <style>
+  .field-arc { fill: none; stroke: #607080; stroke-width: 1.5; opacity: 0.55; }
+  .field-arc-accent { fill: none; stroke: #9a78ff; stroke-width: 1.5; opacity: 0.3; }
+  .authority-line { fill: none; stroke: #d6a23d; stroke-width: 3; stroke-linecap: round; }
+  .delegation-line { fill: none; stroke: #9a78ff; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+  .return-line { fill: none; stroke: #63b7a0; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 4 11; }
+  .node-shell { fill: #142536; stroke: #607080; stroke-width: 1.5; }
+  .desktop-map .node-shell-primary { fill: url(#fieldlight-hub-glow); stroke: #9a78ff; stroke-width: 2; }
+  .mobile-map .node-shell-primary { fill: url(#fieldlight-mobile-hub-glow); stroke: #9a78ff; stroke-width: 2; }
+  .node-core { fill: #302f59; stroke: #9a78ff; stroke-width: 1.5; }
+  .authority-core { fill: #40372c; stroke: #d6a23d; stroke-width: 2; }
+  .cloud-core { fill: #243549; stroke: #91a8c4; stroke-width: 1.5; }
+  .gate { fill: none; stroke: #d6a23d; stroke-width: 3; }
+  .gate-soft { fill: none; stroke: #d6a23d; stroke-width: 10; opacity: 0.1; }
+  .label {
+    fill: #fff9ed;
+    font: 500 16.8px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing: -0.02em;
+  }
+  .label-large {
+    fill: #fff9ed;
+    font: 400 21.6px Georgia, "Times New Roman", serif;
+    letter-spacing: -0.03em;
+  }
+  .hub-label { font-size: 27.2px; }
+  .eyebrow {
+    fill: #b9b5ad;
+    font: 500 10.2px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing: 0.17em;
+  }
+  .hub-eyebrow { fill: #fff9ed; opacity: 0.82; }
+  .caption {
+    fill: #b9b5ad;
+    font: 400 11.5px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .micro {
+    fill: #b9b5ad;
+    font: 500 9.3px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing: 0.12em;
+  }
+  .accent-copy { fill: #d6a23d; }
+  .bridge-copy { fill: #9a78ff; }
+  .icon {
+    fill: none;
+    stroke: #fff9ed;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .institution-icon {
+    fill: none;
+    stroke: #fff9ed;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .federation-link { fill: none; stroke: #9a78ff; stroke-width: 2; opacity: 0.72; }
+  .legend-line { stroke-width: 3; stroke-linecap: round; }
+  .mobile-map .label { font-size: 26.4px; }
+  .mobile-map .label-large { font-size: 28.8px; }
+  .mobile-map .hub-label { font-size: 32.8px; }
+  .mobile-map .eyebrow,
+  .mobile-map .caption,
+  .mobile-map .micro { font-size: 19.2px; }
+</style>
+    <defs>
+      <radialGradient id="fieldlight-mobile-hub-glow" cx="50%" cy="42%" r="64%">
+        <stop offset="0%" stop-color="#9a78ff" stop-opacity="0.28"></stop>
+        <stop offset="58%" stop-color="#142536" stop-opacity="0.94"></stop>
+        <stop offset="100%" stop-color="#142536" stop-opacity="0.76"></stop>
+      </radialGradient>
+      <marker id="fieldlight-mobile-arrow-out" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#9a78ff"></path>
+      </marker>
+    </defs>
+    <rect width="100%" height="100%" fill="#0e1c29"></rect>
+
+    <text class="eyebrow" text-anchor="middle" x="340" y="48">AUTHORITY ORIGIN</text>
+    <circle class="authority-core" cx="340" cy="128" r="53"></circle>
+    <circle class="gate" cx="340" cy="128" r="30" opacity="0.38"></circle>
+    <circle cx="340" cy="128" r="8" fill="#d6a23d"></circle>
+    <text class="label" text-anchor="middle" x="340" y="208">Human / Local Authority</text>
+    <text class="caption" text-anchor="middle" x="340" y="235">identity · memory · consent</text>
+
+    <path class="authority-line" d="M340 181 V275 M340 275 H180 V315 M340 275 H500 V315"></path>
+
+    <circle class="node-shell" cx="180" cy="382" r="64"></circle>
+    <path class="icon" d="M154 382 L180 358 L206 382 M160 376 V406 H200 V376"></path>
+    <text class="label" text-anchor="middle" x="180" y="470">Household Node</text>
+    <text class="caption" text-anchor="middle" x="180" y="497">remembers</text>
+
+    <circle class="node-shell" cx="500" cy="382" r="64"></circle>
+    <path class="icon" d="M470 385 H530 L522 366 H480 Z M483 401 A7 7 0 1 0 497 401 M510 401 A7 7 0 1 0 524 401"></path>
+    <text class="label" text-anchor="middle" x="500" y="470">Mobile Node</text>
+    <text class="caption" text-anchor="middle" x="500" y="497">roams · captures</text>
+
+    <path class="delegation-line" marker-end="url(#fieldlight-mobile-arrow-out)" d="M180 446 C180 530 248 548 295 591"></path>
+    <path class="delegation-line" marker-end="url(#fieldlight-mobile-arrow-out)" d="M500 446 C500 530 432 548 385 591"></path>
+
+    <circle class="node-shell-primary" cx="340" cy="685" r="118" fill="url(#fieldlight-mobile-hub-glow)"></circle>
+    <g class="institution-icon">
+      <path d="M295 678 L340 647 L385 678 Z"></path>
+      <path d="M304 686 H376"></path>
+      <path d="M308 730 H372"></path>
+      <path d="M297 739 H383"></path>
+      <path d="M316 691 V725 M332 691 V725 M348 691 V725 M364 691 V725"></path>
+    </g>
+    <text class="eyebrow hub-eyebrow" text-anchor="middle" x="340" y="548">CIVIC COMPUTE + STEWARDSHIP</text>
+    <text class="label-large hub-label" text-anchor="middle" x="340" y="786">Neighborhood</text>
+    <text class="label-large hub-label" text-anchor="middle" x="340" y="821">Intelligence Utility</text>
+    <text class="caption" text-anchor="middle" x="340" y="850">maintains · teaches · serves</text>
+
+    <path class="delegation-line" marker-end="url(#fieldlight-mobile-arrow-out)" d="M340 857 V900"></path>
+    <circle class="node-shell" cx="340" cy="970" r="62"></circle>
+    <path class="federation-link" d="M320 958 L360 958 L340 989 Z M320 958 L340 989 M360 958 L340 989"></path>
+    <circle class="node-core" cx="320" cy="958" r="14"></circle>
+    <circle class="node-core" cx="360" cy="958" r="14"></circle>
+    <circle class="node-core" cx="340" cy="989" r="14"></circle>
+    <text class="label" x="430" y="965">Regional Anchor</text>
+    <text class="caption" x="430" y="995">federates neighborhood</text>
+    <text class="caption" x="430" y="1020">capacity</text>
+
+    <path class="delegation-line" marker-end="url(#fieldlight-mobile-arrow-out)" d="M340 1032 V1082 M340 1140 V1170"></path>
+    <path class="gate-soft" d="M250 1210 C276 1125 404 1125 430 1210"></path>
+    <path class="gate" d="M250 1210 C276 1125 404 1125 430 1210"></path>
+    <circle class="node-core" cx="340" cy="1185" r="12"></circle>
+    <text class="eyebrow bridge-copy" text-anchor="middle" x="340" y="1116">SIGNED DELEGATION BOUNDARY</text>
+    <text class="label" x="455" y="1180">Trusted Bridge</text>
+    <text class="caption" x="455" y="1210">scopes outward capability</text>
+
+    <path class="delegation-line" marker-end="url(#fieldlight-mobile-arrow-out)" d="M340 1198 V1368"></path>
+    <g transform="translate(340 1438)">
+      <circle class="cloud-core" cx="-38" cy="5" r="38"></circle>
+      <circle class="cloud-core" cx="1" cy="-23" r="51"></circle>
+      <circle class="cloud-core" cx="44" cy="5" r="39"></circle>
+      <path class="cloud-core" d="M-70 8 C-70 49 -38 65 6 65 H50 C83 65 98 43 87 16 C74 -14 40 -21 20 -5 C5 -47 -57 -38 -59 8 Z"></path>
+    </g>
+    <text class="label" text-anchor="middle" x="340" y="1536">External Cloud</text>
+    <text class="caption" text-anchor="middle" x="340" y="1566">scale · specialized capability</text>
+    <text class="micro" text-anchor="middle" x="340" y="1596">CAPABILITY, NOT AUTHORITY</text>
+
+    <path class="return-line" d="M430 1612 C330 1690 180 1690 76 1585"></path>
+    <text class="micro" text-anchor="middle" x="340" y="1710">RESULT + AUDIT TRACE RETURN TO THE LOCAL RECORD</text>
+
+    <path class="field-arc" d="M48 1742 H632"></path>
+    <line class="legend-line delegation-line" x1="52" y1="1776" x2="102" y2="1776"></line>
+    <text class="caption" x="117" y="1782">Governed delegation</text>
+    <line class="legend-line return-line" x1="360" y1="1776" x2="410" y2="1776"></line>
+    <text class="caption" x="425" y="1782">Audit return</text>
+  </svg>
