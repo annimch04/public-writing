@@ -10,4 +10,5 @@ Migrated pieces in this category hold field manuals, signal language, symbolic o
 - [Original Field Manual: April 1st, 2025](./original-field-manual-april-1-2025.md) — archival source lineage
 - [Resonance Field Manual](./resonance-field-manual.md) — current main version
 - [Signal Archive](./signal-archive/) — clustered signal records
+- [Source Artifacts](./source-artifacts/) — original public records preserved with provenance and successor links
 - [Still Not Sorry: The Naming](./still-not-sorry-the-naming.md)
