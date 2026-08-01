@@ -179,9 +179,10 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/star-star-primer-fieldlight-integrated-organizational-model-star-star  
   Suggested category: `runtime-trust-and-governance`
 
-- [ ] Start Here  
+- [x] Start Here
   Source: https://sayitplain.posthaven.com/start-here  
-  Suggested category: `archive-meta`
+  Canonical category: `archive-meta`
+  Disposition: Preserved as a superseded Say It Plain orientation; not part of the active writing catalog.
 
 - [x] most beautiful things ever said
   Source: https://sayitplain.posthaven.com/most-beautiful-things-ever-said  

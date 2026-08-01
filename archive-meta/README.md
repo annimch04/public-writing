@@ -6,5 +6,6 @@ Archive Meta preserves public artifacts that describe, inventory, or route throu
 
 - [Current Work: Systems, Signal, and Human-Owned AI](current-work-systems-signal-and-human-owned-ai.md) — current-work snapshot published May 3, 2026; superseded by the Fieldlight Institute homepage and Systems landing page.
 - [FieldLight System Index](fieldlight-system-index.md) — navigational index published May 20, 2025; superseded by the Institute, Systems, Writing, and Story Worlds catalogs.
+- [Start Here](start-here.md) — Say It Plain archive orientation published May 17, 2025; superseded by the Fieldlight Institute homepage and Writing catalog.
 
 The original Say It Plain publications remain part of each record's provenance.
