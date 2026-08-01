@@ -1,3 +1,10 @@
 # Archive Meta
 
-Migrated pieces in this category will be added one at a time from the Say It Plain archive.
+Archive Meta preserves public artifacts that describe, inventory, or route through Anni McHenry's body of work at a particular moment. These records remain published and attributable, but they are not counted as active writing pieces or given Fieldlight reading surfaces.
+
+## Records
+
+- [Current Work: Systems, Signal, and Human-Owned AI](current-work-systems-signal-and-human-owned-ai.md) — current-work snapshot published May 3, 2026; superseded by the Fieldlight Institute homepage and Systems landing page.
+- [FieldLight System Index](fieldlight-system-index.md) — navigational index published May 20, 2025; superseded by the Institute, Systems, Writing, and Story Worlds catalogs.
+
+The original Say It Plain publications remain part of each record's provenance.

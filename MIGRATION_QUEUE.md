@@ -16,9 +16,10 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/fieldlight-the-self-on-the-wire  
   Suggested category: `fieldlight-and-human-owned-ai`
 
-- [ ] Current Work: Systems, Signal, and Human-Owned AI  
+- [x] Current Work: Systems, Signal, and Human-Owned AI
   Source: https://sayitplain.posthaven.com/2286104  
-  Suggested category: `archive-meta`
+  Canonical category: `archive-meta`
+  Disposition: Preserved as a superseded current-work snapshot; not part of the active writing catalog.
 
 - [ ] Small Stories for the Child in All of Us  
   Source: https://sayitplain.posthaven.com/small-stories-for-the-child-in-all-of-us  
@@ -145,9 +146,10 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/mycelial-uprising  
   Suggested category: `fiction-myth-and-story-worlds`
 
-- [ ] FieldLight System Index  
+- [x] FieldLight System Index
   Source: https://sayitplain.posthaven.com/fieldlight-system-index  
-  Suggested category: `archive-meta`
+  Canonical category: `archive-meta`
+  Disposition: Preserved as a superseded navigational index; not part of the active writing catalog.
 
 - [x] Resonance Field Manual
   Source: https://sayitplain.posthaven.com/resonance-field-manual  
