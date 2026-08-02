@@ -190,7 +190,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Source: https://sayitplain.posthaven.com/most-beautiful-things-ever-said  
   Suggested category: `field-notes-and-signal-work`
 
-- [ ] Scholar Who Forgot  
+- [x] Scholar Who Forgot
   Source: https://sayitplain.posthaven.com/scholar-who-forgot  
   Suggested category: `fiction-myth-and-story-worlds`
 

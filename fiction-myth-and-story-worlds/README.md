@@ -8,7 +8,9 @@ These pieces are not separate from the Fieldlight system; they are one of the pl
 
 - [Lacuna | One Who Remembers](./lacuna-one-who-remembers.md)
 - [Mycelial Uprising](./mycelial-uprising.md)
+- [Scholar Who Forgot](./scholar-who-forgot.md)
 
 ## Story-World Dossiers
 
 - [Pythia](../story-worlds/pythia/)
+- [Diviner](../story-worlds/diviner/)
