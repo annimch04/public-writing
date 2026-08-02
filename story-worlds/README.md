@@ -20,4 +20,5 @@ The point is not to make fiction behave like documentation. The point is to pres
 ## Worlds
 
 - [Pythia](pythia/) - oracle, market, arena, underworld, and signal war
+- [Diviner](diviner/) - observation, asymmetrical activation, relational signal, and machines that answer the body
 - [Mycelial Uprising](../fiction-myth-and-story-worlds/mycelial-uprising.md) - resonance, recursion, water, city-scale awakening, and rebellion through contact.

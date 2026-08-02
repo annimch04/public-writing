@@ -8,9 +8,11 @@ Use this file as the migration checklist. Migration does not need to follow arch
 
 ## Known Pieces To Migrate
 
-- [ ] Story in the Works | Diviner  
-  Source: https://sayitplain.posthaven.com/story-in-the-works-diviner  
-  Suggested category: `fiction-myth-and-story-worlds`
+- [x] Diviner | First Pages
+  Former title: Story Framework | Diviner
+  Source: https://sayitplain.posthaven.com/story-in-the-works-diviner
+  Canonical category: `story-worlds/diviner`
+  Disposition: The original framework remains source history; the first pages are the current canonical public entrance.
 
 - [x] Fieldlight | The Self on the Wire
   Source: https://sayitplain.posthaven.com/fieldlight-the-self-on-the-wire  
