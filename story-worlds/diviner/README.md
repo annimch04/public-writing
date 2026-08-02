@@ -17,3 +17,5 @@ The world moves between two voices: a woman whose machines answer her body befor
 The original public framework was published on Say It Plain as [Story Framework | Diviner](https://sayitplain.posthaven.com/story-in-the-works-diviner) on May 17, 2026. It established the swarm, the field, the two central characters, and the question beneath the world: what is the moral value of recognition without arrival?
 
 These first pages are the current canonical public entrance to Diviner.
+
+They were written on the Santa Cruz Beach Boardwalk.

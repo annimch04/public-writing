@@ -3,6 +3,7 @@ title: "Diviner | First Pages"
 status: "published"
 published_date: "2026-08-01"
 author: "Anni McHenry"
+written_at: "Santa Cruz Beach Boardwalk, Santa Cruz, California"
 canonical_category: "Fiction, Myth, and Story Worlds"
 project: "Diviner"
 genre: "Speculative fiction"
@@ -15,6 +16,8 @@ archive_note: "The original Posthaven framework established the world. These fir
 ---
 
 # Diviner | First Pages
+
+*Written on the Santa Cruz Beach Boardwalk.*
 
 ## HE
 
