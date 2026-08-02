@@ -14,6 +14,8 @@ genre: "Speculative fiction / story-world architecture"
 source: "Say It Plain"
 source_url: "https://sayitplain.posthaven.com/scholar-who-forgot"
 source_tag: "most beautiful things ever said"
+original_image: "../assets/scholar-who-forgot/original-posthaven-image.jpg"
+original_image_note: "Image that accompanied the original Say It Plain publication."
 canonical_url: "https://fieldlight.com/story-worlds/scholar-who-forgot/"
 archive_note: "Recovered story-world architecture connecting Ashur, Iris, Sophie, the Shivara, and the violence of institutional omission."
 ---
@@ -27,6 +29,10 @@ archive_note: "Recovered story-world architecture connecting Ashur, Iris, Sophie
 *Recovered: March 20, 2025 – Original Arc Thread*
 
 *Revised: June 23, 2025 – Scholar is Ashur (male). Delphi renamed Iris.*
+
+![A purple figure holding an open book, dispersing into particles against a white field.](../assets/scholar-who-forgot/original-posthaven-image.jpg)
+
+*Image accompanying the original Say It Plain publication.*
 
 This wasn’t the first draft. But it was the first time I saw the whole system clearly. I didn’t invent it—I remembered it.
 
