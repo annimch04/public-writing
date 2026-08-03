@@ -23,9 +23,11 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Canonical category: `archive-meta`
   Disposition: Preserved as a superseded current-work snapshot; not part of the active writing catalog.
 
-- [ ] Small Stories for the Child in All of Us  
+- [x] Small Stories for the Child in All of Us
   Source: https://sayitplain.posthaven.com/small-stories-for-the-child-in-all-of-us  
-  Suggested category: `fiction-myth-and-story-worlds`
+  Canonical category: `fiction-myth-and-story-worlds`
+  Canonical entry: `Everything Was a Little Wild`
+  Disposition: Preserved as Entry 01 of an open collection; a Fieldlight reading surface is deferred until the collection contains another entry.
 
 - [ ] Constructed Interiors  
   Source: https://sayitplain.posthaven.com/pending  
