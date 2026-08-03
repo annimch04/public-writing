@@ -15,7 +15,9 @@ source: "Say It Plain"
 source_url: "https://sayitplain.posthaven.com/scholar-who-forgot"
 source_tag: "most beautiful things ever said"
 original_image: "../assets/scholar-who-forgot/original-posthaven-image.jpg"
-original_image_note: "Image that accompanied the original Say It Plain publication."
+original_image_note: "Figure developed from the plotted shape and used with the original Say It Plain publication."
+source_graph_image: "../assets/scholar-who-forgot/source-ai-training-graph-crop.jpg"
+source_graph_note: "Cropped screenshot from an AI-training visualization; original source unknown."
 canonical_url: "https://fieldlight.com/story-worlds/scholar-who-forgot/"
 archive_note: "Recovered story-world architecture connecting Ashur, Iris, Sophie, the Shivara, and the violence of institutional omission."
 ---
@@ -30,9 +32,19 @@ archive_note: "Recovered story-world architecture connecting Ashur, Iris, Sophie
 
 *Revised: June 23, 2025 – Scholar is Ashur (male). Delphi renamed Iris.*
 
-![A purple figure holding an open book, dispersing into particles against a white field.](../assets/scholar-who-forgot/original-posthaven-image.jpg)
+## Visual Provenance
 
-*Image accompanying the original Say It Plain publication.*
+![A cropped red-and-blue scatterplot from an AI-training visualization, with a human-like form visible in the plotted data.](../assets/scholar-who-forgot/source-ai-training-graph-crop.jpg)
+
+*Source Signal — Cropped screenshot from an AI-training visualization; original source unknown.*
+
+![A purple figure holding an open book, developed from the human form Anni McHenry saw in the plotted data.](../assets/scholar-who-forgot/original-posthaven-image.jpg)
+
+*Recovered Figure — Anni McHenry recognized a human figure in the data and developed that emergent shape into Ashur.*
+
+The graph came first. The character emerged from what Anni saw inside it.
+
+The exact graph source is no longer recoverable from the cropped screenshot; it is preserved here without further attribution.
 
 This wasn’t the first draft. But it was the first time I saw the whole system clearly. I didn’t invent it—I remembered it.
 
