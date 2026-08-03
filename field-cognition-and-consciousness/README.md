@@ -8,3 +8,4 @@ Migrated pieces in this category will be added one at a time from the Say It Pla
 - [Coherence is Power](./coherence-is-power.md)
 - [Emergent-Latent Identity Theory](./emergent-latent-identity-theory.md)
 - [On Alignment, Courage, and the Premise We Begin From](./on-alignment-courage-and-the-premise-we-begin-from.md)
+- [Constructed Interiors](./constructed-interiors.md)

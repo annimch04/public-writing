@@ -29,9 +29,10 @@ Use this file as the migration checklist. Migration does not need to follow arch
   Canonical entry: `Everything Was a Little Wild`
   Disposition: Preserved as Entry 01 of an open collection; a Fieldlight reading surface is deferred until the collection contains another entry.
 
-- [ ] Constructed Interiors  
-  Source: https://sayitplain.posthaven.com/pending  
-  Suggested category: `field-cognition-and-consciousness`
+- [x] Constructed Interiors
+  Source: https://sayitplain.posthaven.com/pending
+  Canonical category: `field-cognition-and-consciousness`
+  Disposition: Preserved as a running research record with a Fieldlight reading surface and an origin record from Naxos, Greece.
 
 - [x] Canonical definitions for routing, trust, fallback, and echo behavior
   Source: https://sayitplain.posthaven.com/number-canonical-definitions-for-routing-trust-fallback-and-echo-behavior  
