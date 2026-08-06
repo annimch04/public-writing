@@ -15,6 +15,7 @@ from twitter_sync import (  # noqa: E402
     XApiError,
     collect_x_posts,
     load_input,
+    publish_review_bundle,
     self_repost_meta,
     stage,
     stage_repost_observations,
@@ -159,6 +160,94 @@ class TwitterSyncTests(unittest.TestCase):
         self.assertEqual(len(posts), 1)
         self.assertEqual(len(observations), 1)
         self.assertEqual(metadata["collector"]["adapter"], "test")
+
+    def test_approved_bundle_publishes_and_can_resume_without_duplicates(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            staging = root / "archive" / "twitter" / "staging"
+            sync = root / "archive" / "twitter" / "sync"
+            staging.mkdir(parents=True)
+            sync.mkdir(parents=True)
+            baseline_path = staging / "tweets.sanitized.jsonl"
+            baseline_path.write_text(
+                json.dumps(self.baseline[0]) + "\n",
+                encoding="utf-8",
+            )
+            manifest_path = staging / "export-manifest.json"
+            manifest_path.write_text(
+                json.dumps(
+                    {
+                        "repost_meta": {"canonical_repost_events": 7},
+                        "canonical_note": "Public posts are archival fragments.",
+                    }
+                ),
+                encoding="utf-8",
+            )
+            media_map_path = staging / "media-map.json"
+            media_map_path.write_text("[]\n", encoding="utf-8")
+            state_path = sync / "state.json"
+            state_path.write_text("{}\n", encoding="utf-8")
+            observations_path = sync / "repost-observations.jsonl"
+
+            record = dict(self.baseline[0])
+            record.update(
+                {
+                    "id": "101",
+                    "created_at": "2026-07-23T12:00:00.000Z",
+                    "created_at_utc": "2026-07-23T12:00:00.000Z",
+                    "text": "A newly approved public fragment.",
+                }
+            )
+            bundle = root / "review"
+            report = {
+                "schema_version": 1,
+                "mode": "dry_run_review_only",
+                "account_username": "SayitSalty",
+                "new_public_records": 1,
+                "source": {
+                    "collector": {
+                        "adapter": "test_public_profile",
+                        "collected_at_utc": "2026-07-24T00:00:00Z",
+                    }
+                },
+            }
+            write_review_bundle(
+                bundle,
+                [record],
+                [repost_observation()],
+                report,
+                report["source"],
+            )
+
+            first = publish_review_bundle(
+                bundle,
+                baseline_path,
+                manifest_path,
+                media_map_path,
+                state_path,
+                observations_path,
+            )
+            second = publish_review_bundle(
+                bundle,
+                baseline_path,
+                manifest_path,
+                media_map_path,
+                state_path,
+                observations_path,
+            )
+
+            published = [
+                json.loads(line)
+                for line in baseline_path.read_text(encoding="utf-8").splitlines()
+            ]
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            self.assertEqual(first["newly_added_posts"], 1)
+            self.assertEqual(second["newly_added_posts"], 0)
+            self.assertEqual(len(published), 2)
+            self.assertEqual(manifest["active_tweets"], 2)
+            self.assertEqual(manifest["repost_meta"]["canonical_repost_events"], 7)
+            self.assertTrue((root / "archive" / "twitter" / "2026" / "README.md").exists())
+            self.assertEqual(len(observations_path.read_text().splitlines()), 1)
 
     def test_repeated_repost_sighting_does_not_create_another_event(self) -> None:
         first = repost_observation()

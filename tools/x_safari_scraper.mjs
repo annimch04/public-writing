@@ -262,6 +262,14 @@ function extractionScript(username) {
   })()`;
 }
 
+function expandTruncatedPostsScript() {
+  return `(() => {
+    const controls = [...document.querySelectorAll('[data-testid="tweet-text-show-more-link"]')];
+    controls.forEach((control) => control.click());
+    return String(controls.length);
+  })()`;
+}
+
 async function scrape(options) {
   if (!options.cursor) throw new Error("--cursor is required.");
   if (!options.cutoff || Number.isNaN(new Date(options.cutoff).getTime())) {
@@ -283,6 +291,11 @@ async function scrape(options) {
   let scrolls = 0;
 
   for (; scrolls < options.maxScrolls; scrolls += 1) {
+    const expanded = Number(
+      await safariEvaluate(options.username, expandTruncatedPostsScript()),
+    );
+    if (expanded > 0) await sleep(500);
+
     const raw = await safariEvaluate(options.username, extractionScript(options.username));
     const observation = JSON.parse(raw || "{}");
     if (observation.loginRequired && !observation.ready) {

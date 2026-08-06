@@ -177,7 +177,7 @@ def safe_year(created_at: str) -> str:
 def safe_month(created_at_utc: str | None) -> str:
     if not created_at_utc:
         return "undated"
-    return datetime.fromisoformat(created_at_utc).strftime("%Y-%m")
+    return datetime.fromisoformat(created_at_utc.replace("Z", "+00:00")).strftime("%Y-%m")
 
 
 def collect_media(tweet: dict[str, Any]) -> list[dict[str, Any]]:
@@ -319,7 +319,8 @@ def write_year_markdown(records: list[dict[str, Any]], manifest: dict[str, Any],
     index_lines = [
         "# Twitter/X Signal Feed Archive",
         "",
-        "This is a sanitized public export of active Twitter/X posts from the downloaded archive.",
+        "This is a sanitized public export of active Twitter/X posts from the official archive",
+        "and explicitly approved incremental syncs.",
         "It is preserved as primary source material, not as the canonical expression of developed ideas.",
         "",
         "Essays remain the canonical surface. These posts are archival fragments that can be linked",

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Stage incremental public X posts without changing the published archive.
+"""Collect, review, and explicitly publish incremental public X posts.
 
-This command is intentionally dry-run only. It compares a collector batch with
-the current sanitized archive, rejects private source classes, and writes a
-review bundle containing only new public posts.
+Collection is review-first. It compares a collector batch with the current
+sanitized archive, rejects private source classes, and writes a local review
+bundle containing only new public posts. Publishing is a separate command and
+requires an explicit human-approval flag.
 """
 
 from __future__ import annotations
@@ -25,6 +26,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 from twitter_archive_export import (
+    EXCLUDED_BY_POLICY,
     classify,
     clean_text,
     collect_media,
@@ -32,10 +34,14 @@ from twitter_archive_export import (
     load_js_array,
     parse_tweet,
     safe_year,
+    write_outputs,
 )
 
 DEFAULT_BASELINE = Path("archive/twitter/staging/tweets.sanitized.jsonl")
 DEFAULT_STATE = Path("archive/twitter/sync/state.json")
+DEFAULT_MANIFEST = Path("archive/twitter/staging/export-manifest.json")
+DEFAULT_MEDIA_MAP = Path("archive/twitter/staging/media-map.json")
+DEFAULT_REPOST_OBSERVATIONS = Path("archive/twitter/sync/repost-observations.jsonl")
 DEFAULT_API_BASE = "https://api.x.com/2"
 DEFAULT_TOKEN_ENV = "X_BEARER_TOKEN"
 
@@ -671,6 +677,184 @@ def write_review_bundle(
     )
 
 
+def read_json(path: Path) -> Any:
+    if not path.exists():
+        raise FileNotFoundError(f"Required archive file not found: {path}")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def merge_media_map(
+    existing: list[dict[str, Any]],
+    records: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    merged = list(existing)
+    seen = {
+        json.dumps(item, sort_keys=True, ensure_ascii=False)
+        for item in existing
+    }
+    for record in records:
+        for item in record.get("media") or []:
+            mapped = {"tweet_id": str(record["id"]), **item}
+            key = json.dumps(mapped, sort_keys=True, ensure_ascii=False)
+            if key not in seen:
+                seen.add(key)
+                merged.append(mapped)
+    return merged
+
+
+def publish_review_bundle(
+    bundle: Path,
+    baseline_path: Path = DEFAULT_BASELINE,
+    manifest_path: Path = DEFAULT_MANIFEST,
+    media_map_path: Path = DEFAULT_MEDIA_MAP,
+    state_path: Path = DEFAULT_STATE,
+    observations_path: Path = DEFAULT_REPOST_OBSERVATIONS,
+) -> dict[str, Any]:
+    """Publish one explicitly approved review bundle into the public archive."""
+    report = read_json(bundle / "sync-report.json")
+    if report.get("mode") != "dry_run_review_only":
+        raise ValueError("The bundle is not a review-only Twitter/X sync artifact.")
+
+    baseline = load_baseline(baseline_path)
+    baseline_ids = {str(record.get("id")) for record in baseline}
+    proposed = load_jsonl(bundle / "new-posts.jsonl")
+    if len(proposed) != int(report.get("new_public_records") or 0):
+        raise ValueError(
+            "The review bundle no longer matches its sync report; collect a fresh bundle."
+        )
+    accepted: list[dict[str, Any]] = []
+    already_present: list[dict[str, Any]] = []
+    seen_new: set[str] = set()
+    for record in proposed:
+        validate_record(record)
+        post_id = str(record["id"])
+        if post_id in seen_new:
+            raise ValueError(f"The review bundle repeats public post ID {post_id}.")
+        seen_new.add(post_id)
+        if post_id in baseline_ids:
+            already_present.append(record)
+            continue
+        accepted.append(record)
+
+    # A publish can be resumed safely if generated staging files were written but
+    # the state cursor was not. IDs already present are never duplicated.
+    if not proposed:
+        raise ValueError("The approved bundle contains no public posts.")
+
+    merged_records = baseline + accepted
+    cursor = archive_cursor(merged_records)
+    prior_state = read_json(state_path) if state_path.exists() else {}
+    if (
+        not accepted
+        and prior_state.get("last_archived_post_id") == cursor["last_archived_post_id"]
+        and prior_state.get("last_archived_at_utc") == cursor["last_archived_at_utc"]
+    ):
+        current_manifest = read_json(manifest_path)
+        return {
+            "published_public_posts": len(proposed),
+            "newly_added_posts": 0,
+            "posts_already_present_during_resume": len(already_present),
+            "already_published": True,
+            "active_tweets": len(merged_records),
+            "provisional_repost_observations": int(
+                (prior_state.get("last_publish") or {}).get(
+                    "provisional_repost_observations", 0
+                )
+            ),
+            "media_references": current_manifest.get("media_references"),
+            **cursor,
+        }
+
+    manifest = read_json(manifest_path)
+    media_map = merge_media_map(read_json(media_map_path), proposed)
+    counts = Counter(str(record.get("kind")) for record in merged_records)
+    years = Counter(str(record.get("year")) for record in merged_records)
+    published_at = utc_now()
+    collector = ((report.get("source") or {}).get("collector") or {})
+
+    manifest.update(
+        {
+            "generated_at_utc": published_at,
+            "source": (
+                "Twitter/X official archive plus approved public-profile "
+                "incremental sync"
+            ),
+            "active_tweets": len(merged_records),
+            "kind_counts": dict(sorted(counts.items())),
+            "year_counts": dict(sorted(years.items())),
+            "media_references": len(media_map),
+            "excluded_by_policy": EXCLUDED_BY_POLICY,
+            "incremental_sync": {
+                "latest_batch_published_at_utc": published_at,
+                "latest_batch_collected_at_utc": collector.get("collected_at_utc"),
+                "latest_batch_new_posts": len(proposed),
+                "source_adapter": collector.get("adapter"),
+                "approval": "explicit_human_approval",
+                "canonical_status": "archive_fragment_not_canon",
+            },
+        }
+    )
+
+    incoming_observations = load_jsonl(bundle / "repost-observations.jsonl")
+    existing_observations = (
+        load_jsonl(observations_path) if observations_path.exists() else []
+    )
+    observations_by_id = {
+        str(item["observation_id"]): item for item in existing_observations
+    }
+    for observation in incoming_observations:
+        validate_repost_observation(observation)
+        observations_by_id.setdefault(str(observation["observation_id"]), observation)
+
+    # Validate every artifact before the first published file is regenerated.
+    for record in merged_records:
+        validate_record(record)
+    for observation in existing_observations:
+        validate_repost_observation(observation)
+
+    staging_dir = baseline_path.parent
+    write_outputs(merged_records, media_map, manifest, staging_dir)
+
+    observations_path.parent.mkdir(parents=True, exist_ok=True)
+    with observations_path.open("w", encoding="utf-8") as handle:
+        for observation in sorted(
+            observations_by_id.values(),
+            key=lambda item: (
+                str(item.get("observed_at_utc") or ""),
+                str(item.get("observation_id") or ""),
+            ),
+        ):
+            handle.write(json.dumps(observation, ensure_ascii=False) + "\n")
+
+    state = {
+        "schema_version": 2,
+        "account_username": report.get("account_username") or "SayitSalty",
+        "source_manifest": str(manifest_path),
+        **cursor,
+        "publication_mode": "human_review_required",
+        "private_data_policy": "excluded_by_architecture",
+        "last_publish": {
+            "published_at_utc": published_at,
+            "new_public_posts": len(proposed),
+            "provisional_repost_observations": len(incoming_observations),
+            "source_adapter": collector.get("adapter"),
+        },
+    }
+    state_path.write_text(
+        json.dumps(state, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    return {
+        "published_public_posts": len(proposed),
+        "newly_added_posts": len(accepted),
+        "posts_already_present_during_resume": len(already_present),
+        "active_tweets": len(merged_records),
+        "provisional_repost_observations": len(incoming_observations),
+        "media_references": len(media_map),
+        **cursor,
+    }
+
+
 def default_output_dir() -> Path:
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     return Path(".twitter-sync") / f"review-{stamp}"
@@ -792,9 +976,26 @@ def scrape_command(args: argparse.Namespace) -> int:
     return 0
 
 
+def publish_command(args: argparse.Namespace) -> int:
+    if not args.approve_all:
+        raise ValueError(
+            "Publishing requires --approve-all to record explicit human approval."
+        )
+    result = publish_review_bundle(
+        bundle=args.bundle,
+        baseline_path=args.baseline,
+        manifest_path=args.manifest,
+        media_map_path=args.media_map,
+        state_path=args.state,
+        observations_path=args.repost_observations,
+    )
+    print(json.dumps(result, indent=2))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Review new public X posts without mutating the published archive."
+        description="Collect and review public X posts, then publish only with approval."
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -835,6 +1036,23 @@ def build_parser() -> argparse.ArgumentParser:
     scrape_parser.add_argument("--max-scrolls", type=int, default=80)
     scrape_parser.add_argument("--node", default="node")
     scrape_parser.set_defaults(func=scrape_command)
+
+    publish_parser = subparsers.add_parser(
+        "publish",
+        help="Publish an approved review bundle and regenerate the public archive.",
+    )
+    publish_parser.add_argument("--bundle", required=True, type=Path)
+    publish_parser.add_argument("--approve-all", action="store_true")
+    publish_parser.add_argument("--baseline", type=Path, default=DEFAULT_BASELINE)
+    publish_parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
+    publish_parser.add_argument("--media-map", type=Path, default=DEFAULT_MEDIA_MAP)
+    publish_parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
+    publish_parser.add_argument(
+        "--repost-observations",
+        type=Path,
+        default=DEFAULT_REPOST_OBSERVATIONS,
+    )
+    publish_parser.set_defaults(func=publish_command)
     return parser
 
 
