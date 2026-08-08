@@ -4,6 +4,7 @@ Migrated pieces in this category hold field manuals, signal language, symbolic o
 
 ## Migrated Pieces
 
+- [alt: a record of return](./alt-a-record-of-return.md) — interactive record with a sanitized public dataset
 - [A Seeker's Field Guide](./a-seekers-field-guide.md)
 - [Architecture of Becoming](./architecture-of-becoming.md)
 - [Institutional Transition Documentation Methodology](./institutional-transition-documentation-methodology.md) — Fieldlight Institute review draft
