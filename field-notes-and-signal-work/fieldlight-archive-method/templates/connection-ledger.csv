@@ -1,0 +1,2 @@
+connection_id,source,target,relationship,basis,confidence,privacy,note,next_action,status
+EXAMPLE-DELETE,ARC-NB-0001 page/capture,ARC-FIC-0001,Candidate source-to-work lineage,Creator supplied + direct textual evidence,Medium,Private,Example row only—separate textual match from causal influence,Compare the earliest preserved versions,Candidate

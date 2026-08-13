@@ -1,0 +1,2 @@
+representation_id,source_id,role,filename,format,captured_or_created_at,date_basis,master_location,working_location,sha256,relationship_note,privacy,review_status
+EXAMPLE-DELETE,ARC-NB-0001,Cover capture,example.heic,HEIC,YYYY-MM-DD HH:MM:SS,Embedded metadata,01_originals/YYYY-MM-DD_batch/example.heic,02_working/YYYY-MM-DD_batch/example.jpg,PLACEHOLDER,Documentation photograph of the source cover,Private,Verified

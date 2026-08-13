@@ -1,0 +1,2 @@
+source_id,accession_id,source_type,parent_id,label,description,date_value,date_basis,privacy,rights_authorship,inventory_status,preservation_location,representation_count,coverage,notes
+EXAMPLE-DELETE,ARC-ACC-YYYYMMDD-001,Notebook,,Example notebook,Bound notebook documented by selected photographs,YYYY or range,Creator account + inscription,Private,Creator; verify inserts,Preserved and inventoried,01_originals/YYYY-MM-DD_batch/,12,Sampled,Example row only—delete before use

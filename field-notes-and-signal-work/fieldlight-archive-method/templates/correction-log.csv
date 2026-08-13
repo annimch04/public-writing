@@ -1,0 +1,2 @@
+correction_id,date,record_id,field_or_claim,old_value,new_value,reason,evidence,affected_records,reviewer,status
+EXAMPLE-DELETE,YYYY-MM-DD,ARC-SOURCE-0001,source grouping,Two photographs grouped as one session,Second photograph assigned a new source ID,Full-resolution review showed a distinct arrangement,Direct visual evidence,ARC-CAP-00001; ARC-CAP-00002,Human steward,Applied
