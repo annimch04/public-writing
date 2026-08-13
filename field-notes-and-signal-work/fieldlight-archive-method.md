@@ -12,6 +12,8 @@ related_categories:
   - "Field Cognition and Consciousness"
 archive_note: "Version 1.0 of a reproducible method for preserving, cataloging, orienting, and analyzing heterogeneous personal archives with AI assistance while keeping source, interpretation, privacy, authorship, and uncertainty distinct."
 supporting_package: "./fieldlight-archive-method/"
+license: "CC BY-NC-SA 4.0"
+license_url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 ---
 
 # The Fieldlight Archive Method
@@ -243,7 +245,9 @@ A small archive does not need a complex database. It needs a durable trail:
 9. dated analysis memos;
 10. separate, reviewed public derivatives.
 
-The supporting [Version 1.0 package](./fieldlight-archive-method/) provides the operational protocol, implementation notes naming the concrete toolchain, blank templates, and a redacted worked example.
+The supporting [Version 1.0 package](./fieldlight-archive-method/) provides the operational protocol, implementation notes naming the concrete toolchain, blank templates, a redacted worked example, and a [public companion workbook](./fieldlight-archive-method/fieldlight-archive-method-public-workbook.xlsx). The workbook publishes the reusable structure, aggregate field-test evidence, and public-work register without exposing the private master catalog.
+
+The method package is licensed for attributed, noncommercial reuse and adaptation under [CC BY-NC-SA 4.0](./fieldlight-archive-method/LICENSE.md). That license does not extend to the private archive or the creator's referenced personal works.
 
 ## What the method protects
 
