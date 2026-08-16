@@ -2,6 +2,8 @@
 
 This directory contains the operational materials supporting [The Fieldlight Archive Method](../fieldlight-archive-method.md).
 
+[Download the complete Version 1.0 package](../fieldlight-archive-method-v1.0.zip) as a single ZIP archive.
+
 ## Package contents
 
 - [Operational Protocol](./protocol.md) — folder model, registers, identifiers, status vocabulary, evidence rules, human–AI roles, and release checks.

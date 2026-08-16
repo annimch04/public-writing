@@ -49,4 +49,4 @@ This repository exists to preserve authorship, source context, revision history,
 
 ## Public Methods
 
-- [The Fieldlight Archive Method](field-notes-and-signal-work/fieldlight-archive-method.md) — Version 1.0 review draft for human–AI stewardship of heterogeneous personal archives, with a supporting protocol, templates, and redacted worked example.
+- [The Fieldlight Archive Method](field-notes-and-signal-work/fieldlight-archive-method.md) — Version 1.0 specification for human–AI stewardship of heterogeneous personal archives, with a supporting protocol, templates, redacted worked example, and public workbook.
