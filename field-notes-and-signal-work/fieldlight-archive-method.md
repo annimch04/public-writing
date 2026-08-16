@@ -1,9 +1,10 @@
 ---
 title: "The Fieldlight Archive Method"
 subtitle: "Human–AI stewardship of a living personal corpus"
-status: "Review draft"
+status: "Published"
 version: "1.0"
 prepared_at: "2026-08-13"
+published_at: "2026-08-15"
 author: "Anni McHenry"
 canonical_category: "Field Notes and Signal Work"
 related_categories:
@@ -20,7 +21,7 @@ license_url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 ## Human–AI stewardship of a living personal corpus
 
-**VERSION 1.0 • REVIEW DRAFT • AUGUST 2026**
+**VERSION 1.0 • AUGUST 2026**
 
 > Preserve first. Interpret second. Publish by design.
 
