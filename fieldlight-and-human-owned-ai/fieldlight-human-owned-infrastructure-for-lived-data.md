@@ -4,6 +4,8 @@ status: "published"
 source: "Say It Plain"
 source_url: "https://sayitplain.posthaven.com/fieldlight-integration-begins"
 source_updated: "2025-12-15"
+state_reviewed: "2026-08-18"
+revision_status: "Original proposition preserved with a current-state claim audit"
 canonical_category: "Fieldlight and Human-Owned AI"
 related_categories:
   - "Runtime, Trust, and Governance"
@@ -13,9 +15,49 @@ related_projects:
     url: "https://github.com/annimch04/fieldlight-mesh"
   - name: "Sanctum Zero"
     url: "https://github.com/annimch04/sanctum-zero"
+  - name: "The Fieldlight Archive Method"
+    url: "https://fieldlight.com/writing/fieldlight-archive-method/"
+  - name: "Reader Continuity"
+    url: "https://fieldlight.com/continuity/"
 ---
 
 # Fieldlight | Human-Owned Infrastructure for Lived Data
+
+## 2026 State Review
+
+**Reviewed August 18, 2026.**
+
+The core held. The absolutes did not.
+
+Fieldlight is now best described as a human-owned authority architecture: identity, source truth, consent, correction, and release remain governed by the human even when permitted storage, computation, or collaboration crosses systems.
+
+This is not a repudiation of the original proposition. It is the proposition after contact with implementation.
+
+### Claim Status
+
+- **Held — human-owned authority.** Lived data, memory, authorship, identity, correction, and release require a human-controlled source of authority.
+- **Refined — local-first.** Local authority does not require isolation. External capability may be used without transferring sovereignty.
+- **Operationalized — stewardship.** Source custody, representation boundaries, correction, privacy, and governed release now exist as a reusable archive method.
+- **Partial — executable consent.** Consent scopes, grants, signatures, and logs exist as working primitives. They are not yet enforced across every path.
+- **Open — economic interface.** Licensing and compensation remain possible future interfaces, not established outcomes or Fieldlight's sole purpose.
+
+### Boundary Refinements
+
+- **Source is not representation.** Representations may be created, but they do not replace the source.
+- **Authority is not isolation.** Human authority can remain local while permitted capability crosses systems.
+- **Record is not enforcement.** Traceability exists only where capture, identity, integrity, and retrieval have been implemented; a record alone does not prove that a policy was enforced.
+- **Access is not ownership.** A scoped grant does not transfer authorship, custody, or source authority.
+
+### Current Evidence
+
+- [The Fieldlight Archive Method](https://fieldlight.com/writing/fieldlight-archive-method/) operationalizes source custody, provenance, privacy, correction, interpretation, and release.
+- [Local Authority, External Capability](https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/) replaces the all-local premise with a stronger authority rule.
+- [Fieldlight Mesh: What Works, What Doesn't Yet, and What Comes Next](https://fieldlight.com/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/) separates working primitives from incomplete enforcement and an unfinished network.
+- [Reader Continuity](https://fieldlight.com/continuity/) makes earlier states, relationships, and evidence status visible across the public corpus.
+
+---
+
+## Original 2025 Proposition
 
 Fieldlight isn’t a brand or a collective.
 
