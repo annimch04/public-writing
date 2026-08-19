@@ -9,6 +9,7 @@ Migrated pieces in this category hold field manuals, signal language, symbolic o
 - [Architecture of Becoming](./architecture-of-becoming.md)
 - [The Fieldlight Archive Method](./fieldlight-archive-method.md) — Version 1.0 review draft with protocol, templates, and redacted worked example
 - [Institutional Transition Documentation Methodology](./institutional-transition-documentation-methodology.md) — Fieldlight Institute review draft
+- [One Export Is Not an Archive](./one-export-is-not-an-archive.md) — Archive Method implementation note on source-state union across three ChatGPT exports
 - [Original Field Manual: April 1st, 2025](./original-field-manual-april-1-2025.md) — archival source lineage
 - [Resonance Field Manual](./resonance-field-manual.md) — current main version
 - [Signal Archive](./signal-archive/) — clustered signal records

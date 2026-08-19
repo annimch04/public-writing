@@ -50,3 +50,4 @@ This repository exists to preserve authorship, source context, revision history,
 ## Public Methods
 
 - [The Fieldlight Archive Method](field-notes-and-signal-work/fieldlight-archive-method.md) — Version 1.0 specification for human–AI stewardship of heterogeneous personal archives, with a supporting protocol, templates, redacted worked example, and public workbook.
+- [One Export Is Not an Archive](field-notes-and-signal-work/one-export-is-not-an-archive.md) — Implementation Note 01: a three-export source-state union and the evidence that the newest export was not the whole archive.

@@ -11,6 +11,24 @@ related_categories:
 
 # Research: Coupled Nervous Systems
 
+## 2026 evidence-state review
+
+This note is retained as an early public formulation of a research direction. It should not be read as a current evidence summary. Work completed in August 2026 separates its central intuition into claims that do not yet share the same evidentiary status.
+
+- **Held:** interpersonal physiological synchrony is measurable across cardiac, respiratory, electrodermal, and neural signals.
+- **Refined:** synchrony is context-dependent. Covariation does not, by itself, establish affiliation, shared mental content, anomalous perception, or a causal mechanism.
+- **Still open:** whether people can consciously detect relational physiological dynamics with accuracy above ordinary sensory and inferential cues.
+- **Newly operationalized:** the narrower cardiac-field proposition is now decomposed into five hypotheses, from established within-person state differentiation to an unsupported direct field-mediation claim.
+- **Not established:** evidence that the heart's measurable external magnetic field directly mediates social interaction.
+
+The current sequence begins with simultaneous within-person physiology and subjective state, advances to controlled dyadic measurement, and introduces magnetocardiography only if ordinary sensory, behavioral, autonomic, and contextual explanations leave a reproducible residual.
+
+Read the current Institute specification: [Cardiac Field and Social Interaction](https://fieldlight.com/institute/research/cardiac-field-social-interaction/). The versioned research source is maintained by the [Fieldlight Institute Consciousness Research Program](https://github.com/fieldlight-institute/consciousness-research-program/blob/main/CARDIAC-FIELD-SOCIAL-INTERACTION-WORKING-HYPOTHESIS.md).
+
+---
+
+## Original public note
+
 There’s a gap in how we talk about human perception.
 
 Most models still assume perception is primarily an internal process. Signals enter the senses, the brain processes them, cognition happens inside the individual organism.
