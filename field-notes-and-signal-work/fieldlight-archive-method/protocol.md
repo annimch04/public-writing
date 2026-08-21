@@ -2,6 +2,7 @@
 
 Version: 1.0  
 Prepared: 2026-08-13  
+Amended: 2026-08-21
 Status: review draft
 
 This protocol translates [The Fieldlight Archive Method](../fieldlight-archive-method.md) into a working record system. It is deliberately tool-agnostic. A file manager, spreadsheet, text editor, checksum utility, OCR system, version-control system, and AI assistant are sufficient.
@@ -93,6 +94,29 @@ Required fields:
 
 Use dates as typed date values where possible. Do not turn a later file-modification timestamp into an original composition date. Preserve the timestamp and state its basis.
 
+### Preservation-surface register
+
+When a source or domain may survive across more than one mechanism, maintain one row per inspected surface state. A surface is not automatically a source; it records where and when a representation was observable.
+
+Minimum fields:
+
+- `surface_state_id`
+- `source_or_domain_id`
+- `surface_type` — platform export, local cache, app library, filesystem copy, repository, screenshot, public page, or physical custody
+- `surface_label`
+- `observed_or_acquired_at`
+- `date_basis`
+- `expected_scope`
+- `observed_scope`
+- `stable_identifiers_available`
+- `known_gaps`
+- `relationship_to_other_states`
+- `reconciliation_status`
+- `preservation_location`
+- `privacy`
+
+`Complete` applies only to the declared surface state and acquisition boundary. A whole-domain or whole-corpus completeness claim must name every inspected surface and every known uninspected or inaccessible surface.
+
 ## 5. Representation register
 
 Use one row per file or capture when the archive needs file-level traceability.
@@ -160,13 +184,13 @@ For every import:
 1. Assign an accession ID.
 2. Write the boundary before copying.
 3. Record source application, device, folder, box, album, export, or custodian.
-4. Record known incompleteness, sync instability, and unavailable files.
+4. Record every inspected preservation surface and dated state, plus known incompleteness, sync instability, inaccessible surfaces, and unavailable files.
 5. Export or copy originals using a method that preserves relevant metadata.
 6. Reconcile file counts and sizes.
 7. Generate a SHA-256 manifest when feasible.
 8. Verify the copied files against the manifest.
 9. Create working derivatives separately.
-10. Add source and representation rows.
+10. Add source, representation, and preservation-surface rows where applicable.
 11. Record sensitive people, locations, metadata, and rights issues.
 12. Name the next orientation unit and the completion test.
 
@@ -228,6 +252,7 @@ Required fields:
 | `source` | Source ID and location |
 | `target` | Source, event, person, work, concept, or external record |
 | `relationship` | What is being asserted |
+| `surfaces` | Preservation surfaces on which the relationship depends |
 | `basis` | Creator supplied, direct evidence, documentary evidence, external evidence, or inference |
 | `confidence` | High, Medium, or Low support for this exact claim |
 | `privacy` | Disclosure level |
@@ -308,6 +333,8 @@ Any unresolved high-risk item blocks release, not private preservation.
 Before closing an accession or analysis pass:
 
 - counts reconcile across source, representation, and file manifests;
+- preservation surfaces and dated states are declared where relevant;
+- completeness claims name the inspected surface set and known gaps;
 - identifiers are unique and never recycled;
 - every representation maps to one source or an unresolved queue;
 - preservation masters are unchanged;
@@ -318,7 +345,7 @@ Before closing an accession or analysis pass:
 - connection claims have basis and confidence;
 - corrections are retained;
 - whole-corpus language is not based on one accession or domain;
+- absence from one surface is not treated as nonexistence in the historical record;
 - public outputs have passed the release gate.
 
 Blank records are available in the [templates directory](./templates/).
-

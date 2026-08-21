@@ -1,5 +1,16 @@
 # Version History
 
+## Version 1.0 amendment — August 21, 2026
+
+Adds the cross-surface completeness rule without changing identifier semantics or the source-versus-representation model:
+
+- no single preservation surface should be presumed complete;
+- completeness must be stated against a declared set of inspected surfaces and dated source states;
+- the operational protocol now includes a preservation-surface register and surface-aware quality checks;
+- an April 23–24, 2025 locally cached conversation absent from all three official exports is recorded as the implementation finding that required the amendment.
+
+The cache finding establishes local historical survival outside the export union. It does not establish why the conversation was absent, and it does not make the local cache itself complete or authoritative.
+
 ## 1.0 — August 2026
 
 First stable external specification.

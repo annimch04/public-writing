@@ -2,6 +2,7 @@
 title: "One Export Is Not an Archive"
 status: "public implementation note"
 date: "2026-08-19"
+amended_at: "2026-08-21"
 canonical_category: "Field Notes and Signal Work"
 related_categories:
   - "Runtime, Trust, and Governance"
@@ -12,6 +13,8 @@ method: "The Fieldlight Archive Method"
 # One Export Is Not an Archive
 
 **Archive Method / Implementation Note 01 / August 2026**
+
+**Amended August 21, 2026 — local-cache preservation surface added.**
 
 An export is a representation of a platform's state at one moment. It is not automatically a complete history of the human activity the platform holds.
 
@@ -57,13 +60,29 @@ That does not make an export useless. It changes the claim an export can support
 
 An individual export can establish what that source state contained. It cannot, by itself, establish that no earlier material existed, that the newest state is complete, or that the current conversational path preserves every meaningful branch.
 
+## The export union was still not the whole preservation record
+
+The three-export union corrected one false completeness assumption. A separately preserved local application cache exposed another.
+
+One conversation was created on **April 23, 2025 at 19:08:39 UTC**. Two successive local cache representations carry timestamps of **April 24, 2025 at 04:01:08 UTC** and **05:30:01 UTC**. The later representation adds 36 message nodes and removes none from the earlier state. The conversation's stable identity and exact title are absent from all three official exports and therefore absent from the 654-conversation export union.
+
+The cache record was recovered and analyzed in August 2026. The date of recovery is not the date of the conversation or its cached representations.
+
+This does not establish why the conversation was absent from the exports. It does not establish deletion, export policy, platform intent, or the completeness of the local cache. It establishes that **even the union of every available official export did not exhaust the locally preserved historical record**.
+
+The general rule is therefore broader than the title of this implementation note:
+
+> **No single preservation surface should be presumed complete.**
+
+An export, export union, local cache, application library, filesystem copy, screenshot, repository, or public page can each establish what survived on that surface at a particular state. Historical reconstruction requires those surfaces to remain distinct before they are related.
+
 ## Why union precedes analysis
 
 If analysis begins from the newest export alone, absence can be mistaken for nonexistence and current-path selection can be mistaken for the whole exchange. Frequency, chronology, recurrence, correction behavior, and context reconstruction can all be distorted before interpretation even begins.
 
 The defensible order is:
 
-**preserve source states → construct the union → record gaps → analyze the longitudinal corpus**
+**preserve surfaces → preserve states within each surface → reconcile stable identities → retain surface-only records → record gaps → analyze the longitudinal corpus**
 
 The union is not a claim that every retained branch carries equal meaning. It is the evidence layer from which those distinctions can later be made.
 
@@ -75,9 +94,9 @@ The harder question is whether repeated downloads can be reconciled into a stabl
 
 A usable archive needs more than acquisition. It needs source-state identity, preservation, comparison, union logic, documented uncertainty, and a boundary between evidence and interpretation.
 
-One export is a source.
+One export is a source state. An export union is a reconciled surface, not necessarily the whole corpus.
 
-The archive begins when source states can remain distinct, relate to one another, and support claims without pretending that the latest representation is the whole past.
+The archive begins when surfaces and source states can remain distinct, relate to one another, and support claims without pretending that the latest—or most convenient—representation is the whole past.
 
 ## Method lineage
 

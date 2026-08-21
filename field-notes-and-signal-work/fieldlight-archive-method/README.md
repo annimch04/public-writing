@@ -2,6 +2,8 @@
 
 This directory contains the operational materials supporting [The Fieldlight Archive Method](../fieldlight-archive-method.md).
 
+Version 1.0 was amended on August 21, 2026 to add the cross-surface completeness rule: no single preservation surface should be presumed complete. The amendment is recorded in the specification, protocol, and version history.
+
 [Download the complete Version 1.0 package](../fieldlight-archive-method-v1.0.zip) as a single ZIP archive.
 
 ## Package contents

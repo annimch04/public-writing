@@ -5,6 +5,7 @@ status: "Published"
 version: "1.0"
 prepared_at: "2026-08-13"
 published_at: "2026-08-15"
+amended_at: "2026-08-21"
 author: "Anni McHenry"
 canonical_category: "Field Notes and Signal Work"
 related_categories:
@@ -22,6 +23,8 @@ license_url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 ## Human–AI stewardship of a living personal corpus
 
 **VERSION 1.0 • AUGUST 2026**
+
+**AMENDED AUGUST 21, 2026 • CROSS-SURFACE COMPLETENESS**
 
 > Preserve first. Interpret second. Publish by design.
 
@@ -54,6 +57,16 @@ This distinction prevents two common failures:
 
 Begin with the largest coherent source unit that can be responsibly described. Promote an individual representation when it is independently cited, materially different, differently restricted, or necessary to establish a version or evidence claim.
 
+## Completeness is a cross-surface claim
+
+> **No single preservation surface should be presumed complete.**
+
+A preservation surface is the mechanism through which a record survives: a platform export, local application cache, app library, filesystem copy, repository, screenshot, public page, or physical object. One source may leave different—and differently incomplete—representations across several surfaces. One meaningful relationship may also require evidence from more than one domain.
+
+Completeness therefore cannot be inherited from the confidence of a product interface, the size of the newest export, or the apparent continuity of one application. It must be stated against a declared set of inspected surfaces and dated source states. Uninspected, inaccessible, and contradictory surfaces remain explicit gaps.
+
+This extends rather than replaces the source-versus-representation distinction: the central unit remains the source, while any claim about historical completeness belongs to the reconciled surface set.
+
 ## The method in one line
 
 > **Scope → preserve → inventory → derive → orient → select → extract → connect → synthesize → review and publish**
@@ -66,25 +79,25 @@ The stages are ordered, but not perfectly linear. Later evidence may require a c
 
 Define one acquisition boundary before touching the material.
 
-State what is included, what is excluded, why the materials belong in one batch, where they came from, and what privacy default applies. A folder, device, album, storage box, course term, repository owner, or export date may supply the boundary.
+State what is included, what is excluded, why the materials belong in one batch, where they came from, which preservation surfaces and dated states were inspected, and what privacy default applies. A folder, device, album, storage box, course term, repository owner, export date, or local cache may supply the boundary.
 
 Completion test: another person can state exactly what the accession covers—and what it does not.
 
 ### 1. Preserve
 
-Copy or export originals without editing them. Retain original filenames, directory structure, and available metadata. Calculate cryptographic hashes when provenance or future verification matters.
+Copy or export originals without editing them. Retain original filenames, directory structure, available metadata, and the surface and state from which each representation was acquired. Calculate cryptographic hashes when provenance or future verification matters.
 
 Preservation masters are evidence. OCR, cropping, conversion, annotation, correction, and redaction happen elsewhere.
 
-Completion test: counts reconcile and the preserved files can be verified against an integrity manifest.
+Completion test: counts reconcile within each acquired surface state, the preserved files can be verified against an integrity manifest, and no acquired state has been silently merged into another.
 
 ### 2. Inventory
 
-Assign stable identifiers to sources and record their basic identity: type, parent or series, date and date basis, custody, rights, privacy, preservation location, representation count, and current processing status.
+Assign stable identifiers to sources and record their basic identity: type, parent or series, date and date basis, custody, rights, privacy, preservation location, preservation surface and state, representation count, and current processing status.
 
 Identifiers are never recycled. When one source is later found to contain two distinct sessions or works, retain the existing ID with the first defensible unit and append a new ID for the newly distinguished unit. Record the split.
 
-Completion test: every source in the accession is represented, and every representation points to one source or an explicitly unresolved assignment.
+Completion test: every source in the accession is represented, every representation points to one source or an explicitly unresolved assignment, and surface-specific absences are not treated as nonexistence.
 
 ### 3. Derive
 
@@ -122,7 +135,7 @@ Completion test: another reviewer can locate the evidence and distinguish what w
 
 ### 7. Connect
 
-Record each substantive relationship as a claim with its source, target, relationship type, evidentiary basis, confidence, privacy, note, and next verification action.
+Record each substantive relationship as a claim with its source, target, relationship type, preservation surfaces, evidentiary basis, confidence, privacy, note, and next verification action.
 
 Use distinct evidence bases:
 
@@ -183,6 +196,7 @@ This is a human-governed method that uses AI as a high-throughput archival and a
 - that two artifacts are the same source;
 - that a symbolic recurrence is causal, predictive, or true;
 - that absence from a reviewed representation means nonexistence;
+- that absence from one preservation surface means absence from the historical record;
 - that access means permission to publish;
 - that folder location proves authorship;
 - that a coherent explanation is more important than contradictory evidence;
@@ -227,6 +241,12 @@ Academic and project folders contained creator drafts, collaborator material, in
 
 An early synthesis over-weighted the newly cataloged historical notebooks and writing packages while failing to inspect current technical and institutional work. That synthesis was retracted. Whole-corpus claims now require a declared cross-domain evidence boundary and active search for disconfirming current work.
 
+### Every available export is not every available preservation surface
+
+A ChatGPT conversation created on **April 23, 2025 at 19:08:39 UTC** survived in two successive local cache representations dated **April 24, 2025 at 04:01:08 UTC** and **05:30:01 UTC**. Its stable identity and exact title were absent from the reconciled union of three official exports. The later cache state added 36 message nodes and removed none from the earlier state.
+
+This does not establish why the conversation was missing from the exports, and the cache is not presumed complete. It establishes the narrower—and methodologically decisive—fact that even the union of every available export did not exhaust the locally preserved historical record. The method now requires surface-state reconciliation before a completeness claim.
+
 ### Compelling symbolism is not validation
 
 Symbolic and narrative relations can guide selection and generate research questions. They cannot establish ontology, causality, prophecy, or external fact. Later formal reasoning must be allowed to validate, falsify, constrain, or operationalize the earlier recognition.
@@ -238,13 +258,14 @@ A small archive does not need a complex database. It needs a durable trail:
 1. originals;
 2. an integrity or transfer note;
 3. a source register;
-4. working derivatives;
-5. one orientation map per source or coherent series;
-6. bounded evidence packets;
-7. transcriptions or structured descriptions;
-8. connection claims with basis and confidence;
-9. dated analysis memos;
-10. separate, reviewed public derivatives.
+4. a preservation-surface statement naming inspected states and known gaps;
+5. working derivatives;
+6. one orientation map per source or coherent series;
+7. bounded evidence packets;
+8. transcriptions or structured descriptions;
+9. connection claims with basis and confidence;
+10. dated analysis memos;
+11. separate, reviewed public derivatives.
 
 The supporting [Version 1.0 package](./fieldlight-archive-method/) provides the operational protocol, implementation notes naming the concrete toolchain, blank templates, a redacted worked example, and a [public companion workbook](./fieldlight-archive-method/fieldlight-archive-method-public-workbook.xlsx). The workbook publishes the reusable structure, aggregate field-test evidence, and public-work register without exposing the private master catalog.
 
