@@ -16,11 +16,42 @@ Pythia is a split-realm system:
 ## Published Artifacts
 
 - [The Pythia Games](the-pythia-games.md)
+- [Pythia World Architecture](world-architecture.md)
 
 ## Fieldlight Reading Surface
 
 - [Pythia Story World](https://fieldlight.com/story-worlds/pythia/)
 - [The Pythia Games](https://fieldlight.com/writing/the-pythia-games/)
+- [The Mechanics of the Loop](https://fieldlight.com/writing/the-mechanics-of-the-loop/)
+
+These three surfaces carry different functions within the same world:
+
+- **the manuscript** carries embodiment, voice, memory, desire, and consequence
+- **the story-world map** carries factions, geography, power, and the plot engine
+- **the Loop essay** carries the proposed interface, participation, and governance theory
+
+Pythia moves among all three. Story discovers a relation; system language makes it inspectable;
+new scenes test whether it survives contact with bodies, choices, and consequence; the public
+interface gives the reader a way into the resulting world.
+
+## Recovered Architecture Now in the Public World
+
+The recovered 2025 development vault substantially expands the public container. Its current,
+mediated architecture is preserved in [Pythia World Architecture](world-architecture.md) and
+rendered visually on the story-world surface.
+
+The integrated material includes:
+
+- the Ninneva / Zeke / House circuit and the Bonded Pair as a structural event
+- the Codex of Bonded Pairs, Laws of Desire, and Treatise of Coherence as a three-part constitutional stack
+- fuller character vectors for Ninneva and Zeke
+- the House as responsive memory, instrument, witness, and permission system
+- the Bookcase Seam, Resonance Chamber, and Chamber of Convergence
+- all Nine Trials of Coherence
+- the alternate Rukus doctrine, preserved beside the current realm ontology rather than flattened into it
+
+The raw recovered notes remain private archive sources. The public specification is a deliberate
+interpretive layer, not a source dump.
 
 ## Active Build Layers
 
