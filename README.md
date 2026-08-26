@@ -6,6 +6,8 @@ This repository is the canonical source archive for public writing by Anni McHen
 
 It is separate from Fieldlight Institute. Fieldlight Institute may cite, link, license, commission, purchase, or adapt work from this repository, but this repository preserves the authorship source of the writing itself.
 
+Cross-repository works are tracked in the [Institutional Works Register](INSTITUTIONAL-WORKS-REGISTER.md), which distinguishes personal authorship sources, institutionally canonical artifacts, and public reading surfaces.
+
 ## Migration Status
 
 This repository is being built gradually from the public Say It Plain archive.
