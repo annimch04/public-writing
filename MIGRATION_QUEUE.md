@@ -26,8 +26,8 @@ Use this file as the migration checklist. Migration does not need to follow arch
 - [x] Small Stories for the Child in All of Us
   Source: https://sayitplain.posthaven.com/small-stories-for-the-child-in-all-of-us  
   Canonical category: `fiction-myth-and-story-worlds`
-  Canonical entry: `Everything Was a Little Wild`
-  Disposition: Preserved as Entry 01 of an open collection; a Fieldlight reading surface is deferred until the collection contains another entry.
+  Canonical entries: `Everything Was a Little Wild` (Entry 01, published); `One Bark` (Entry 02, recovered draft)
+  Disposition: Preserved as an open collection. A Fieldlight reading surface remains deferred until the recovered second entry completes editorial review.
 
 - [x] Constructed Interiors
   Source: https://sayitplain.posthaven.com/pending

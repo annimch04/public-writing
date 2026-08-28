@@ -9,8 +9,8 @@ source_url: "https://sayitplain.posthaven.com/small-stories-for-the-child-in-all
 author: "Anni McHenry"
 canonical_category: "Fiction, Myth, and Story Worlds"
 genre: "Short prose / childhood story"
-archive_note: "The first published entry in an open collection of separate small stories. Preserved as canonical writing; a Fieldlight reading surface is deferred until the collection contains another entry."
-reading_surface_status: "deferred_until_collection"
+archive_note: "The first published entry in an open collection of separate small stories. Preserved as canonical writing; the collection now also contains the recovered draft One Bark."
+reading_surface_status: "deferred_pending_second_entry_review"
 ---
 
 # Everything Was a Little Wild
