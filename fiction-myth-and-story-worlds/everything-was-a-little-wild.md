@@ -10,7 +10,7 @@ author: "Anni McHenry"
 canonical_category: "Fiction, Myth, and Story Worlds"
 genre: "Short prose / childhood story"
 archive_note: "The first published entry in an open collection of separate small stories. Preserved as canonical writing; the collection now also contains the recovered draft One Bark."
-reading_surface_status: "deferred_pending_second_entry_review"
+reading_surface_status: "published_in_collection_surface"
 ---
 
 # Everything Was a Little Wild

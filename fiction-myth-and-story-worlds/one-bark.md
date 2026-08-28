@@ -2,7 +2,7 @@
 title: "One Bark"
 series: "Small Stories for the Child in All of Us"
 series_entry: 2
-status: "draft"
+status: "published"
 source: "Recovered Obsidian vault"
 source_title: "Children’s_book_big_dog.yml"
 source_date: "2025-12-23"
@@ -10,36 +10,42 @@ author: "Anni McHenry"
 canonical_category: "Fiction, Myth, and Story Worlds"
 genre: "Children's picture-book outline"
 age_range: "4–8"
-archive_note: "Recovered from Obsidian Sync deleted-file history on August 28, 2026. Preserved here as a draft sequence; the historical source remains in the recovered 2025 vault."
-reading_surface_status: "deferred_pending_editorial_review"
+archive_note: "Recovered from Obsidian Sync deleted-file history on August 28, 2026. The historical source remains in the recovered 2025 vault; this edited story is the first public form."
+reading_surface_status: "published_in_collection_surface"
 ---
 
 # One Bark
 
-_Small Stories for the Child in All of Us — Entry 02, draft_
+_Small Stories for the Child in All of Us — Entry 02_
 
-The world is quiet. The fences are still.
+The morning was quiet. Even the fences seemed asleep.
 
-Atlas lifts his head. He sees.
+Atlas lay in his yard, watching the sidewalk.
 
-“Woof,” says Atlas. Just one.
+Then someone turned the corner.
 
-“Bark!” says one little dog. “Bark bark!” says another.
+Atlas lifted his head. He saw.
 
-Soon, the whole block is barking.
+“Woof,” said Atlas. Just one.
 
-Atlas does not bark again. He already said what he needed to say.
+A little dog heard him through the fence.
 
-The walker smiles and keeps going.
+“Bark!” cried the little dog.
 
-One by one, the barking stops.
+“Bark bark!” answered another.
 
-Atlas lies down. He is still watching.
+The sound leapt from yard to yard until the whole block was barking at once.
+
+Atlas did not bark again. He had already said what he needed to say:
+
+_I see you._
+
+The walker smiled and kept going.
+
+One by one, the little dogs ran out of barks.
+
+The street grew quiet.
+
+Atlas lay down. He was still watching.
 
 _The big dog knew. And that was enough._
-
-## Development frame
-
-Atlas is a calm, observant mastiff who communicates only what he sees. The little dogs are excitable and well-meaning; they repeat his signal without sharing its source. The story moves from stillness to echo and back to stillness, asking young readers to notice the difference between seeing, reacting, and copying.
-
-The visual language should remain warm and gentle, with expressive animal faces and a clear contrast between Atlas's quiet attention and the neighborhood's expanding noise.
