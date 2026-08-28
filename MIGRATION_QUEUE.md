@@ -26,7 +26,7 @@ Use this file as the migration checklist. Migration does not need to follow arch
 - [x] Small Stories for the Child in All of Us
   Source: https://sayitplain.posthaven.com/small-stories-for-the-child-in-all-of-us  
   Canonical category: `fiction-myth-and-story-worlds`
-  Canonical entries: `Everything Was a Little Wild` (Entry 01); `One Bark` (Entry 02, recovered and edited)
+  Canonical entries: `Everything Was a Little Wild` (Entry 01); `One Bark` (Entry 02, recovered and edited); `A Snake Named Jake` (Entry 03, extracted and edited from a handwritten 2023 source)
   Disposition: Preserved as an open collection with a Fieldlight reading surface.
 
 - [x] Constructed Interiors

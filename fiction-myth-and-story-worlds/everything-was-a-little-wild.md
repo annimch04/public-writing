@@ -9,7 +9,7 @@ source_url: "https://sayitplain.posthaven.com/small-stories-for-the-child-in-all
 author: "Anni McHenry"
 canonical_category: "Fiction, Myth, and Story Worlds"
 genre: "Short prose / childhood story"
-archive_note: "The first published entry in an open collection of separate small stories. Preserved as canonical writing; the collection now also contains the recovered draft One Bark."
+archive_note: "The first published entry in an open collection of separate small stories. Preserved as canonical writing; the collection now also contains One Bark and A Snake Named Jake."
 reading_surface_status: "published_in_collection_surface"
 ---
 
