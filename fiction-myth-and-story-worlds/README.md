@@ -6,6 +6,7 @@ These pieces are not separate from the Fieldlight system; they are one of the pl
 
 ## Migrated Pieces
 
+- [On…](./on-collage/on.md) — a five-part literary collage; [read at Fieldlight](https://fieldlight.com/writing/on/)
 - [Everything Was a Little Wild](./everything-was-a-little-wild.md) — _Small Stories for the Child in All of Us_, Entry 01
 - [One Bark](./one-bark.md) — _Small Stories for the Child in All of Us_, Entry 02
 - [A Snake Named Jake](./a-snake-named-jake.md) — _Small Stories for the Child in All of Us_, Entry 03

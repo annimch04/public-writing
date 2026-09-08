@@ -5,9 +5,11 @@ form: "literary collage"
 written: "Fall 2024"
 reading_edition_date: "2026-09-07"
 reading_edition_revision: 4
-status: "reading-edition-draft"
+status: "published"
+release_date: "2026-09-07"
 canonical_category: "fiction-myth-and-story-worlds"
-proposed_reading_path: "/writing/on/"
+canonical_url: "https://fieldlight.com/writing/on/"
+share_image: "https://fieldlight.com/writing/on/assets/on-share-2026-09-07.png"
 ---
 
 # On…
