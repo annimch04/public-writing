@@ -4,7 +4,7 @@ author: "Anni McHenry"
 form: "literary collage"
 written: "Fall 2024"
 reading_edition_date: "2026-09-07"
-reading_edition_revision: 3
+reading_edition_revision: 4
 status: "reading-edition-draft"
 canonical_category: "fiction-myth-and-story-worlds"
 proposed_reading_path: "/writing/on/"
@@ -72,7 +72,7 @@ In the end I was no match for a rodent who knew parkour. We’re both pretending
 
 The rest of the season passes amicably. The oaks leaves start to turn to rust as cool mornings set in. In the afternoon I work, cutting dead flowers, trimming leggy branches, and covering delicate roots for a harsh winter chill. In the once bare soil below Chad’s picnic table where the pot once swayed, I peek a vibrant pink petal tipped on deep green waxed stems—spreading wide, reaching, striving, determined—Flaming Katy made it after all.
 
-Chad had been hiding nuts in all my outdoor pots. I bring the pots inside for winter. Come spring, oak trees are growing all over my house.
+Chad, as it turns out, had diversified. In every outdoor pot I so carefully tend, he’s been hiding nuts. I bring the pots inside for winter, protecting my delicate flora from the cold, providing the portly opportunist’s portfolio with a place to mature. Come spring, oak trees are growing all over my house.
 
 ## On early experiences with books & reading
 
