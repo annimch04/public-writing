@@ -9,6 +9,7 @@ photographs_date: "2025-09-20"
 location: "San Francisco"
 canonical_category: "Field Notes and Signal Work"
 canonical_url: "https://fieldlight.com/writing/at-two-heights/"
+share_image: "https://fieldlight.com/writing/at-two-heights/assets/at-two-heights-share-2026-09-08.png"
 editorial_assistance: "Sequence and accompanying text developed with Codex, September 2026"
 ---
 
