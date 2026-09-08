@@ -34,7 +34,7 @@ The repositories do not have to contain identical files. They do have to state w
 | FL-IWR-005 | Participant Charter | Constitutional artifact proposed by Fieldlight Institute | Not applicable | [`fieldlight-institute/human-subjects-research-for-ai-systems`](https://github.com/fieldlight-institute/human-subjects-research-for-ai-systems/blob/main/PARTICIPANT-CHARTER.md) | [Read](https://fieldlight.com/institute/participant-charter/) | Institute-only constitutional record |
 | FL-IWR-006 | Negative Permission State Model | Institute implementation specification | Not applicable | [`fieldlight-institute/human-subjects-research-for-ai-systems`](https://github.com/fieldlight-institute/human-subjects-research-for-ai-systems/blob/main/NEGATIVE-PERMISSION-STATE-MODEL.md) | [Companion representation](https://fieldlight.com/institute/the-right-not-to-be-processed/) | Institute-only implementation record |
 | FL-IWR-007 | Fieldlight Human Research Utility | Institute infrastructure proposal | Not applicable | [`fieldlight-institute/human-subjects-research-for-ai-systems`](https://github.com/fieldlight-institute/human-subjects-research-for-ai-systems/blob/main/FIELDLIGHT-HUMAN-RESEARCH-UTILITY.md) | [Program entry](https://fieldlight.com/institute/) | Institute-only infrastructure record |
-| FL-IWR-008 | Governed Human–AI Archive Acquisition | Institute research method and pilot proposal | Not a separate personal authorship source | [`fieldlight-institute/human-subjects-research-for-ai-systems`](https://github.com/fieldlight-institute/human-subjects-research-for-ai-systems/blob/main/GOVERNED-HUMAN-AI-ARCHIVE-ACQUISITION.md) | [Local reading surface](http://127.0.0.1:8765/institute/governed-archive-acquisition/) | Institute-only method; public release pending |
+| FL-IWR-008 | Governed Human–AI Archive Acquisition | Institute research method and pilot proposal | Not a separate personal authorship source | [`fieldlight-institute/human-subjects-research-for-ai-systems`](https://github.com/fieldlight-institute/human-subjects-research-for-ai-systems/blob/main/GOVERNED-HUMAN-AI-ARCHIVE-ACQUISITION.md) | [Read](https://fieldlight.com/institute/governed-archive-acquisition/) | Institute-only method; public reading surface published September 1, 2026 |
 
 ## Provenance Records
 
@@ -102,7 +102,10 @@ The repositories do not have to contain identical files. They do have to state w
 - Institutional authority: compensated, identity-blind, no-human-read method for acquiring and studying conversational and coding-harness archives.
 - Current version: working proposal 0.1; not yet recruiting.
 - Architectural invariants: anonymous entry unless a participant explicitly chooses to be known; no Fieldlight human reads participant transcripts.
-- Current source state: local Institute source and reading surface; commit and public publication pending review.
+- Historical rollout state, before the September 1, 2026 release: local Institute source and reading surface; commit and public publication pending review.
+- Current source state, reconciled September 7, 2026: committed Institute source and [public reading surface](https://fieldlight.com/institute/governed-archive-acquisition/).
+- Institutional source commit: `9574cc0b7914b1aa6049fe12323f06c5ee20e807` — September 1, 2026, “Add governed archive acquisition method.”
+- Reading-surface addition commit: `442b8c605104e8654c814b51341fd8088df5df13` in `fieldlight-institute/fieldlight.com` — September 1, 2026, “Publish governed archive acquisition surface.”
 - Authorial routing decision: Institute-only method. Its relationship to Anni McHenry's public corpus is recorded here without duplicating the source into `public-writing`.
 - License: Fieldlight Institute copyright and use notice; all rights reserved unless otherwise stated.
 

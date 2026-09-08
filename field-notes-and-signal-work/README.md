@@ -5,6 +5,7 @@ Migrated pieces in this category hold field manuals, signal language, symbolic o
 ## Migrated Pieces
 
 - [alt: a record of return](./alt-a-record-of-return.md) — interactive record with a sanitized public dataset
+- [At Two Heights](./at-two-heights.md) — photographic essay pairing street and aerial photographs from September 20, 2025; published September 7, 2026
 - [A Seeker's Field Guide](./a-seekers-field-guide.md)
 - [Architecture of Becoming](./architecture-of-becoming.md)
 - [The Fieldlight Archive Method](./fieldlight-archive-method.md) — Version 1.0 method with an August 21, 2026 cross-surface completeness amendment
