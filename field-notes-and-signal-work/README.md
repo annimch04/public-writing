@@ -16,3 +16,5 @@ Migrated pieces in this category hold field manuals, signal language, symbolic o
 - [Signal Archive](./signal-archive/) — clustered signal records
 - [Source Artifacts](./source-artifacts/) — original public records preserved with provenance and successor links
 - [Still Not Sorry: The Naming](./still-not-sorry-the-naming.md)
+
+- [Fieldlight at 1AM](./fieldlight-at-1am.md) — a domestic exhibition, composed June 5, 2025; photographic reading surface published September 10, 2026.
