@@ -8,6 +8,10 @@ It is separate from Fieldlight Institute. Fieldlight Institute may cite, link, l
 
 Cross-repository works are tracked in the [Institutional Works Register](INSTITUTIONAL-WORKS-REGISTER.md), which distinguishes personal authorship sources, institutionally canonical artifacts, and public reading surfaces.
 
+## Latest publication
+
+[I Was Still Writing](runtime-trust-and-governance/i-was-still-writing.md) — Private work, borrowed authority, and the right to finish your own story. September 11, 2026. [Read on Fieldlight](https://fieldlight.com/writing/i-was-still-writing/).
+
 ## Migration Status
 
 This repository is being built gradually from the public Say It Plain archive.

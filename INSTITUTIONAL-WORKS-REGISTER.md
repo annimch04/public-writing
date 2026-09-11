@@ -36,6 +36,8 @@ The repositories do not have to contain identical files. They do have to state w
 | FL-IWR-007 | Fieldlight Human Research Utility | Institute infrastructure proposal | Not applicable | [`fieldlight-institute/human-subjects-research-for-ai-systems`](https://github.com/fieldlight-institute/human-subjects-research-for-ai-systems/blob/main/FIELDLIGHT-HUMAN-RESEARCH-UTILITY.md) | [Program entry](https://fieldlight.com/institute/) | Institute-only infrastructure record |
 | FL-IWR-008 | Governed Human–AI Archive Acquisition | Institute research method and pilot proposal | Not a separate personal authorship source | [`fieldlight-institute/human-subjects-research-for-ai-systems`](https://github.com/fieldlight-institute/human-subjects-research-for-ai-systems/blob/main/GOVERNED-HUMAN-AI-ARCHIVE-ACQUISITION.md) | [Read](https://fieldlight.com/institute/governed-archive-acquisition/) | Institute-only method; public reading surface published September 1, 2026 |
 
+| FL-IWR-009 | I Was Still Writing | Authored investigative essay | [`runtime-trust-and-governance/i-was-still-writing.md`](runtime-trust-and-governance/i-was-still-writing.md) | No separate institutional version | [Read](https://fieldlight.com/writing/i-was-still-writing/) | Author-owned source and Fieldlight reading surface; September 11, 2026 |
+
 ## Provenance Records
 
 ### FL-IWR-001 — Institutional Transition Documentation Methodology
