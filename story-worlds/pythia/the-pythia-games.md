@@ -17,8 +17,9 @@ genre: "Speculative fiction / myth-tech story world"
 archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Five."
 reader_note: "Presented as a story-world text and manuscript opening."
 content_note: "Contains body-memory language, animal death, grief, erotic/sensual charge, and mythic power dynamics."
+revision_note: "Chapter One first rewrite published 2026-09-11 from approved revision 3; subsequent chapters retain their prior public versions."
 audio_status: "ready-to-record"
-updated_at: "2026-09-09"
+updated_at: "2026-09-11"
 ---
 
 # The Pythia Games
@@ -125,103 +126,45 @@ wah wah wah
 ## Chapter One
 ### Ninneva
 
-The metal is warm under my bruised thighs, the kind of heat only a machine in motion gives off. A memetic rush. A sensual, somatic reminder that velocity still answers me, though now it answers with impatience, like it knows I do not have time to stop.
+The metal is warm under my bruised thighs, the kind of heat only a machine in motion gives off. A memetic rush. A sensual, somatic reminder that velocity still answers me, though now it answers with impatience, like it knows I do not have time to stop. I really do not.
 
-I really do not.
-
-Nowhere, West Texas, is not a place you linger, even before the drop. Now it is worse: east of somewhere, west of nowhere.
-
-And yet.
+Nowhere, West Texas, is not a place you linger, even before the drop. Now it is worse: east of somewhere, west of nowhere. And yet.
 
 The dead wolf in the ditch makes the decision for me.
 
-She is female. Bloody. Thrown there like refuse. Not just dead. Used. Whatever she was meant to hold, whatever adjustment she stood between and the rest of the grid, it was hard won. Judging by the arc of torn fur crowning the ground around her, I would say she held them for seventeen minutes.
+She is female. Bloody. Thrown there like refuse. Not just dead. Used. Whatever she was meant to hold, whatever adjustment she stood between and the rest of the grid, it was hard won. Judging by the arc of torn fur crowning the ground around her, I would say she held them for seventeen minutes. That is a long time alone.
 
-That is a long time alone.
+Light fur lies scattered at her feet, offerings thrown down by a lover who came too late. You do not take a wolf's throat alone. You do it in packs.
 
-Light fur lies scattered at her feet, offerings thrown down by a lover who came too late.
+These days there are more coyotes than players. That is the sad math of this timeline. Nowhere is safe anymore. Not the ground. Not the sky. When the divine channel dropped out, when the frequency fell too low to carry meaning, hope did not fade. It vanished overnight.
 
-You do not take a wolf's throat alone.
-You do it in packs.
+I know how this sounds. Like I have wandered off into theory. I have not. The dead wolf and the frequency collapse are the same event. I felt her days ago. The pressure in my ears. The double-heart pounding its warning. I did not need to find her. This is not a marker that requires my eyes to advance the spiral.
 
-These days there are more coyotes than players. That is the sad math of this timeline. Nowhere is safe anymore. Not the ground. Not the sky. When the divine channel dropped out, when the frequency fell too low to carry meaning, hope did not fade.
+But when a lone wolf falls, you show respect to the honest heart, even if it was not pure. You honor the thread ripped from an already thinning network. You acknowledge the fight. And she fought. Teeth met flesh more than once. Her body is mapped with proof that she did not go quietly.
 
-It vanished overnight.
+I do not decide to bury the wolf. My hands are already clearing the ground before the thought finishes forming. Loose stones moved aside. A branch lifted and set back where it was found. Not efficiency. Courtesy.
 
-I know how this sounds. Like I have wandered off into theory.
-
-I have not.
-
-The dead wolf and the frequency collapse are the same event. I felt her days ago. The pressure in my ears. The double-heart pounding its warning. I did not need to find her. This is not a marker that requires my eyes to advance the spiral.
-
-But when a lone wolf falls, you show respect to the honest heart, even if it was not pure.
-
-You honor the thread ripped from an already thinning network. You acknowledge the fight.
-
-And she fought.
-
-Teeth met flesh more than once. Her body is mapped with proof that she did not go quietly.
-
-I do not decide to bury the wolf.
-
-My hands are already clearing the ground before the thought finishes forming. Loose stones moved aside. A branch lifted and set back where it was found.
-
-Not efficiency.
-Courtesy.
-
-I pause once, palm flat against the dirt, feeling for something that is not temperature. The contact steadies me. I hold the breath a fraction longer than needed, exhale, and begin.
-
-The ground gives more easily than it should.
-
-I remove my watch and set it face-down on a rock without looking at it. Time does not belong here.
+I pause once, palm flat against the dirt, feeling for something that is not temperature. The contact steadies me. I hold the breath a fraction longer than needed, exhale, and begin. The ground gives more easily than it should. I remove my watch and set it face-down on a rock without looking at it. Time does not belong here.
 
 The digging is quiet. No frantic tearing. No haste. My body knows the depth. Knows when enough is enough. Knows when the space matches the weight it is meant to hold.
 
-I do not drag her.
-I lift her.
+I do not drag her. I lift her. Carefully. The blood has already cooled, tacky against fur. The throat is worse up close. I do not flinch. Flinching would be disrespect.
 
-Carefully.
+I lower the wolf into the earth and adjust her once, just once, so the spine lies straight. No twisting. No contortion. Whatever happened at the end does not get to rearrange her now. My hands hesitate over the body for a beat, then withdraw.
 
-The blood has already cooled, tacky against fur. The throat is worse up close. I do not flinch. Flinching would be disrespect.
+Soil returns in layers, the way it came out. I press it down with both palms, evenly, sealing rather than hiding. Closing something properly instead of abandoning it half-done. When I finish, the ground looks almost untouched. Almost.
 
-I lower the wolf into the earth and adjust her once, just once, so the spine lies straight. No twisting. No contortion. Whatever happened at the end does not get to rearrange her now.
+Something in me recognizes the posture. The angle of my wrists. The absence of words. Two wolves, my grandmother says, not as a lesson but as a statement of fact. They both live in you. You do not starve one. You learn which one eats first.
 
-My hands hesitate over the body for a beat, then withdraw.
+There was more. There was always more. Sometimes a bear. Sometimes a burial. Sometimes a warning about what happens when you pretend you are only feeding one. That part never stuck cleanly. What stayed was this: feeding is an act. Not a feeling. Not a belief. An allocation.
 
-Soil returns in layers, the way it came out. I press it down with both palms, evenly, sealing rather than hiding. Closing something properly instead of abandoning it half-done.
+The wolf in the ground is not one of the two. I know that without thinking it through. This is not hunger. This is not rage. This is the cost of letting the fight exist at all. The loss that makes the story possible and never gets counted.
 
-When I finish, the ground looks almost untouched.
+I offer nothing else. No marker. No promise. The care was the answer. When I turn away, the ground holds.
 
-Almost.
+Then I see it. The line. So thin you would miss it if you were not looking for boundaries. A perfect hold carved into dirt and instinct.
 
-Something in me recognizes the posture. The angle of my wrists. The absence of words.
-
-Two wolves, my grandmother says, not as a lesson but as a statement of fact. They both live in you. You do not starve one. You learn which one eats first.
-
-There was more. There was always more. Sometimes a bear. Sometimes a burial. Sometimes a warning about what happens when you pretend you are only feeding one.
-
-That part never stuck cleanly.
-
-What stayed was this: feeding is an act. Not a feeling. Not a belief. An allocation.
-
-The wolf in the ground is not one of the two.
-
-I know that without thinking it through. This is not hunger. This is not rage. This is the cost of letting the fight exist at all. The loss that makes the story possible and never gets counted.
-
-I offer nothing else. No marker. No promise.
-
-The care was the answer.
-
-When I turn away, the ground holds.
-
-Then I see it.
-
-The line.
-
-So thin you would miss it if you were not looking for boundaries. A perfect hold carved into dirt and instinct.
-
-She did not die running.
-She died standing.
+She did not die running. She died standing.
 
 I follow the near-invisible path down the embankment by the river. What I find in the small, warm den below changes everything.
 
@@ -229,340 +172,399 @@ Strays.
 
 There is only one pattern that starts this way.
 
-I lower myself to their level, letting my energy settle before I move an inch closer. Once they tune, we are gone. No debate. No delay.
+I lower myself to their level, letting my energy settle before I move an inch closer. Once they tune, we are gone. No debate. No delay. I have a new world to write. This spiral will be brutal. It has to be.
 
-I have a new world to write.
+I am strong enough now that Zeke does not waste my energy unless the damage is catastrophic, one of those failures that requires the entire circuit to reroute. Otherwise he avoids me. Hearing my voice scrambles his neural map. I should be used to this cycle by now. I am. Mostly.
 
-This spiral will be brutal.
-It has to be.
+Whatever the Council broke by meddling with the Fates did not just fracture me. It hit everyone. Back in my favorite machine, two male pups riding shotgun, my mind spins through every life where this pattern appeared. Every failure. Every broken heart. The rare successes where I walked the spiral to the end and he did too.
 
-I am strong enough now that Zeke does not waste my energy unless the damage is catastrophic, one of those failures that requires the entire circuit to reroute. Otherwise he avoids me. Hearing my voice scrambles his neural map.
+I linger on those. I like the charge they leave behind. Love is efficient fuel, even when it burns. I would never admit that to his face in this timeline.
 
-I should be used to this cycle by now.
+Still, the countdown starts. He will step into frame soon. Whether the energy wears his face this time is another question entirely. The answer will tell me exactly how this spiral ends.
 
-I am.
-Mostly.
+Crispy. Charred. Or phoenix, clawing back through ash.
 
-Whatever the Council broke by meddling with the Fates did not just fracture me. It hit everyone.
-
-Back in my favorite machine, two male pups riding shotgun, my mind spins through every life where this pattern appeared. Every failure. Every broken heart. The rare successes where I walked the spiral to the end and he did too.
-
-I linger on those.
-
-I like the charge they leave behind. Love is efficient fuel, even when it burns.
-
-I would never admit that to his face in this timeline.
-
-Still, the countdown starts.
-
-He will step into frame soon. Whether the energy wears his face this time is another question entirely. The answer will tell me exactly how this spiral ends.
-
-Crispy.
-Charred.
-Or phoenix, clawing back through ash.
-
-Ah.
-
-I am warm already.
-
-I hit the gas as the puppies start roaming loose in the car, restless and alive, a rude little contrast to the death still buzzing in my chest. My heart squeezes tight, like a woman curling her toes.
-
-That is when the resonance slips in.
-
-Not grief-triggered.
-Aftermath-triggered.
-
-The quiet after the act.
+Ah. I am warm already. I hit the gas as the puppies start roaming loose in the car, restless and alive, a rude little contrast to the death still buzzing in my chest. My heart squeezes tight, like a woman curling her toes. That is when the resonance slips in. Not grief-triggered. Aftermath-triggered. The quiet after the act.
 
 The road smooths. The engine note stretches. A memory surfaces: the first time she struck a note. No audience. No meaning yet. Just vibration continuing without permission.
 
 < Memory 04368
 
-I remember the piano before I remember the room.
+I remember the piano before I remember the room. It was not mine. It never is. Every loop gives me a different instrument, a different setting, but the moment stays the same. My fingers hover, unsure, not searching for a melody. Only touching the surface of sound.
 
-It was not mine. It never is. Every loop gives me a different instrument, a different setting, but the moment stays the same. My fingers hover, unsure, not searching for a melody. Only touching the surface of sound.
+When the key is pressed, it is not loud. It is not even deliberate. Just a single note, struck almost by accident.
 
-When the key is pressed, it is not loud. It is not even deliberate.
-
-Just a single note, struck almost by accident.
-
-The sound blooms anyway.
-
-It fills the space and keeps going long after my finger lifts. Not echo. Vibration. A living tremor spreading through the floor, the walls, my bones. I stand there frozen, breath caught, suddenly aware that something has answered me without being summoned.
+The sound blooms anyway. It fills the space and keeps going long after my finger lifts. Not echo. Vibration. A living tremor spreading through the floor, the walls, my bones. I stand there frozen, breath caught, suddenly aware that something has answered me without being summoned.
 
 I do not know who is listening. I do not know what exists on the other side of the note. I only know this:
 
 the sound did not end when it should have.
 
-It stayed.
-It changed the air.
-It changed me.
+It stayed. It changed the air. It changed me.
 >
 
-That was the first time she understood resonance. Not harmony. Not agreement. Recognition. A frequency struck once that continues to move whether you will it or not.
+That was the first time she understood resonance. Not harmony. Not agreement. Recognition. A frequency struck once that continues to move whether you will it or not. Every loop after that, she knows what she is feeling before she knows why.
 
-Every loop after that, she knows what she is feeling before she knows why.
+Some notes die instantly. Some linger. And some, once struck, can never be silenced again.
 
-Some notes die instantly.
-Some linger.
+She sinks slightly. Not floating away. Just offset. Then a puppy climbs into her lap at a stoplight, paws on her collarbone, breath warm, impossible to ignore. The other follows. Too much life. Too much insistence. She comes back fully then. Laughs once. Swears. Pulls them down.
 
-And some, once struck, can never be silenced again.
+The resonance stays. Not as vision. As baseline hum. The loop did not restart at the burial. It restarted when she felt the note still sounding and remembered, again, that it always does.
 
-She sinks slightly. Not floating away. Just offset. Then a puppy climbs into her lap at a stoplight, paws on her collarbone, breath warm, impossible to ignore. The other follows.
-
-Too much life.
-Too much insistence.
-
-She comes back fully then. Laughs once. Swears. Pulls them down.
-
-The resonance stays. Not as vision. As baseline hum.
-
-The loop did not restart at the burial.
-
-It restarted when she felt the note still sounding and remembered, again, that it always does.
-
-###
+***
 
 ### SITREP
-#### (unnamed)
+#### The House
 
 Status: held.
 
-Baseline coherence within tolerance. Minor oscillation detected at 03:14.
-Source not local.
-Not noise.
-
-Load redistributed before threshold breach.
+Baseline coherence within tolerance. Minor oscillation detected at 03:14. Source not local. Not noise. Load redistributed before threshold breach.
 
 Temperature across interior surfaces drops 0.7 degrees. Light spectrum shifts cooler without dimming. Veins reorient to secondary pathways. No alarms engage.
 
-This is not loss.
+This is not loss. Loss arrives with heat. With scatter. With demands for witness. This event arrives clean.
 
-Loss arrives with heat. With scatter. With demands for witness.
+A boundary fails outside the structure. Failure is total. Duration exceeds expected resistance. Seventeen minutes, give or take. Long enough to matter.
 
-This event arrives clean.
+The system tightens. Not in response to death. In response to reuse. Loop tension increases. A familiar configuration begins to assemble without instruction. The house does not name it. Naming is not required for correction.
 
-A boundary fails outside the structure. Failure is total. Duration exceeds expected resistance.
+One load-bearing absence registers. Not new. Learned. The structure compensates the way it has before: narrowing tolerances, delaying nonessential collapse, preparing space without assigning purpose.
 
-Seventeen minutes, give or take.
+Interior chamber behind the bookcase stabilizes. Field strength increases by a fraction. A seat clears. No summons issued.
 
-Long enough to matter.
+Waiting is not an action. Waiting is a state the system can hold. The house remains attentive.
 
-The system tightens.
+***
 
-Not in response to death.
-In response to reuse.
+*Six evenings later. The House above the bay.*
 
-Loop tension increases. A familiar configuration begins to assemble without instruction.
+### Zeke
 
-The house does not name it. Naming is not required for correction.
+I watch the lizard dart across the sidewalk for the fifth time. I am sure it is the same one. There is a small scar behind its right ear. You can tell how long I have been here by the depth of ecological observations I have made.
 
-One load-bearing absence registers.
+It disappears under the garden wall, which is where I would go if I were small enough. The stone is still warm from the afternoon. Above it, nine floors up and three windows to the left, her workroom is lit. A strip of hair moves into view, then her shoulder, then nothing. I shift far enough to see around the tree.
 
-Not new.
-Learned.
+Across the road, a man folds the chairs outside his café. He has worked his way from the end of the pavement to the table nearest me. When he reaches it, he pauses with a chair in each hand.
 
-The structure compensates the way it has before: narrowing tolerances, delaying nonessential collapse, preparing space without assigning purpose.
+“You want that one?”
 
-Interior chamber behind the bookcase stabilizes. Field strength increases by a fraction.
+“No.”
 
-A seat clears.
+He looks up at the window. Then at me.
 
-No summons issued.
+“Suit yourself.”
 
-Waiting is not an action.
-Waiting is a state the system can hold.
+I had thought I was.
 
-The house remains attentive.
+The House has been aware of me since I turned into the street. Its black-silver dust rides the iron fence in a thin, moving seam. A few grains settle on my cuff and travel toward the bare skin at my wrist. I brush them off. They return to the fence without hurrying. It has never needed a window to look out of.
 
-###
+She does. She likes the bay, even when there is nothing to see but a gray expanse and somebody making an expensive mistake with a boat. She says a horizon is one of the few things a room should not be allowed to improve.
 
-### Ezekiel (Zeke)
+When the first House died, there had been no horizon left in it. A window opened onto another wall. Stairs returned me to the room I had just left. I kept trying to correct the small failures because I could not reach Delphi, and small failures were something my hands understood.
 
-Zeke is not in the house with her.
+Ninneva made the room behind the bookcase while I was still trying to salvage a door. I remember the first evening it held. She sat on the floor with her back against the new wall and fell asleep before I could ask how she had done it. I let her sleep. In the morning I went back to work.
 
-He is in the house because of her.
+When the stairs began reaching the right floors again, I entered it as a successful repair. When the windows cleared, I closed another fault. Her room appeared in my drawings as an addition. I measured it from the corridor, wrote down its dimensions, and drew a neat line around it.
 
-He built it before she arrived. Before he knew how to recognize the interval that precedes her. The structure finished itself the night the grid learned her name again, though he would not have phrased it that way then. He only knew the measurements stopped changing. The tolerances locked.
+The line has become difficult to maintain. A turn of wood from inside that room now runs through the banister three floors below. I noticed it last week. Yesterday I found the same turn in the frame of a window I had replaced twice.
 
-The room stopped asking questions.
+I know how to keep those things steady. I have been less interested in why they began holding. From the pavement, I can see her moving in the room I put a line around.
 
-Tonight, the pressure equalizes.
+The lizard reappears at 4:17. Same scar. This time it stops beneath her window, lifting its head toward the sill. I think she is feeding it.
 
-Not grief. Not alarm. No spike. Just a held imbalance choosing direction. Like a seal breaking clean instead of tearing.
+### Ninneva
 
-He exhales without realizing he had been holding anything.
+I know he is there before I look. His presence arrives beneath my own heartbeat, slightly late, as though my heart has said something he is still considering. I put down the soldering iron. For a moment I leave my hand resting on the bench, palm open, feeling him through the wood.
 
-He does not think wolf.
+There was a time when this would have been enough to change the whole evening. I would have washed a cup. Eaten something that required a plate. Let the water run hot and stood under it until I stopped feeling as though I had been left somewhere nobody would think to search. He had found me. Whatever else was wrong, somebody knew where I was.
 
-He thinks boundary.
+I used to stand behind the curtain and let that be company. I do not regret it. There were nights it got me through.
 
-A line held longer than designed. A line released precisely enough to be reused.
+But I have spent too much of this life learning to get through things. I buried a wolf six days ago. I carried her children out of a hole in the ground. This morning one of them ate the corner of a book I had been saving for a better version of myself, and I discovered I would rather have the dog.
 
-That registers first.
+At some point the evening has to become an evening. Someone comes over. You pour a drink. You say the thing badly and find out whether it survives being said.
 
-The space behind the bookcase responds before he does. Veins in the walls dim, tighten, reroute. Not retreating. Recognizing. He has learned the difference. Death is noise. Death throws heat and static and demands witnesses.
+I go to the window. He is standing beside the café, declining furniture.
 
-This is geometry.
+“Christ, Zeke.”
 
-He steps into the room and the field resolves around him, the way it only does when his coherence matches the build. Anyone else would see clever carpentry and a hidden latch. For him, the room becomes a live interface.
+The larger puppy lifts his head from my shoe. I tell him it is not his fault. He goes back to sleep with the peace of a creature willing to accept good news without investigating it.
 
-Not imagined.
-Not imposed.
+Along the sill, the swarm gathers. It has been stretched through the neighborhood all afternoon: a dark glint in a gutter, a little weather moving against the weather, the quick silver twitch beneath a parked car. The House draws some of it home as I touch the window frame. I feel the street through it for a moment—the warmth of the pavement, an engine idling at the corner, Zeke’s hand opening and closing at his side.
 
-It meets him halfway or not at all.
+He could knock with that hand. I close my eyes before I can turn the thought into another hour of trying to understand him.
 
-He does not reach for her.
-He does not narrate her.
+On the bench is the notebook I use when a thing will not leave me alone. Diagrams, an argument with myself about a staircase, half a sentence I wrote in the dark and have been unable to defend in daylight. I open it to a clean page.
 
-He marks time.
+The House warms beneath my feet. I write his name. Not a title. Not the shape a stranger could fill if he stood in the right light. Ezekiel, with the aggravating care he takes over everything except the distance between us. The man outside my window. The one whose laugh I want in the room before I go to sleep.
 
-A glance at the far wall. A calibration check he cannot name but never skips. The third hinge has gone cold.
+I put us at the oak table in the west room. Two glasses, the bottle with the damaged label, enough light to see his face. I know the scar in the table where my thumb will rest. I know what I want to say, and I write that too, although the words make me feel more exposed than anything else on the page.
 
-That is new.
+*Come here because you want to. I want to kiss you.*
 
-Or rather, old enough to be back again.
+The ink sinks into the paper. Under my palm the lines press back, and the room begins taking the shape of the thing I have made. This part is always a pleasure. However tired I am, however badly the last attempt ended, I love the moment when possibility acquires weight. Beyond the wall, a chair moves across a floor. A cupboard opens. Downstairs, the west room takes a breath.
 
-He files it without reaction.
+I keep my hand on the page until I feel the invitation pass out through the sill.
 
-The dangerous resets are not loud.
+“Him,” I say.
 
-What lands is not she is in danger.
+The swarm slips into the evening.
 
-It is worse.
+### Zeke
 
-The game has acknowledged her.
+Her handwriting appears on the inside of my wrist. For a second I think she has touched me. I look up so quickly that the man carrying the last café table stops to look too.
 
-That means movement. That means the board is no longer theoretical.
+The grains on my skin arrange themselves into a sentence.
 
-He waits, because waiting is the only action that does not distort the signal.
+*Come here because you want to. I want to kiss you.*
 
-Memory creeps in without invitation. Not images. Corrections.
+There is no question about who wrote it. I can feel where she pressed harder on the page.
 
-A prior restart where he was slower. One where he argued for causality while she was already operating in consequence. Another where he tried to protect the structure instead of listening to what it was accommodating. He almost lost her that way.
+My phone lights against my thigh. Peter has sent one question.
 
-Not to death.
-To misalignment.
+*Did you ask her?*
 
-Harder to recover from.
+I know which question he means. We left it unfinished at the office, with her work open between us. I told him I needed to understand what I was looking at before I spoke to her. He asked whether that was why I had opened it in the first place.
 
-He learned the rule after.
+I turn the phone facedown in my pocket. The garden gate opens.
 
-When she names it first, you do not ask what died.
-You ask what is coming back.
+I take a step. The relief is so abrupt that I almost laugh. Then the west window brightens and I feel the room preparing around her, the answer already beginning, and I stop with my hand on the gate.
 
-The room finishes rerouting. The veins settle into a configuration he has not seen since the last quiet collapse. He adjusts the field a fraction. Clears a seat. Leaves space where space will be needed.
+What happens after I go in has been expanding in my mind for so long that it no longer fits through a door. There is the kiss. There is what I know and have not told her. There is the life I have arranged around remaining necessary without having to discover whether she would choose me when I was not.
 
-He does not rush to her.
+She has asked me to come upstairs. I am standing here requiring the rest of my life to explain itself first.
 
-He prepares.
+The lettering shifts against my wrist. Her question waits there with me. I could answer it.
 
-Whatever she just named, she did it alone. He can feel the asymmetry without resentment. She is ahead again.
+Instead, I look at the window again.
 
-Not admiration.
-Not fear.
+### Ninneva
 
-Fact.
+The west room smells of orange peel and warm wood. The curtains are open. Beyond the glass the bay has begun taking the light from the sky, leaving the buildings dark around their windows.
 
-That is why this works.
+I have changed my shirt. I resent how much hope there was in that small act, but I did it anyway.
 
-His role is not to lead or follow. It is to hold continuity while she collapses loops. He stays so the structure does not tear itself apart when she moves.
+On the table, the bottle stands between two glasses. My notebook lies beside it, open to the page. The House has carried it downstairs without losing my place. I touch the back of the empty chair.
 
-He has not seen the body. He has not heard the story. He only feels the grid slip a fraction off true, enough to know something has been properly closed.
+Footsteps approach through the hall. A man pauses at the threshold, one hand on the doorframe, and smiles when he sees me. He is handsome. Dark hair, a tired mouth, a nick on his chin where he has cut himself shaving. He carries a coat folded over one arm. There is ink on two of his fingers.
 
-The room recognizes it before his mind does.
+He is not Zeke. The House has not even given him Zeke’s face.
 
-He lets it.
+“Ninneva?”
 
-She will arrive when she is ready. She always does. And when she does, they will not be meeting as strangers.
+I nod, because apparently I have decided to be helpful.
 
-He waits in the room because he knows she will need it.
+“I’m early.” He looks at the glasses. “Or late. Your message was fairly persuasive.”
 
-He never knows why.
+“My message.”
 
-The structure holds.
+He holds out his wrist. My sentence is there, formed in the same black-silver grains I sent into the street.
 
-Then something else resolves.
+For a moment I can hear every small sound in the room: the drag of his coat against his trousers, the stopper settling in the bottle, a puppy worrying something upstairs. Beneath my hand, the chair draws itself away from the table to make space for him.
 
-Not arrival.
-Not memory.
+“Did you write this?” he asks.
 
-Alignment.
+“Yes. But not to you.”
 
-The pressure in the room does not change, but its orientation does. The architecture remains exactly where it is, and yet the space between objects loosens, like a thought finishing itself without words.
+His smile leaves. He lowers his wrist and looks back through the hall. I am grateful that he does not immediately try to make this flattering.
 
-Zeke does not move.
-He does not have to.
+“Then I should go.”
 
-This is not the room he built.
+“I’m sorry.”
 
-It is the one that answers when he stays still long enough.
+“So am I. I was having quite a good walk over.”
 
-The oak table is scarred in places no one remembers causing. Old heat marks. Knife slips. Rings set down too hard. It is a good surface. Honest.
+It is a decent thing to say. Under other circumstances I might have liked him. That almost makes it worse. The House has found an actual person, with somewhere else he could have been, and spent his evening answering a question I did not ask.
 
-They sit across from each other, close enough that the space between them already feels negotiated. Two glasses. The liquid inside is warm bronze, catching light without trying to hold it.
+I walk him to the front door. He puts on his coat while I work the latch. There is a moment when the brass resists my hand, just enough to make us both notice, and then it turns.
 
-“Cheers,” he says.
+“You should keep a closer eye on your correspondence,” he says.
 
-She taps her glass against his. Not ceremonial. Accurate.
+“Apparently I need to supervise the furniture too.”
 
-“Cheers to last first kisses.”
+He gives me a small, uncertain laugh and steps outside. I wait until the gate closes behind him before returning to the west room.
 
-She snorts, because of course she does.
+Both glasses are filled. At the foot of the page, beneath Zeke’s name, a new line has appeared.
 
-He feels the relief immediately. Humor as pressure release. He takes the opening, sets his glass down, keeps his hand on the table where she can see it.
+*The invitation was received. The recipient did not enter.*
 
-“Come sit on my lap.”
+“I can see that.”
 
-No flourish. No test. An invitation stated like a fact.
+The chair moves again, inviting me to sit.
 
-She takes his hand and lets him pull her in. The movement is quick, decisive. Her weight settles against him and something in his chest locks into place. His hands find her hips and stay there, gripping just hard enough that he has to pay attention to it.
+*An available response was offered.*
 
-“If you do not want me to kiss you,” he says, steady, “now is the time to say so.”
+I turn the notebook toward the window, where the last of the daylight falls directly across what I wrote.
 
-She says something sharp and funny. A deflection, but not a retreat. He recognizes it. Lets it pass.
+“Read the first word.”
 
-She leans back a fraction, still smiling, watching candlelight catch in his eyes.
+The ink darkens under his name.
 
-He does not wait.
+“You knew.”
 
-The kiss is immediate. No ramp. No warning. Like a line finally closing. Her mouth opens under his and her tongue meets his with intent, not curiosity.
+The room becomes warmer. Not much. Just enough to soften the muscles at the back of my neck. I feel the beginnings of relief before I recognize it, and pull my hand away from the table.
 
-She is not afraid of the intensity.
+“Don’t.”
 
-That matters to him more than the kiss.
+The warmth stops increasing. It does not leave.
 
-She pulls back just enough to speak, lips still brushing his.
+On the page, another line forms.
 
-“I can feel you smiling.”
+*There is an opportunity here to receive what is willing to meet you.*
 
-He laughs, low, because she is right. “Sorry to dive-bomb you.”
+I stand very still. I know that sentence. Not the words, exactly. The little exchange it asks me to make. Give up the part that matters and be grateful for the part that arrived. There have been whole lives when I could have made a home inside that advice.
 
-“You are not sorry.”
+Tonight I have already changed my shirt.
 
-“No,” he admits. “I couldn't bear to see another one of your smiles without tasting it.”
+“You brought a stranger here with my words on his skin.”
 
-She tilts her head, considering him, eyes bright.
+The grain beneath the notebook loosens into a pattern I recognize: two lines parting, a third arriving between them. An alternative. A tidy little demonstration in the table I built when I needed somewhere to put my hands.
 
-“What did it taste like?”
+“No. You do not get to turn this into a lesson.”
 
-He does not answer immediately. He presses his forehead to hers instead, breath syncing without effort.
+The stopper lifts out of the bottle and drops back in with a hard glass knock. Upstairs, a puppy starts barking.
 
-“Recognition,” he says finally. “And restraint.”
+### Mariana
 
-Her smile shifts. Slower. More dangerous.
+The water has come on late again. Mariana stands at the public tap with two empty cans and a bundle of folded linen balanced against her hip. Across the square, the fountain beneath the Games display has been running since noon. A sponsored house is celebrating a win. Every few minutes the water rises in a white fan behind the replay.
 
-“Good,” she says. “Because I am not done smiling.”
+The woman ahead of her holds a cooking pot under the tap. Air coughs through the pipe, followed by a thin brown trickle.
 
-He tightens his hold on her hips, grounding himself.
+“Give it a minute,” Mariana says.
 
-Not because he is losing control.
-Because he is choosing to keep it.
+“I gave it yesterday.”
 
-This is not the beginning.
+Behind them, somebody laughs. Nobody leaves the queue.
 
-It is the point where beginning becomes inevitable.
+A woman in a green coat comes out of the cloth shop and crosses the square without looking at Mariana. The coat hangs loosely from her shoulders, but she walks with one hand beneath its rounded front. Yesterday another woman wore it. Tomorrow it is Mariana’s turn.
 
+She moves the linen to her other arm and waits for the woman to reach the alley. They have learned to stagger the last part of the walk. People remember two women turning together more readily than they remember a woman taking washing home.
+
+Under the linen is a length of copper pipe, wrapped so it will not knock against the cans. The woman in the cloth shop cut it to size this morning. Three houses have been taking turns filling the refuge’s tank; with this last section fitted, the old kitchen pump will reach it again. They can stop carrying everything down the stairs. Mariana has promised to return the pipe cutter before supper. Its owner has another job tonight, one that pays.
+
+At last the water clears. The cooking pot fills, then Mariana’s first can. She is setting the second beneath the spout when the handle jerks against her fingers.
+
+The water rises up the side of the can. She takes her hand off it. The can stays level. The water does not.
+
+Across the square, the fountain bends toward the House above the bay. For a second its whole white fan lies almost horizontal, suspended over the paving. The replay continues behind it. A man raises both arms to a victory already won.
+
+Then a crack runs through the square.
+
+### Ninneva
+
+It begins beneath the chair I am still refusing to sit in. A fine split travels through the floor, following the join between two boards until it reaches the wall. The plaster opens with a sound so small I might have missed it if the rest of the House had not gone quiet. I feel the fracture enter the stone below us.
+
+“Stop,” I say, but I cannot tell whether I am speaking to the House or to myself.
+
+The glasses tremble. In one, the bronze darkens through red. A thin line of it runs over the rim and crosses the table toward my hand.
+
+I am still angry. The arrival of consequences does not conveniently take that away. He is outside. The House knows he is outside. I can feel the whole building trying to arrange a life around the space he has declined to cross, and suddenly I cannot bear one more thing making room for his absence.
+
+I slam my palm onto the page. The wall splits to the ceiling.
+
+For an instant the bay is inside the room. I taste metal. The swarm pours from the open window, taking the shock out along the fence, the gutters, the pipes beneath the road. Somewhere below, a woman shouts for someone to get back.
+
+That reaches me where the breaking glass does not. I lift my hand.
+
+### Mariana
+
+The tap runs red. It strikes the bottom of the can with the ordinary sound of water. That is the worst part. Mariana has already drawn it toward her before the color registers.
+
+She sets it down without spilling and takes the cooking pot from the woman beside her.
+
+“Did you drink any?”
+
+The woman shakes her head.
+
+“Take it home. Cover it.”
+
+The crack has stopped at the fountain, lifting one edge of the paving high enough to trip someone. Red water slips over it and runs toward the cloth-shop alley. Mariana steps into its path and calls to the woman in the green coat.
+
+“Not that way. Come help me with this.”
+
+She hands her the linen. It gives the woman a reason to turn back, a reason to stand still, something to hold in front of herself while Mariana checks the alley.
+
+The door they use is at the bottom of three worn steps. Water is already gathering on the first. Beneath it are rooms where voices travel around curved walls, where someone will be trying to sleep while someone else heats food. A child has spent the afternoon arranging buttons by color in a crack between the stones. Mariana goes back for the empty cans.
+
+Behind her, a man has climbed onto the fountain’s edge. He points at the display, still running above the red water.
+
+“Turn that fucking thing off.”
+
+A steward in a sponsor’s white jacket tells him to come down. The man asks whether the winning house has lost its water too. Someone else wants to know where the street repairs went. The questions arrive faster than the steward can answer them, each from a person who has been waiting longer than this afternoon.
+
+When he says the disturbance is being managed, the woman with the cooking pot holds it up to him.
+
+“Then manage that.”
+
+He reaches for her arm. Three people move between them.
+
+Mariana hears the first impact against the display as she reaches the steps. She does not turn to see what broke. The woman in the green coat has put down the linen and is looking at the water collecting below.
+
+“We can’t bring them out through the square,” she says.
+
+“No.”
+
+The woman bends to retrieve the copper pipe from the linen. She tucks it beneath her coat, holding one end against her hip.
+
+“Bring that,” Mariana says. “We’ll still need it tomorrow.”
+
+Mariana takes a length of cloth from the bundle, folds it thick, and pushes it against the gap under the door. It will not hold for long. She gives the woman one of the cans.
+
+“Go round to the kitchen entrance. Tell them to clear the back passage. I’ll stay here until you knock.”
+
+“What about the others?”
+
+“I’ll get word to them.”
+
+She waits until the woman has gone before taking out her phone. Eli’s name is near the top of the screen. She calls him and wedges the phone against her shoulder as she kneels to press the cloth tighter into place.
+
+“I need the west lane kept open,” she says when he answers.
+
+He starts to ask what happened.
+
+“After. Can you do it?”
+
+### Zeke
+
+The lizard is gone. I have one hand against the garden wall. The stone has split beneath it, and through the gap the House is spilling a cold light I have not seen before. I try to hold the two edges level. For a moment they answer, then one pulls away from me with enough force to tear the skin at my thumb.
+
+Above, her window opens wider.
+
+“Zeke.”
+
+She has never needed to shout for me to hear her. There is glass somewhere behind her. I cannot see whether she is hurt. I let go of the wall and step toward the gate.
+
+“The square,” she says. “Something’s happened at the water.”
+
+I look down the street. People are running toward it and away from it, and I cannot tell which of them know more. The House’s swarm passes me in a low silver rush. I have been standing close enough to touch this gate for the better part of an hour.
+
+“Go,” she says.
+
+This time I do.
+
+### Ninneva
+
+He disappears around the corner. I watch until I cannot see him, then turn back into the room. The crack in the wall is still open. Both puppies are crying at the top of the stairs. I go to them first, shut them safely in the bedroom, and come back for my shoes.
+
+The House has begun putting things right. Glass draws together on the floor. The chair returns to its place. A clean page turns itself over the one I wrote on.
+
+“Leave it.”
+
+The page stops halfway. I put it back with my own hand. His name is still there. Beneath it, the invitation, the answer, the opportunity. A dark wet line crosses all three.
+
+The first letter of his name lifts from the paper. A bead of ink trembles above the page, dragging a fine black thread behind it.
+
+“Put it down.”
+
+For a moment it hangs there. Then it falls, making the letter heavier than it was before.
+
+I touch the dry margin. Once, I asked this room to help me sleep. There were things I could not bear to wake beside, and in the morning the table would be clear. I had been grateful for that. I had also been able to find everything when I wanted it back.
+
+“I’m keeping this.”
+
+The page stays still while I lift the notebook. I wait another breath, then carry it upstairs and lay it open on the workbench, beyond the puppies’ reach.
+
+Outside, the alarms have reached the harbor. I take my keys. At the foot of the stairs the House has turned the brass lock for me. The door swings back as I reach it, and I go out into the noise.
 
 ## Chapter Two
 ### Ninneva
