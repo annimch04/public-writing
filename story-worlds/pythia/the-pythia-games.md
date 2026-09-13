@@ -17,9 +17,9 @@ genre: "Speculative fiction / myth-tech story world"
 archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Five."
 reader_note: "Presented as a story-world text and manuscript opening."
 content_note: "Contains body-memory language, animal death, grief, erotic/sensual charge, and mythic power dynamics."
-revision_note: "Chapter One first rewrite published 2026-09-11 from approved revision 3; subsequent chapters retain their prior public versions."
+revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapters Three through Five retain their prior public versions."
 audio_status: "ready-to-record"
-updated_at: "2026-09-11"
+updated_at: "2026-09-13"
 ---
 
 # The Pythia Games
@@ -567,248 +567,278 @@ The page stays still while I lift the notebook. I wait another breath, then carr
 Outside, the alarms have reached the harbor. I take my keys. At the foot of the stairs the House has turned the brass lock for me. The door swings back as I reach it, and I go out into the noise.
 
 ## Chapter Two
+
+### Zeke
+
+The fountain is still celebrating when I reach the square. Above it, a man thirty feet high raises a trophy over water the color of an open mouth. Two stewards stand at the foot of the display, trying to decide which of them has the authority to turn it off. I reach between them and pull the connection from the wall. The winner disappears with his mouth open, and for a moment everybody looks at me. I am stupid enough to mistake the attention for relief.
+
+“There he is,” someone says.
+
+A woman steps forward with a cooking pot and holds it where I have to look inside. The water at the bottom is clear. When I glance toward the public tap, red is still running from it into a can nobody wants to approach.
+
+“This is what I got before,” she says. “Can I use it?”
+
+I put two fingers into the pot. It feels cold and ordinary until a tremor passes through my knuckles and settles behind my teeth. I know how to stop a pipe shaking. Whatever the water is carrying, I cannot tell her whether it is safe.
+
+“Keep it covered. Don’t drink it yet.”
+
+“Until when?”
+
+Behind her, a steward starts promising a further announcement. She looks from him to me, waiting for one of us to say something useful. Before I can fail her again, Eli catches my arm and points toward the west lane, where two men are wheeling a barrier across the entrance.
+
+“Mariana needs that open.”
+
+“Why are they closing it?”
+
+“Because they own barriers.”
+
+I find her at the cloth-shop steps, kneeling with one hand pressed against the bottom of a door. Water runs past on both sides. When she sees Eli, she points toward the passage behind the shop, and he goes without waiting for me. I turn back to the fountain. The crack in the paving ends beneath its base, close to the cover over the supply valves; if I can stop more water entering the square, she might have time to get the people below out.
+
+The cover will not lift. A slab of paving has shifted across one corner, pinning it in place. I brace my foot and pull, feeling the cut in my thumb open against the metal.
+
+“You planning to lift the square?”
+
+The man beside me carries a pry bar. I recognize his narrow, rain-creased face before I remember the meeting: three days ago, at the House, a demonstration of the replacement junction I had ordered. I told him his equipment was faulty because it failed to close a route. Then Ninneva walked through the room and his display lit with channels I had not shown him. I ended the demonstration before he could ask her about them.
+
+Now he puts the bar under the trapped corner and waits for me to move my foot. We lift together. Beneath the cover, the main wheel is turning backward. He drops to his knees and reaches past it for a smaller valve.
+
+“Don’t close that,” I say. “The return will load the—”
+
+“I know where the return goes. I put it in.” He points with the bar at two sets of bolt holes beside the feed, only one of them in use. “They changed that after I signed it off. I kept the order, before you tell me I agreed to it.”
+
+I keep the rest of the explanation behind my teeth. He opens the smaller valve, releasing water into the channel with enough force to spray both our faces. With the pressure diverted, I can hold the shuddering rim steady while he works the main wheel down a quarter turn at a time. Across the square the tap slows, then the fountain. The water already on the paving continues toward Mariana’s door.
+
+“That stops more coming,” he says, getting to his feet. “Doesn’t make any of it safe.”
+
+“I know.”
+
+He looks at me until I hear how I said it, then takes his bar and goes to the woman with the pot. I leave the cover propped against the fountain and follow Eli to the west lane.
+
+He has one hand on the barrier and the other on the shoulder of the steward trying to place it. Behind them, Mariana and another woman are carrying a rolled mattress through the kitchen passage, with a child walking between them, both fists shut. The steward sees me and reaches for his radio.
+
+“I can have someone escort you up to the House.”
+
+“Move this.”
+
+“We’re securing the area.”
+
+Eli shifts his grip to make room for mine. We lift the barrier onto its wheels and push it clear of the passage. The steward steps aside, outraged that the thing has become furniture while he was speaking.
+
+Ninneva arrives from the other end of the lane with her sleeves pushed up. She takes Mariana’s end of the mattress, freeing her to go back inside. There is a red mark along Ninneva’s wrist. I want to catch her hand and look at it; I want several things, all of them late.
+
+“Are you hurt?”
+
+“Hold that end higher,” she tells the woman ahead of her. Then she looks at me. “I’m working.”
+
+I let the mattress pass and keep the lane open.
+
 ### Ninneva
 
-The beach is empty in the way only working beaches ever are. Too much wind. Too much undertow. Sand that does not flatter anyone who wants to lie still and be admired.
+By morning I have learned the weight of a wet mattress, the location of a kitchen I am not supposed to mention, and that a child can fit eleven buttons into one hand if he is sufficiently opposed to leaving them behind. We empty the rooms below the cloth shop before the water reaches the second step. Getting everyone to the other place, farther uphill, takes three trips, an argument about a stove, and Mariana refusing to leave a box of clean sheets because somebody has only just washed them. I like her. At four in the morning, this is the most uncomplicated feeling available to me.
 
-Perfect.
+I go home to feed the pups and collect my notebook. The west room has dried, both glasses are washed, and the House has filled the crack above the door with something paler than the surrounding plaster. Upstairs, Zeke’s name remains on the page where I left it, above the answer I did not ask for. I close the notebook myself and put it in my bag.
 
-She leaves her clothes in a loose pile above the tide line. Not hidden. Not displayed. Just where they fall.
+By the time I reach the beach, my shirt has dried into a shape nobody intended. There is too much wind here for anyone who wants to lie still and be admired, and enough undertow to discourage the rest. I leave my clothes in a loose pile above the tide line, the notebook beneath them, and wade out until the water reaches my thighs. The cut on my wrist is shallow. I wash the grit from it, wait for the stinging to ease, then come back to the wet sand and lower myself onto it.
 
-The sun takes her immediately, salt-sticky and bright, like it has been waiting. She walks down until the water hits mid-thigh, then turns and lowers herself into the sand, letting it mold around her hips and spine.
+For the first time since the square, nothing needs carrying. The sand takes the shape of my hips and spine; the sun warms the salt drying on my skin. I can still feel my hand against the page and that small, perfect satisfaction as the floor opened, before the sound reached the street. I had wanted the House to feel what it was doing. The woman with the cooking pot had been standing over the same water.
 
-The field opens.
+It would be convenient if regret made me less angry. Instead I have both, and sand in places that should never be required to hold an argument.
 
-Not outward. Inward first. A tightening, then release, like pressure finding its own channels. She does not summon it. She never does.
+I let my shoulders sink. The field opens inward first, tightening and releasing as the pressure finds its channels. The House has carried my attention down streets before, brought me their weather through the swarm, but what moves beneath this beach is older and much larger than anything with rooms. Nobody here is arranging a reply.
 
-The field responds to stillness the way predators respond to silence.
+Surfers drift in from the south, boards cutting clean lines across the water. Grown men with jobs they are apparently willing to lose. The Lost Boys. They find the stretch in front of me without speaking, and the waves begin standing a fraction longer before they break. When the field is loud, it attracts attention; when it is coherent, it attracts motion. The men have not looked toward the shore yet. They are busy finding out how long the water will carry them.
 
-Surfers drift in from the south, one by one, boards cutting clean lines across the water. They do not look at her at first. That is how she knows it is working.
+One leans too far forward, corrects, then does exactly the same thing again. Another rides longer than he should, eats sand, and comes up laughing. I let my head fall back. After a night spent keeping things from breaking, the simple pleasure of having a body feels almost rude. Heat gathers low in my belly, dense and patient, and I breathe until it begins moving down my thighs into the damp sand beneath my heels.
 
-When the field is loud, it attracts attention.
-When it is coherent, it attracts motion.
+As the field opens deeper, I can feel a clean boundary between the pressure I am holding and the men riding its edge. Their excitement passes through, bright and brief, without catching or draining anything. It goes on belonging to them. There is enough motion outside me to still what lives inside, enough rhythm to carry the excess away. After a while I can hear the water without also hearing the pipes beneath the square.
 
-They claim the stretch of water in front of her without speaking. A quiet agreement. A pocket forms. Waves organize themselves differently there, standing a fraction longer before breaking. Enough to ride. Enough to matter.
+Something answers deep under the sand: an old, mineral pressure where the heat meets structure. I feel it divide, one current feeding another without either disappearing. The sensation is familiar enough to make me open my eyes. Beyond the surfers, a line of darker water moves against the incoming tide, then vanishes beneath a wave before I can decide whether to follow it. The water breaks farther in than I expect and runs over my calves. I dig my heels into the sand, letting it take the edge off the heat.
 
-She smiles once and lets her head fall back.
+One of the surfers finally glances back. I meet his curious gaze and let the field acknowledge him without invitation. He nods once and turns toward the next wave.
 
-Heat pools low in her body, dense and patient. Not hunger. Not fantasy. Load. The kind of charge that builds in systems designed to conduct more than one current at a time. She breathes through it, slow, letting it split where it needs to split.
+That was not difficult.
 
-The Lost Boys feel it before they understand it.
+I stay until the sun shifts and the field begins closing on its own. The men drift away as they came. When I stand, sand clings to my hips and thighs, and I brush it off slowly, reluctant to put on the shirt. Then the pull catches beneath my breastbone—Zeke, sharp enough that my hand rises before I decide to move it. Wanting him has survived the whole fucking night. Apparently it is built better than the fountain.
 
-They always do.
+I let the feeling register without gathering my things any faster. There is no reason to pretend it means nothing, and no reason to run uphill to find out what he needs before he has asked me. Mariana expects me at the cloth shop before dark. We left the copper pipe in the kitchen; she thinks the pump may still be usable. I collect my book and clothes as the field seals behind me like water over a submerged fire.
 
-A flicker of attention. A sharpening. Each one tuning to a slightly different band. One leans too far forward on his board, corrects. Another rides longer than he should, eats sand, comes up laughing.
+### Zeke
 
-The field opens a layer deeper, threads weaving without tangling.
+Eli is barefoot when I reach the office. His shoes stand upside down beneath the window, draining onto one of Peter’s reports. Peter has moved the report once, then apparently reconsidered its value.
 
-No grabbing.
-No drain.
+“You look like shit,” Eli says. “Good morning.”
 
-A clean boundary snaps into place and holds.
-
-She relaxes then.
-Finally.
-
-This is why the beach works. Enough motion outside her to still what lives inside. Enough rhythm to carry excess away. The field hums, calibrated, letting the younger ones brush the edge without cutting themselves open.
-
-She does not touch them.
-
-She does not need to.
-
-Her system registers everything anyway. Excitement. Attraction. The reflexive pull toward something that does not ask to be explained. She lets it pass through, warm and bright, like fire through a flue built for it.
-
-Deep under the sand, something answers.
-
-Not a voice. Not a thought. A pressure, old and mineral, like veins running through stone. She feels it where heat meets structure, where power divides without diminishing. One current feeding another. Two heads drawing from the same source, neither canceling the other out.
-
-She exhales, long.
-
-The waterline creeps closer. A wave breaks farther in than expected, wetting her calves. She digs her heels into the sand and lets the tide take the edge off the heat, just enough to keep it from tipping.
-
-She could burn the whole shoreline if she wanted.
-
-She never wants to.
-
-A surfer glances back, finally, eyes catching, curious. She meets his gaze, unbothered, and lets the field acknowledge him without invitation. He nods once, like he has been given permission he did not know he was asking for, and turns back to the water.
-
-Good.
-
-She stays until the sun shifts and the field begins to close on its own, threads loosening, charge dispersing into the wider grid. The Lost Boys drift away as they came, none the worse for it. Some better.
-
-When she stands, sand clings to her thighs and hips, grounding the last of the heat. She brushes it off with slow hands, unhurried, and walks back up the beach.
-
-Then the pull tugs at her chest.
-
-Sharp.
-Specific.
-
-Zeke.
-
-She stills, one hand curling briefly into the sand, then releases it. She does not follow the pull yet. She lets it register. Lets it burn clean instead of spreading.
-
-West is coming.
-
-She gathers her clothes and leaves the beach as quietly as she arrived, the field sealing behind her like water over a submerged fire.
-
-###
-
-Zeke
-
-The office is already awake when Zeke gets there, which means he is late by his own standards. Screens glow. Papers shift. The building hums the way it always does when everything is technically functioning.
-
-None of it is the infrastructure that matters anymore.
-
-Eli is barefoot, perched sideways in a chair like he never learned how furniture works, coffee balanced dangerously on one knee. Peter stands behind him, jacket still on, reading over his shoulder and shaking his head.
-
-“You look like shit,” Eli says, without looking up. “Good morning.”
-
-Zeke drops his keys on the table harder than necessary. “I slept.”
+I drop my keys on the table. “I slept.”
 
 “Yeah,” Peter says. “So do raccoons.”
 
-Zeke ignores that and sits. He presses his palm flat against his chest without thinking. The pressure there has not eased since last night. If anything, it is sharper.
+There is a bandage beside the coffee. I sit down to wrap my thumb while Eli finishes a call about a trolley. He is copying quantities from Mariana’s list onto the back of an envelope, crossing some out as he listens. Yes, he tells the person at the other end, the stairs are narrow, which is why he is asking for that one. On the wall behind him, seven faults remain open. Yesterday I would have started with the one nearest the House. Today I know where three of the others end.
 
-Not pain.
-Compression.
+As soon as Eli hangs up, Peter slides a message across the table. The man with the pry bar has withdrawn credit on our junction order. He wants payment in advance and will give no further demonstrations.
 
-Like something vital got wrapped too tight.
+“Call him,” I tell Peter. “He’ll listen to you.”
 
-Eli finally looks at him. His grin softens a notch. “Okay. You are not normal-edgy. You are new edgy.”
+“Why?”
 
-Peter nods. “You have been snapping at vendors. You told the city liaison to fuck himself yesterday.”
+I start to answer, then look at the amount instead. I know how much I can move out of my account before the next payment fails. It will cover the junction, barely. Peter waits until I take the message back.
 
-“He did fuck himself,” Zeke says.
+“I’ll call him.”
 
-“Sure,” Peter says. “But usually you enjoy the long game.”
+“Good. Ask him about this too.”
 
-Zeke leans back and stares at the ceiling. The urge hits him then, hard enough to make his jaw clench. The instinct to go to her. To put his hands on her shoulders, her hips, her spine. Sometimes it grabs him by the throat. Sometimes lower.
+He opens an attachment: the supplier’s copy of the junction order, with a thumbprint darkening one corner. Below the part number is a reference I do not recognize. Before Peter touches anything else, the House opens our west-stair repair record beside it. The same reference sits beneath the mason’s measurements.
 
-Today it is his heart in a vice.
+“Has it been doing that all morning?” I ask.
 
-That is new.
+“Since the order arrived. I thought it had filed it in the wrong place.” Peter separates the pages, leaving both open. “What’s the number?”
 
-“There is no point in dating,” he says finally.
+“A supply account?”
 
-Eli snorts. “That is not what we asked.”
+“We paid the mason directly. There was no equipment order for the stair.” He points to the junction. “And this hasn’t been installed anywhere yet. I asked the vendor. He says the number wasn’t on the copy he signed.”
 
-“I only get hard for one woman,” Zeke continues, flat. “And she is not available in any way that would make the apps useful.”
+Last night the man had told me he kept his orders. I had heard it as another reason for him to dislike me. Now I look at the two unrelated jobs on the wall and try to remember whether I have seen that line on any of the other faults I closed.
 
-Peter and Eli exchange a look.
+Eli’s phone rings before I can answer. He puts Mariana on the speaker. Someone has offered her a junction for the kitchen pump, already fitted with a connection to the sponsor’s display. She wants to know whether it will run without that connection.
 
-Zeke notices. Pushes. “What.”
+“It’ll run,” I say. “Don’t let them install it with the display attached.”
 
-Eli sighs. “Man. You have been saying her name in your sleep again.”
+“Eli?”
 
-Zeke stills. “You do not know what you are hearing.”
+“I’m here.”
 
-“We know enough,” Peter says carefully. “And you are not wrong about the pull. Whatever you did last night—”
+“Can you check it before we move everything?”
 
-“I did not do anything.”
+He looks at me. I know the equipment, and Mariana knows I know it. She still wants someone else to look. Eli tells her he will, and reaches for the envelope as she asks him to bring her paperwork back.
 
-“Whatever happened,” Peter amends, “it tightened something. You are vibrating.”
+“The supplier wants to exchange it for a clean copy,” she says. “Something about correcting the account. I want to see what changed before I give him the first one.”
 
-Zeke lets that sit. Then, quieter: “She named something.”
+Inside the envelope is a delivery sheet with one edge softened by water. Peter stops Eli as he draws it out. He lays it beneath the screen, following the characters below the total with his finger. I do not need him to point this time. It is the reference from the stair and the junction order.
 
-Eli's expression shifts. Less joking now. “Is that bad?”
+“Mariana, who put the number at the bottom?” he asks.
 
-“It means movement,” Zeke says. “And movement collapses structures if no one stays to hold continuity.”
+“It came with the fittings. Why?”
 
-“So go to her,” Eli says. Immediate. Simple. “Stop white-knuckling this.”
+“It’s on two different jobs here. I’d like to compare them. Can I take a copy?”
 
-“I cannot leave,” Zeke says. “If I go, the field collapses here. One of us always has to stay.”
+“Yes. The paper comes back.”
 
-That gets another look between them. Longer this time.
+Peter photographs the sheet, then gives it to Eli, who puts it away while Mariana tells him which entrance to use. After the call he finishes the quantities on his envelope. Pipe joints, lime, lamp oil: things small enough to put in a bag and consequential enough to have kept him on the phone since sunrise. I look from his list to the open faults. There is storage in the lower gallery, and a return we could connect to the public line. I begin explaining it before I have asked either of them what is needed.
 
-Zeke straightens. “Don't.”
+“Not yet,” Eli says. “She wants the kitchen pump repaired first.”
 
-Peter raises his hands slightly. “Hear us out.”
+“That pump can’t supply the square.”
 
-Eli leans forward, elbows on knees. “We have been thinking about this for a while. You are not as subtle as you think.”
+“She didn’t ask it to.” He folds the list. “I’ll ask her about the gallery. And you can ask Ninneva.”
 
-Zeke's voice goes cold. “She is not a problem to be solved.”
+Her name catches beneath my ribs. Yesterday her work lay open between Peter and me; it is still beneath the supply messages on the table, where I left it before deciding that standing outside her window was easier than asking to come in. Beside it, a new message from the city liaison asks me to provide measurements for the repair briefing. My name has been removed from the attendance list. I feel the familiar impulse to contest it, then remember the woman holding her pot up for an answer.
 
-“We know,” Eli says quickly. “Jesus. That's not—”
+I open Ninneva’s file instead.
 
-Peter finishes it. “If both of us connected to her too. Not like you. Not replacing anything. Just anchoring. Then you could leave. We could hold the field here until you come back together.”
+It is a copy from the House’s working library. She left her early writing there when the new room first held, in the box I carried inside for her. I told her she could leave it as long as she needed. Later, when the House refused my corrections, I followed its references into those pages. They opened when I asked. I had let that finish the question.
 
-The room goes quiet.
+“Did you ask her?” Peter says.
 
-Zeke does not respond right away. His protectiveness flares sharp and immediate, followed by something else.
+“No.”
 
-Reluctant recognition.
+“Then why are we still reading it?”
 
-“You do not understand what you are offering,” he says.
+The familiar explanation comes first: something is wrong with the House. I almost say it, but the repair record is still on the wall. Even without her work beside it, the dates are a problem. I turn back to my own entries and bring up the photographs I took at the time.
 
-Eli meets his gaze, steady. “We understand exactly enough.”
+“The west stair was usable on the ninth,” I say. “I signed the repair on the tenth.”
 
-Peter nods. “The world fears men who will not bend. It fears her more. That is the only reason this works.”
+Peter leans closer. “You said these were completion dates.”
 
-Zeke exhales slowly. The pressure in his chest shifts. It does not ease. It changes shape.
+“They’re when I closed the faults.”
 
-He looks at them.
+“After they stopped happening.”
 
-Really looks.
+I show him the window above the landing. I credited its clearing to a replacement frame, but in a photograph taken two evenings before we installed it, the bay is already visible through the glass. The new frame is still propped in the yard below. At the time I had been pleased to see the light coming back. It had made the next part of the job easier.
 
-“Nothing touches her without consent,” he says.
+Beneath the photographs is my drawing of the House. I enlarge it until the blue line around the chamber behind the bookcase fills the screen. Beyond that boundary, every route carries one of my annotations: reinforcement, rerouting, restored access. Inside it is a curve Ninneva drew before there was anything for me to measure. I learned it by running my hand along her wall. Later I used it at the landing and beneath the gallery, where my earlier joins would not hold.
 
-“Of course,” Eli says.
+Her page is open to a small drawing of the same turn, almost hidden beneath a crossed-out sentence. It belongs to a scene in which someone arrives exhausted and a room takes their weight without passing it into the adjoining rooms. I had read enough to recognize her chamber. After that, I had been interested in the drawings.
 
-“And if this destabilizes you—”
+Now I read the paragraph beneath the one where I stopped yesterday. The turn continues through a stair to an opening onto water. What I marked as additions is already connected in the scene she wrote before the room existed. Even the part I could never make symmetrical has a reason: someone must be able to leave while the other person is asleep.
 
-“We tell you,” Peter says. “Before it becomes damage.”
+I put my first model beside it, the one from before we lost Delphi. Those routes closed around a point that no longer answers. I had spent months trying to reach it again, replacing frames, strengthening joins, reopening passages that turned me back. Ninneva’s routes continue past it. The stairs and windows I called repaired began holding when they became part of what she made.
 
-Zeke stands. Walks to the window. Watches the city pretend it is not sitting on fault lines.
+My arm rests against the office wall. The same curve runs warm beneath it. I have been touching it throughout this conversation.
 
-He does not say yes.
-He does not say no.
+“How much of the House?” Peter asks.
 
-But the idea lodges.
+I try widening the blue line. At the gallery it cuts through a route that cannot end there; at the stair it does the same thing. I have drawn a boundary around the room because that was the amount of her work I knew how to include in my account. The building has never observed it.
 
-And that is how he knows it is real.
+“All of it.”
 
-###
+Eli has stopped packing beside the window. Water drops from one of his shoes onto the floor as I look back at the first model, then at the room we are sitting in.
 
-Ninneva
+“The first House died,” I say. “What I’ve been maintaining since then—she made it. I learned enough to work on it.”
 
-The night does not announce itself.
+There are dozens of annotations on the drawing, some for jobs that took days. My hands remember the labor. I want to explain that it was real, that understanding what I worked inside does not make the work disappear. Peter gives the drawing a long look before he turns to me.
 
-No sirens. No weather. No omen dressed up as coincidence.
+“Does she know what you’ve been telling people?”
 
-Just a street doing what streets do. Bodies moving. Laughter leaking out of doorways. Music bleeding thin through brick. The grid holds steady the way it always has, stretched tight enough that no one notices the strain anymore.
+For a moment I dislike him so much it is almost restful. “She knows I work on it.”
 
-Ninneva stands in it without bracing.
+He leaves me with that answer. I can hear her from another room, asking whether I am coming, and myself assuring her that the House is stable. I have treated the assurance as an answer often enough to know what happens next: she stops asking, I finish something, and the evening passes with both of us still where we were. I close her page. My own record stays open.
 
-She feels the tension long before it finds language. A load shifting somewhere below threshold. The kind of pressure that usually resolves quietly or breaks something small to stay intact.
+“I need to speak to her.”
 
-This time, it does not resolve.
+“Yes,” Peter says. “You did yesterday.”
 
-She does not reach for the field. She does not pull. She does not prepare. Preparation would imply choice, and this is not that.
+Eli reaches beneath the window for his wet shoes. I get the spare pair from the cupboard under my desk and hand them to him. He looks at them, then at my feet.
 
-Something is aligning too fast.
+“You have office shoes?”
 
-Around her, people slow without knowing why. A laugh cuts off mid-breath. A glass hesitates on its way to a mouth. For a fraction of a second, the world behaves like it is waiting for permission to continue.
+“Take them.”
 
-Ninneva stays upright.
+“Of course you have office shoes.”
 
-She does not think now.
-She does not think this.
+Peter makes a sound into his coffee. For a second the room is familiar again, and I want to stay in it, safely ridiculous, with two men who know how to leave an opening without asking me to walk through it. I take out my phone before I can use the feeling as permission to sit down.
 
-She only notices that the grid has gone very, very quiet.
+The vendor answers on the fourth ring. There is hammering behind him. “I spoke to you badly,” I say, and the hammering stops. He waits while I tell him his display was working, that I had not understood what it showed me.
 
-She does not fall.
+“I sent the terms.”
 
+“I’ve seen them. I can pay for the junction this morning. Can you meet Eli and me at the kitchen pump off the west lane?”
 
-## Book II
-### Uprising
+He gives me a time. I make the transfer after he hangs up, then open a message to Ninneva.
 
-if i had a little boat
-i'd travel out to
-sea
-listen to the cool breeze
-        and only talk
-to     Me
+*I read work you left in the House without asking you. There is something I need to tell you about it, and about what I’ve been calling my repairs. May I see you?*
 
+I read it once. There is no way to make it sound like a man she should have invited upstairs. I send it anyway.
+
+### Ninneva
+
+His message arrives while I am dressing. I read it with one foot inside my trousers, trying not to let the wind have the other leg. For a moment I cannot fit the words to the morning. The notebook is lying on my clothes, where I can see the corner of the page I brought from the House. There are years of other pages in his sentence, and I do not yet know which ones he means.
+
+I finish getting dressed before answering. *Which work?*
+
+The sign that he is typing appears, stops, returns. I put the phone in my pocket rather than stand on the beach watching him decide how much of an answer I can have. His reply catches me at the fence above the sand.
+
+*The notebooks you left when the room first held. I followed the House’s references into them. Peter saw part of it with me yesterday.*
+
+I stop with my hand against a fence post. Those pages were still in a box when I fell asleep against the new wall. He had carried it in for me. I remember being glad there was someone to help.
+
+*I’m meeting Mariana at the cloth shop this evening,* I write. *After we’re finished, I want to see what you opened.*
+
+He answers yes. I put the phone away and continue uphill.
+
+By the time I return to the square that evening, the red has dried brown along its edges. Someone has scrubbed the public tap until the brass shines and hung a notice beneath it telling people to bring their own containers. A woman is pouring drinking water from a tank on a cart. Each time she fills a bottle, someone moves an empty one forward. The man who climbed the display last night helps push the cart into the shade; I recognize his torn sleeve. The display itself is dark, and the steward watching from the opposite pavement stays where he is.
+
+I have bread under one arm and two packets of fittings in my bag. Mariana sent the names earlier, and the clerk made me repeat one twice. Apparently there are several ways for a pipe to refuse another pipe, each requiring its own purchase. While I was at the counter she called again, this time to ask for the reference beneath the receipt’s total. I read it to her, holding the paper away from the clerk’s outstretched hand.
+
+“That’s the one,” she said. “Bring it with you.”
+
+He had only offered to throw it away. I told him I needed it and folded it around the fittings. Now the corner works against the lining of my bag as I walk toward the cloth shop. Mariana can tell me what she wants with it when I get there. I have spent enough of the day thinking about pages Zeke owes me.
+
+Laughter comes from the lane ahead, with music through an open window. Ordinary life has returned around the damage, untidy and unwilling to wait. I am almost at the shop when I feel the pressure beneath the paving. At first it follows last night’s fracture, an ache I can trace through the sole of my foot. Then it crosses the repaired section and continues deeper than the water line.
+
+I stop, tightening my hand around the bread. Ahead, a woman pauses with a bottle halfway into her bag. The music stretches over a note nobody has chosen to hold, and under the street something aligns too fast for me to follow.
+
+This time my hands are nowhere near the page.
+
+I stay upright as the grid goes quiet.
 
 ## Chapter Three
 ### Ninneva
