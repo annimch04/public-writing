@@ -17,7 +17,7 @@ genre: "Speculative fiction / myth-tech story world"
 archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Five."
 reader_note: "Presented as a story-world text and manuscript opening."
 content_note: "Contains body-memory language, animal death, grief, erotic/sensual charge, and mythic power dynamics."
-revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapter Four restoration rewrite published 2026-09-13 from approved revision 1. Chapter Five retains its prior public version."
+revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapter Four restoration rewrite published 2026-09-13 from approved revision 1. Chapter Five restoration rewrite published 2026-09-13 from approved revision 1."
 audio_status: "ready-to-record"
 updated_at: "2026-09-13"
 ---
@@ -1329,621 +1329,301 @@ His thumb moves once over mine. “I know.”
 When he leaves, he takes the empty glass. I pull my box closer with one foot and open the notebook on my knees. The market address is where I put it. Below it I write the time of the meeting, then draw a line between them wide enough to keep both legible.
 
 ## Chapter Five
-### The House and the Threshold
-#### Ninneva
 
-Peter has called this meeting because Zeke would like to leave his own house.
+### Ninneva
 
-With me.
+Zeke brings the list before lunch. He knocks, waits for me to answer, and puts it on the clear end of the chest beside my box. The first sheet separates copies of my writing from plans made using it. Behind that are names, dates, and two spaces where he is still waiting for someone to tell him who received the repair briefing.
 
-Apparently five people and a building are required to arrange an evening out.
+I read it while he stands near the window. There is more than we found last night. He has marked what he added, so I do not have to remember the shape of the earlier list to find the difference.
 
-Since the drop, the divine current coming out of Delphi has arrived in fits. A room will take more than its walls can hold, then starve before the furniture has stopped shaking. The surge in the street made those changes harder to hold. Before it, Zeke could keep the connection while he went to the office. Now he barely reaches the garden gate before the strain pulls him back. Here, in the House Zeke built, he catches those changes early enough to correct them. Most days the correction is so quiet no one notices him doing it. A window stays a window. A staircase delivers you to the floor you chose. The people passing through get to think the world is behaving.
+“This goes to the liaison too,” he says, putting another page beside it.
 
-He can do other things while he holds it. Work. Argue. Sleep, badly. What he cannot do is take his attention away completely. Beyond the garden gate, the House loses the steadiness it borrows from his presence, and his corrections become harder to make.
+His correction is short. The House he has been maintaining is the one I authored. The earlier plans describe its routes as his additions. He asks for those plans to be retained with the correction attached, and for the recipients to be identified. He has left my writing out of the message.
 
-I know what that costs him. I have spent enough of my own life keeping a room pleasant so nobody has to discover what it feels like without my help.
+“Send it,” I say.
 
-Peter and Eli have offered to share the anchoring. They work with Zeke; they know the difference between his ordinary silence and the kind that means something is coming apart. Their proposal is to make a connection through me, learn the pattern the House already recognizes, and maintain it here while we leave together. They are not offering to become what Zeke is to me. They are offering to stay at work so he can go home to his own life.
+He does, standing where I can see the page leave. Then he asks whether I want to look at anything else before four. I tell him I will read the copies after lunch. We will still have questions tomorrow. He says yes without making tomorrow sound like a failure of this afternoon.
 
-In the days since I arrived, he has managed to discuss the proposal several times without actually trying it.
+When he goes, I turn the list facedown. The market address remains in my notebook, with the photograph of the angel behind it. I have looked at both often enough since waking to wear a softer edge into the paper. They will still be there when I come back.
 
-Today I have put it on the calendar.
+The jade bracelet has broken while I was washing. One quiet click against the basin, then two pieces where there should have been a circle. I put them back to back on the counter, with the red thread beside them. My hand keeps returning to my wrist as though I can recover the weight by checking again. Before I leave the room, I move the pieces onto a folded cloth. I would rather spend the afternoon doing something with a chance of working.
 
 ***
 
-There is no head of a round table.
+Mariana arrives carrying a loaf and wearing the expression of someone who has already been told twice that a task would only take a minute. The second tank is full. Someone else is at the shop until seven, and she has left instructions about the valve that sticks.
 
-I sit at two o'clock anyway. From here I can watch the double doors that open onto the garden. Across the room, an arch leads into the east gallery. The bookcase is to my right, closed and respectable, pretending it has only ever contained books.
+“If I get a call, I take it,” she tells Zeke.
 
-The table is dark wood, smooth beneath my palms, its knots opening into pictures that change with whoever looks. Grant sees a bird with its wings caught in a fence. He tells me this without taking his eyes off it.
+“We stop,” he says. “I take the hold back before you go.”
 
-I see water.
+She puts the bread down. “Show me.”
 
-He was first to arrive. He chose the chair on my left and settled with his knees apart, one resting against mine. I let it stay. His anxiety has a quick, uneven edge; I can feel it passing through the place where our legs touch.
+By the time Peter and Eli arrive, she has watched a pale line change beneath the plaster, seen what happens to the water in a glass when the floor begins to pull, and made Zeke take the room back twice. On the second attempt she says stop before he thinks it is necessary. He does it anyway. She sets the glass in the middle of the table and pulls up a chair where she can see the garden doors.
 
-I slow my breathing and picture my water reaching him. Warm around his ankles. Easy to stand in.
+There is no head of a round table. I sit at two o’clock anyway, with the doors ahead of me and the arch into the east gallery beyond Zeke’s empty chair. To my right, the bookcase is closed and respectable, pretending it has only ever contained books. Its brass latch catches the afternoon light.
 
-His shoulders lower.
+Eli puts his coffee down beside the loaf. His shoes are in his other hand.
 
-“Better,” he says, turning toward me with that dreamy smile that means he knows it was me.
+“Again?” I ask.
 
-Bringing peace is my favorite part of this power.
+“The tank overflowed.”
 
-I should probably remember that preference is not the same thing as innocence.
+“It filled,” Mariana says. “You were standing in the wrong place.”
 
-Grant has agreed to watch the test. He is not going to anchor anything. Peter and Eli will have enough to do without also deciding whether their own performance looks convincing. Grant will watch the room, keep time, and tell us what actually happens. I asked him because he will say something is wrong even if everyone else is enjoying how right it ought to be.
+He places the shoes beneath his chair and kisses the top of her head as he passes. She catches his sleeve long enough to inspect a tear near the cuff, then lets him go. Peter has brought his notebook and a knife for the bread. I am disproportionately pleased by the knife. At least one of us has thought beyond the part where everyone agrees to help.
 
-“You don't have to be calm for this,” I tell him.
+Zeke comes in through the garden doors. I feel him before he crosses the room, a second beat close behind my own. He has changed his shirt. Of all the things he has done today, that is the one that makes me look down at my hands. He takes the chair beside me and notices where my thumbnail is pressing into my bare wrist.
 
-“You could have led with that.”
-
-I draw back the little current I sent him. His knee remains against mine, but his breathing is his again.
-
-Then my heart beats twice where it should beat once.
-
-Zeke.
-
-I feel his irritation at Grant touching me before I see his face. A warm breeze comes through the double doors, followed by the full weight of him. Hands in his pockets. Unhurried. The sort of composure that ought to be taxed.
-
-“Ninneva.”
-
-He gives Grant one glance. The chair on my right is empty. So is the one opposite me. He can watch me, or he can sit beside me and share the view. Watch me or join me? Which will it be.
-
-I wait.
-
-He takes the chair beside me.
-
-I like it more than I intend to show.
-
-His gaze drops to my bare wrist. The jade broke this morning, the circle splitting into two pieces so cleanly that for a moment I thought I could put it back together by refusing to understand what had happened. I left the halves back to back on the counter, with the red thread beside them. Now my fingers keep returning to the place where I used to turn it.
-
-“Does it hurt?” he asks.
+“Does it hurt?”
 
 “The bracelet?”
 
 “Your hand.”
 
-I look down. I have been digging my thumbnail into my wrist.
+I release it. He turns my palm upward, looks at the little crescents, and lays it on the table. His fingers leave mine slowly enough to be deliberate. I let them.
 
-I release it. He turns my hand palm-up, sees the marks, and lays it on the table without making a lesson out of me.
-
-Peter arrives carrying a notebook. Eli comes behind him with his shoes in one hand and coffee in the other.
-
-“If this goes badly,” Eli says, “I would like it recorded that I came willingly, but underinformed.”
-
-“You were sent the same message I was,” Peter says.
-
-“It said four o'clock.”
-
-“And here you are.”
-
-They sit across from us. Eli puts his shoes beneath his chair. His bare foot starts toward the edge of the table, then stops when he catches my eye.
-
-“I know,” he says. “Important wood.”
-
-“The wood has opinions.”
-
-Under his coffee, the grain tightens into something with teeth.
+Apparently five people and a building are required to arrange an evening out. At least the man I am trying to take has begun behaving as though he intends to come.
 
 ***
 
-Zeke asks Peter and Eli to describe what they think they are here to do.
+Zeke starts with the part of the House they will each be holding. Peter takes the stair side, Eli the garden side. They follow the routes beneath the wood while he explains where a change will reach them first. Since the drop, the current from Delphi has arrived in fits; yesterday’s surge made the corrections harder. The House has strength of its own, but it has learned to organize around the steadiness Zeke keeps supplying. A window stays a window because he feels it beginning to become something else and answers in time.
 
-“Hold the local field,” Peter says. “Through a connection with Ninneva. Both of us, so neither has to carry what you carry alone.”
+He touches the wall behind his chair. Pale veins branch toward the lintel and down into the floor. When he lifts his hand, they remain lit.
 
-“Until midnight,” Eli adds. “You two leave. We stay.”
+“The contact helps me attend,” he says. “It isn’t what keeps it open. Taking my hand away won’t mean I’ve stopped.”
 
-“That is the goal,” Zeke says. “The first attempt is two minutes.”
+“How will we know?” Mariana asks.
 
-Eli sets down his coffee.
+“You’ll see more light beneath their seats. And I’ll tell you.”
 
-“Good clarification.”
+“And they’ll tell me what they feel.” She looks at Peter and Eli until both answer. Then she sets her watch beside the water glass.
 
-Zeke puts his palm against the wall behind his chair. Pale veins appear beneath the plaster, branching toward the floor and the lintel over the garden doors.
+The grain near Zeke’s hand runs straight and narrow. Beneath mine it opens into slow curves, meeting his and spreading toward the other chairs. I can feel the House recognizing me. Last night I watched the same curve travel beyond every boundary he had drawn around it. This afternoon it has become the practical problem of letting two people learn how to hold what is already here.
 
-“The House has its own strength,” he says. “It needs a steady pattern to organize that strength around. At the moment it uses mine. When something changes, I feel where it's going wrong and give it a correction.”
+“So we copy that?” Peter asks, watching my side of the table.
 
-As he speaks, he lifts his hand. The veins remain lit.
+“You find a way to stay steady that you can sustain,” I say. “I’ll let you recognize what the House is listening for. You don’t need to imitate my feelings.”
 
-“The contact helps me attend. It isn't what keeps the connection open. If I walk into the next room, I'm still doing the work.”
+“Thank God,” Eli says. Zeke looks at him. “There are two of us and we brought one coffee.”
 
-“Or if you go to bed,” Peter says.
+I laugh. The wood loosens under my fingers. I want them to be able to do this, and the wanting has a familiar reach. Before I have touched either of them, I can feel how easily I could make the first part pleasant.
 
-Zeke does not answer.
+Zeke asks the House to open the seats. Stone rises inside the wooden legs of Peter’s chair, then Eli’s, with a grinding sound I feel through my soles. The veins spread into the supports and stop below the seats. Peter leans sideways to examine what has arrived beneath him.
 
-“There it is,” Eli says.
+“That’s an approach,” Zeke says. “You can still refuse it.”
 
-The grain near Zeke's hand forms a narrow, straight channel. Beneath mine it moves in slow, spreading curves. Where they meet, the movement settles.
-
-Peter watches it.
-
-“So we copy you?”
-
-“No,” I say.
-
-His eyes come up.
-
-“You find a way to stay steady that you can actually sustain. I'll let you recognize what the House is listening for. You don't need to imitate my feelings to do that.”
-
-“Thank God,” Eli says.
-
-Zeke looks at him.
-
-“What? There are two of us and we brought one coffee.”
-
-I laugh. The wood loosens under my fingers.
-
-This part matters. They offered to connect to me, and I want the offer. I do not want two more people learning to hurt themselves beautifully in my vicinity.
-
-“If you're dizzy, say dizzy,” I tell them. “If it's too much, say too much. Don't make me admire your stamina while you quietly disappear.”
-
-Peter nods. Eli's face has lost its joke.
-
-Zeke asks the House to open the seats to them.
-
-Nothing happens at first.
-
-Then a low grinding sound comes from beneath the table. I feel it through the soles of my shoes. Stone rises inside the wooden legs of Peter's chair, then Eli's. The pale veins spread from the floor into those new supports and stop just below the seats. The House is making a place for each of them in the work.
-
-Peter looks down.
-
-“I take it that's yes.”
-
-“That's an approach,” Zeke says. “You can still refuse it.”
-
-They each answer aloud. Then he looks at me.
-
-“Yes,” I say. “This connection. For tonight.”
-
-I lay my hands on the table, palms up.
-
-Peter takes the left. Eli takes the right.
-
-For a moment there is only the awkwardness of three people trying to do something intimate without making it awkward. Peter's thumb is too careful. Eli is holding his breath.
+Peter sits upright and agrees. Eli does too, setting both bare feet on the floor. When Zeke turns to me, I say yes to the connection, for this evening, and lay my hands palm-up on the table. Peter takes the left and Eli the right. Peter’s thumb is too careful. Eli is holding his breath.
 
 “Breathe,” I tell him.
 
 “I was doing that before anyone started watching.”
 
-I close my eyes and let them feel the slow return beneath my pulse. I do not push calm into them as I did into Grant. I let them find me, then wait while they find themselves in relation to it.
+I close my eyes and let them find the slow return beneath my pulse. Peter comes close, loses the interval, tries again. Eli catches it and follows too eagerly, moving ahead of the rhythm he is trying to join. Zeke keeps the House steady while they learn, so each mistake has somewhere to end before it reaches the walls.
 
-Peter comes close and loses the interval. Tries again. Eli catches it, follows too eagerly, then slips ahead.
+After a while, I can distinguish both men without the pressure of their hands. I open mine and let them withdraw. Peter lifts one palm, then the other, watching the veins beneath his chair stay bright. Eli flexes his fingers. The connection has become something we can maintain without skin.
 
-Zeke keeps the House steady while they learn. Without that support, every mistake would travel straight into the walls. With it, they have time to hear the difference.
+“That’s unpleasantly impressive,” he says.
 
-At last the veins beneath both chairs brighten.
+Mariana moves the water glass away from his coffee. “Two minutes?”
 
-I open my hands.
+“Two,” Zeke says. “If either of you loses the part you’re holding, tell me. Don’t try to take the other side with it.”
 
-Neither man disappears from my awareness. The contact between us has become something we can maintain without skin. Peter tests that fact by lifting one palm, then the other. Eli flexes his fingers.
+He eases the first part of his correction. Peter’s shoulders rise, and Eli presses his feet harder against the floor. The water stays level. For several breaths there is nothing to do but let them do what they offered.
 
-“That's unpleasantly impressive,” he says.
-
-From a sideboard, Grant brings a tumbler of water and sets it in the middle of the table.
-
-“The floor moved under me on Tuesday,” he explains. “I thought I was ill until the water in my glass leaned toward the wall.”
-
-Zeke nods. “Watch that. If the surface tilts while the table stays level, tell us immediately.”
-
-“And if you can't correct it?” Grant asks.
-
-“I take the hold back.”
-
-“Before the stairs go somewhere else.”
-
-“Before.”
-
-There is a plain agreement on the table now, between the coffee and the water. I can feel everyone settle around it.
-
-Zeke eases the first part of his hold.
-
-Peter's shoulders rise. Eli's foot presses flat against the floor.
-
-The water stays level.
-
-For several breaths we do nothing.
-
-Then the grain beside Peter's hands begins to race. He has felt a small fluctuation and is trying to correct the whole room. His alarm reaches me. Without deciding to, I smooth it.
-
-His shoulders drop again.
+Then the grain beside Peter’s hands begins to race. He has felt a fluctuation at the stair and is trying to answer it with the whole room. His alarm reaches me. I smooth it before deciding to. His shoulders lower, the grain settles, and for one lovely second I am certain this is going to work.
 
 Zeke looks at me.
 
 Damn him.
 
-I withdraw my help.
+I draw back what I supplied. The water leans toward Peter, although the table has not moved.
 
-The water leans.
+“Stop,” Mariana says, at the same time he says it is too much.
 
-“Left,” Grant says.
+Zeke takes the hold back. The veins beneath both chairs dim, and the water rights itself without spilling. Peter sits against the back of his chair, pale around the mouth. I give him time to breathe before telling him what I did.
 
-“Too much,” Peter says at the same time.
+“I thought I had it,” he says.
 
-Zeke takes the room back. The veins beneath Peter's chair dim, and the water rights itself without spilling.
+“So did I. Until I stopped helping.”
 
-Peter sits back, pale around the mouth.
+He looks at my hands. “Can you tell me before you do that again?”
 
-“I thought that was working.”
+“Yes.” I fold them in my lap, where the gesture can remind me of something it does not physically prevent. Bringing peace is my favorite part of this power. I have just made a man feel safe doing something he could not yet do.
 
-“It was,” I say. “Until I stopped doing part of it for you.”
+Zeke asks Peter where the strain began. They trace it together, and Eli admits he followed when Peter increased because he thought Peter had found something he missed.
 
-He studies me for a second. Not angry. Less grateful than he was before.
-
-I deserve that.
-
-Zeke slides the glass nearer the center. “Peter, you tried to answer everything. You only need to answer the part you're holding. Eli, when he increased, you followed him.”
-
-“I thought he'd found something I missed.”
-
-“You can disagree with him.”
-
-Eli turns toward Peter.
+“You can disagree with him,” Zeke says.
 
 “A skill I have been developing for years.”
 
-Peter exhales, and some color comes back into his face.
+Peter lets out a breath that brings some color back into his face. Mariana cuts the bread while they recover. Nobody calls the interruption a success, but we eat, and after a few minutes Peter asks to try again. Eli agrees. I tell them I will stay where they can feel me without carrying their part.
 
-We try again. Less this time. Peter names the strain before it becomes nausea. Eli lets a fluctuation pass without chasing it. I keep my hands folded in my lap, where nobody has asked them to do anything.
-
-Two minutes go by.
-
-Grant checks his watch.
-
-“Level.”
-
-It should feel triumphant. Instead I realize how tired I am.
+This time Peter names the strain before it becomes nausea. Eli lets a fluctuation pass without chasing it. I feel both choices and leave them alone. Two minutes go by while Mariana watches the glass. When she calls time, my first feeling is relief. The next is how tired I am.
 
 ***
 
-I stand to walk around the table and test whether they can keep the connection when I move.
-
-Grant draws his knee back as I rise. Zeke shifts his chair to give me room. I make it three steps toward the garden doors before the House decides to help.
-
-Warmth gathers under my feet. The tension at the base of my spine eases so precisely that I stop walking.
+I stand to find out whether the connection holds when I move away. Zeke shifts his chair to give me room. I make it three steps toward the garden before warmth gathers beneath my feet and the tension at the base of my spine eases so precisely that I stop.
 
 Behind me, the bookcase opens.
 
-I turn.
+The room beyond is the one Zeke and I know together: light without windows, the low couch wide enough for both of us, water within reach. Living veins lie faint beneath the stone. The House has lowered the light to the exact hour I like, and I can already feel how the couch would take my weight.
 
-The room beyond is the one Zeke and I know together. Light without windows. The low couch wide enough for both of us. Water within reach. The living veins faint beneath the stone, waiting to receive whatever we bring them.
+I would like him to follow me into it. I would like to lie down without first making a workable plan for everyone who notices I have stopped standing. For a moment the offered room is so close to what I want that I feel ungrateful for wanting the door as well.
 
-The House has lowered the light to the exact hour I like.
+“After,” I tell it, and turn back toward the garden.
 
-My throat tightens.
+The brass handles sink into the double doors. I watch the bright ends disappear as wood grows across the join. Afternoon light shows beneath them for another second, then vanishes. Behind me, Peter says my name.
 
-I would like to go in. I would like Zeke to follow me. I would like to lie down without first making a workable plan for everyone who notices I have stopped standing.
+The floor slopes toward the bookcase. Slightly, enough for a coin to roll or a tired body to find one direction easier. I plant both feet and tell the House to level it. Zeke is already beside me. He puts his palm against the new wall and asks for the doors.
 
-“After,” I tell it.
+The wood warms beneath his hand. Through the bookcase, the couch draws closer.
 
-I turn back to the garden.
+“Did you tell it to do this?” I ask.
 
-The brass handles sink into the double doors.
+“No.” He turns to the table. “I’m taking the hold back. Both of you let go.”
 
-I watch the small bright ends disappear. Wood grows across the join until there is no join left. A moment ago I could see afternoon light under the doors. Now there is a wall.
-
-Behind me, Peter says my name.
-
-The floor begins to slope toward the open bookcase.
-
-It is slight. A coin would roll. A tired body would find it easier to take the offered direction than to resist it.
-
-I plant both feet.
-
-“Level the floor.”
-
-Zeke is out of his chair. He stops at my right shoulder.
-
-The slope remains.
-
-I look at him.
-
-“Did you tell it to do this?”
-
-“No.”
-
-He puts his hand flat against the new wall. “Open the doors.”
-
-The wood warms beneath his palm. The garden does not return.
-
-Through the opening behind us, the couch draws closer to the threshold.
-
-I almost laugh. It is such a capable, appalling response. Every part of the offer is correct except the fact that I have declined it.
+The light beneath their seats fades. Mariana keeps the glass on the table and takes a step away from it, checking the room against what the water shows her. When she says the slope remains, Zeke gives the House his full attention. The floor levels. My knees soften, but the doors are still gone.
 
 “I said after.”
 
-The veins under my feet brighten. I can feel where they want to lead me: through the bookcase, into the couch, with my attention still spread beneath this room. Peter and Eli would seem to be holding. I would seem to be resting. Zeke could sit beside me and keep making his corrections.
+The veins beneath me brighten toward the couch. I can feel how the arrangement would work: Peter and Eli in their chairs, my attention spread beneath them while I appear to rest, Zeke beside me making the corrections too small to notice. We could spend the entire evening enjoying the achievement of having gone nowhere.
 
-We could do that all night.
-
-Nothing would have been handed over.
-
-“Your attention is still in the chairs,” I say to Zeke.
+“Your attention would stay in the chairs,” I say to him.
 
 “Yes.”
 
-“So is mine.”
+“So would mine.”
 
-“Yes.”
+He looks into the chamber, then back at the wall where the doors were. “Yes.”
 
-“And that room won't release either of us.”
+Peter has pushed his chair clear of the table. “We can stop. You don’t have to make this work tonight.”
 
-He looks back at the chamber. His expression changes.
-
-“No. It won't.”
-
-Peter pushes away from the table. The veins in his chair fade.
-
-“We can stop,” he says. “You don't have to make this work tonight.”
-
-I turn enough to see him. Eli is sitting very still beside him. Grant has moved to the end of the table nearest the former doors, with the tumbler in his hand.
-
-I am angry, but nobody in this room has asked me to be brave on their behalf.
-
-“Do you want to stop?” I ask Peter.
+“Do you want to stop?”
 
 “I want you to be able to.”
 
-That lands.
+I stand with that for a moment. He has read pages he should have asked me for, and he is sitting here trying to help. Neither thing disappears. I am glad he has made the offer before I have to turn my anger into a request everyone can hear.
 
-Zeke takes his palm off the wall and gives the House the full steadiness of his attention again. The water in Grant's hand settles. With the room secure, he asks it once more to level the floor.
+Mariana crosses to the former doors. She presses her hand where the handle was, then walks back along the wall to look at the arch. “Does the gallery have another way out?”
 
-This time it does.
+“It faces Delphi,” Zeke says. “Not a passage we can use.”
 
-I let my knees soften.
+Cold air moves through the opening, followed by a breath of heat. She steps out of its reach and looks at him. I have felt him answering those changes all afternoon. The room is empty.
 
-We have stopped the test. The House has a stable hold. The doors are still gone.
+“Sit down,” I say. “All of us. We’ve stopped.”
 
-“Now open them,” I say.
-
-For several seconds, only the couch moves. It retreats a little into the chamber, as though modesty might improve the offer.
-
-“No.”
-
-I walk back to the table. No one follows until I ask them to sit.
+Zeke brings his chair back to the table. He is holding the House completely again. I can feel it reaching toward where I sit because I make the work easier, not because the next breath depends on my rescuing it. I keep my hands around my piece of bread. There is a difference, and I need to stay still long enough to use it.
 
 ***
 
-The failure is easier to see while we are not trying to survive it.
+The east gallery is where I go when I want to remember that Delphi is still reachable. Before the drop, its current passed through the stone beneath my hands. I know the patch where I stand, the warmth along the wall, the view that lets me be alone without feeling cut off. The House has kept that opening for me, and every irregular surge through it has to be steadied before it reaches the rooms we are using.
 
-Zeke has resumed the whole hold. Peter and Eli are disconnected from the seats. I can feel the House drawing toward the place where I sit, not because it needs me to save it this instant, but because it knows how much easier I make its work.
+“Close the gallery,” I say.
 
-Across the room, air moves through the east arch.
-
-Cold, then hot, then cold again.
-
-“The gallery,” I say.
-
-Zeke follows my gaze.
-
-The east gallery looks out on Delphi. Before the drop, I could stand there and feel its current pass through the stone beneath my hands. Even now I go there to remember that it is still there, still reachable. The House has kept that opening for me.
-
-Now every irregular surge through it has to be steadied. The gallery is empty. We are holding open an empty room while Peter and Eli learn a task they can barely carry.
-
-“Close it.”
-
-Zeke turns toward me.
-
-“You won't be able to reach Delphi through it.”
+Zeke follows my gaze. “You won’t be able to reach Delphi through it.”
 
 “Tonight.”
 
 “Until we open it again.”
 
-“Then we'll decide when to open it again.”
+“Then we’ll decide when to open it again.”
 
-I look at the arch. Beyond it, light shifts over the empty floor. I know the place by the warmth of its stone, by the patch where I stand when I want to be alone without feeling cut off.
+I look at the light shifting over the empty floor. I will miss it tonight. I also want to leave with the man sitting beside me, and the two people offering to stay cannot carry everything we have kept open.
 
-I will miss it tonight.
+“I can give up a view.”
 
-“Close the gallery,” I tell the House. “I can give up a view.”
+Zeke tells the House to isolate the gallery from the occupied rooms. A seam appears down the middle of the arch. It waits until I say yes, then stone moves from both sides, slowly enough for the last strip of light to travel across the floor before disappearing. The change reaches Zeke first. His shoulders lower. Under the table, the running veins slow into wider intervals.
 
-A narrow seam appears down the center of the arch.
+Peter leans forward. “How much?”
 
-The House waits.
+“Enough to try with less.” Zeke watches the sealed arch for another breath, then turns back to the garden wall. “Open the doors.”
+
+The handles emerge at different heights. A join appears between them, but when Mariana turns the left handle, the top catches against the lintel. Zeke rises. I feel him start to lift the strain himself, then stop with his hand short of the wood.
+
+“The frame,” he tells the House.
+
+A groan passes through the wall. The lintel lifts, the door drops square beneath it, and Mariana pulls it open. She goes down the steps and walks to the garden gate. We watch her unlatch it, step through, then come back. When she reaches the room, she leaves both doors wide.
+
+“That opens too,” she says, pointing toward the gate. “Now you can decide.”
+
+The beautiful room remains behind the bookcase. I tell the House to close that entrance for the test. This time the shelves move back without an argument. I can still want what is behind them later.
+
+We ask Peter and Eli whether they will try the smaller hold. They agree, provided the first attempt is still two minutes. Mariana checks her phone; nothing from the shop needs her yet. She has until seven. If we get out, we will eat nearby and return before she has to leave. The other two can keep the House through dinner if it works, not an unspecified night that grows longer because everyone is having a good time elsewhere.
+
+Zeke looks at me. “Do you still want to?”
 
 “Yes.”
 
-Stone moves from both sides. Slowly enough that we can watch the opening narrow. The last strip of light slides across the floor and vanishes.
-
-The change reaches Zeke first. His shoulders lower. Under my hands, the racing grain slows into wider curves. Grant sets the water down and watches it hold still.
-
-“How much?” Peter asks.
-
-“Enough to try again with less to carry,” Zeke says.
-
-He is looking at the sealed arch as if he, too, has been mistaking an old accommodation for a law of nature.
-
-I wait until he looks back.
-
-“The doors.”
-
-The House puts the handles back.
-
-It does it badly. Brass presses through the wood at different heights. A seam opens between the doors, but the top of the left one catches under the lintel. Zeke moves toward it, then stops.
-
-I can feel the reflex in him. Lift the strain. Fix the fit. Make the failure invisible before anyone else has to notice.
-
-“The frame,” he says to the House.
-
-A low groan passes through the wall. The lintel lifts. The door drops square beneath it.
-
-Grant crosses the room, turns the handle, and opens both doors onto the garden.
-
-The breeze reaches us.
-
-He leaves them open and comes back to his place by the table.
-
-There is still a beautiful room behind the bookcase. There is also a way out.
-
-We begin again.
+He smiles, briefly and without relief. There is work between the answer and the gate, and he turns toward it.
 
 ***
 
-This time Zeke teaches them the smaller hold.
+The smaller hold has edges Peter can find. He feels a change without bracing against the whole House. Eli can wait long enough to tell whether it needs an answer. I let them reconnect, then move away while Zeke is still carrying most of it. Both remain distinct in my awareness. I leave the differences alone.
 
-The east gallery is no longer taking its irregular share. Peter can recognize a change without bracing his whole body against it. Eli can wait long enough to tell whether the change needs an answer.
-
-I let them reconnect through me. Then I move away from the table.
-
-The connection does not break. That is what they offered: to remain in relation to me without keeping me here to perform their part. I can still feel each of them, but I stop smoothing the places where they differ.
-
-Grant watches the glass.
-
-Zeke gives up a little more of his correction.
-
-Peter's breath catches.
-
-“Less on my side.”
-
-Eli keeps his place. He does not follow Peter into the strain this time.
-
-Zeke asks the House to move a little more of the hold toward Eli's seat. The veins brighten beneath him.
+Zeke eases more of his correction. Peter catches his breath and asks for less on his side. This time Eli does not follow him into the strain. Zeke moves a little more toward the garden seat, and its veins brighten beneath Eli’s feet.
 
 “I can do that,” Eli says.
 
-Nobody applauds. We wait to see if he can continue doing it.
+We wait to find out whether he can continue. Mariana watches the water. I walk to the open doors, stopping once when the House reaches for me beneath the ribs. The invitation is familiar, easy to answer. I could make the next part smoother for everyone.
 
-He can.
+“Use the people who are here,” I tell it.
 
-I walk to the garden doors.
+The pull eases. At the table, Peter shifts his hands. Eli looks toward him, then settles back without changing his own hold. I can feel work happening without feeling myself do it. The distinction is unfamiliar enough that I stay where I am to be certain.
 
-The floor stays level.
+Zeke comes beside me and takes his hand away from the wall. Peter says he can feel the change. When Zeke asks whether it is too much, he shakes his head.
 
-Zeke comes beside me. He takes his hand away from the wall before I have to look at it.
+“Different. Give me a moment.”
 
-At the table, Peter turns his head.
+We do. The water remains level. After the full two minutes, Mariana stops her watch and asks each of them again. Peter wants more of the garden side left with Eli. Eli says he has it. They make the adjustment while we are still there, then agree to the test beyond the gate.
 
-“I can feel that.”
+I go down the steps with Zeke beside me. At the doorway, Mariana moves her chair so she can watch the glass and see us both. We will cross and wait there for another two minutes. If she calls, we come back. If either man needs to stop, he says so before trying to make the failure smaller than it feels.
 
-“Is it too much?” Zeke asks.
-
-“No. It's different.”
-
-We wait.
-
-Peter looks at the water, then at Grant.
-
-Grant nods.
-
-Still level.
-
-The House reaches for me once more. A familiar invitation beneath my ribs, easy to answer. I feel how quickly I could make everything smoother.
-
-I do not answer it.
-
-Instead I lay my palm briefly on the open door.
-
-“Use the people who are here.”
-
-The pull recedes. Beneath Peter and Eli, the stone supports glow steadily.
-
-I can feel the work happening without feeling myself do it.
-
-It is such an unfamiliar distinction that I stay still to be certain.
-
-Zeke watches my face.
-
-“Yes,” I tell him.
-
-He understands which question I am answering.
-
-We go down the steps together.
-
-At the garden gate, we stop. This is where his presence ordinarily begins to lose its purchase on the House. He has explained it to the others. Grant is standing in the open doorway, where he can see both the table and us.
-
-Peter and Eli will hold for two minutes after we cross. If they cannot, Grant will call us back before the room begins to shift. If they can, they have agreed to keep the smaller House through the evening, with the gallery sealed and the work shared between them.
-
-I unlatch the gate.
-
-Zeke has gone very quiet.
-
-I know that quiet. His attention is already reaching backward, checking the chairs, the doors, the emptied places he has always been responsible for filling.
-
-I take his hand.
+Zeke grows quiet as we reach the gate. His attention is reaching backward, checking the doors, the seats, the work he has handed over. I take his hand before he can turn it into another correction.
 
 “You have to come with me.”
 
-His eyes meet mine.
+He looks at me.
 
-“All of you,” I say.
+“All of you.”
 
-For one breath, his grip tightens.
+For one breath his grip tightens. Then he steps through, bringing our joined hands with him. I follow. The old pressure leaves my body so suddenly that I feel cold in the warm air.
 
-Then he steps through.
+Something knocks against the table. Zeke turns halfway, and Mariana calls for us to wait. I can see Peter leaning toward Eli, whose coffee has tipped. The water glass remains upright. Neither of us moves back through the gate while she checks it.
 
-I follow, and the old pressure leaves my body so suddenly that I feel cold in the warm air.
+“Coffee,” she calls. “The floor’s fine.”
 
-Inside, something knocks against the table.
+“A devastating loss,” Eli adds. “Continue.”
 
-Zeke turns halfway.
+Zeke lets out a breath that almost becomes a laugh. We stay for the rest of the two minutes. I feel him beside me and the others at the far end of the connection. Neither feeling asks me to do their part.
 
-“Wait,” Grant calls.
+Mariana lifts her head. “Level. Go.”
 
-We stop where we are.
-
-I can see Peter leaning toward Eli. Eli says something I cannot hear. His coffee cup has tipped, but the tumbler beside it remains upright. Grant is looking at the water, not at us.
-
-Peter adjusts his hands.
-
-The veins beneath his chair dim a little. Eli's brighten.
-
-Grant lifts his head.
-
-“Coffee,” he calls. “The floor's fine.”
-
-From the table, Eli shouts, “A devastating loss. Continue.”
-
-Zeke lets out a breath that almost becomes a laugh.
-
-We wait the full two minutes. I feel the bond between us, warm and insistent as ever. I feel Peter and Eli at the other end of the new connection. Neither feeling contains the old demand that I take over.
-
-Grant checks his watch.
-
-“Level,” he says. “Go.”
+We go.
 
 ***
 
-We walk until the House is behind the trees.
+At the corner Zeke begins to look back, then catches himself and looks down the street instead. There is room in his face for things I have not seen there all afternoon. I keep watching until he notices.
 
-Zeke keeps my hand. Once, at the corner, I feel him begin to turn his attention back. He catches himself before I say anything.
+“What?”
 
-There is room in his face for things I have not seen there all afternoon.
-
-“You're staring,” he says.
-
-“I had to convene a meeting to get you off the property. I'm entitled to inspect the result.”
+“I had to convene a meeting to get you off the property. I’m entitled to inspect the result.”
 
 “And?”
 
-I stop beneath a tree whose roots have lifted the pavement. He turns toward me.
+I stop beneath a tree whose roots have lifted the pavement. He turns toward me. I put my free hand against his chest and feel his heart answering mine without a room needing anything from either of us. I kiss him.
 
-I put my free hand against his chest. His heart is fast. Mine answers it. For once, neither of us has to make that useful.
+He takes a step closer, one hand at my waist. For a little while I forget the position of the House behind the trees. There is only the warm cotton under my palm and the way he pauses when I draw back, giving me room to decide whether I am finished. I am not. The second kiss leaves him smiling against my mouth.
 
-I kiss him.
+His phone sounds before he can say something that will ruin my composure. Mariana has sent a photograph of the table. The water is level, Peter has his notebook open beside one hand, and Eli has found another cup. Behind them the doors stand open and the east arch is stone. Beneath it she has written: *Go eat something. Back before seven.*
 
-He is smiling when I pull away.
+Zeke shows me the picture. I check the time, then give him back the phone. We have enough. For once, enough is an amount we can use rather than something I am trying to become.
 
-A message arrives on his phone before he can say whatever is about to ruin my composure.
+At the bottom of the hill, a restaurant has opened its windows to the evening. I can smell bread and something cooking in butter. Zeke stops at the door and asks if I want to eat there. I look at the small tables, the woman setting down a jug, the patch of sun still reaching the floor.
 
-Grant has sent a photograph. The water is level. Peter has his notebook open beside one hand. Eli has found another cup. In the background, the garden doors are still open, and the east arch is solid stone.
+“Yes.”
 
-Under the picture:
-
-*Go eat something.*
-
-Zeke shows me the screen.
-
-We keep walking.
-
-At the bottom of the hill, the windows of a small restaurant are beginning to glow. I can smell bread before we reach the door. He looks toward it, then at me.
-
-“Yes,” I say.
-
-Inside, a woman lifts two menus from a shelf.
+Inside, she lifts two menus from a shelf.
 
 “Table for two?”
 
-“Two,” I say.
-
-Zeke puts his hand at the small of my back, and we follow her in.
+“Two,” I say. Zeke puts his hand at the small of my back, and we follow her in.
