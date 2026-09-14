@@ -17,7 +17,7 @@ genre: "Speculative fiction / myth-tech story world"
 archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Five."
 reader_note: "Presented as a story-world text and manuscript opening."
 content_note: "Contains body-memory language, animal death, grief, erotic/sensual charge, and mythic power dynamics."
-revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapters Three through Five retain their prior public versions."
+revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapters Four and Five retain their prior public versions."
 audio_status: "ready-to-record"
 updated_at: "2026-09-13"
 ---
@@ -841,59 +841,188 @@ This time my hands are nowhere near the page.
 I stay upright as the grid goes quiet.
 
 ## Chapter Three
+
 ### Ninneva
 
-The flicker lasts one second.
+The music stops in the middle of a note. Across the lane, the woman with the bottle folds around it, keeping the glass against her body even as her knees give. I reach her before she hits the paving. For an instant, something enormous passes through the space where her shadow was, its wings reaching from the cloth shop to the opposite roof.
 
-Not enough to study. Not enough to prove.
+She weighs exactly what a woman weighs. I get an arm beneath hers and lower us against the shopfront while the street tries to become several streets at once. The bottle slips, strikes the loaf under my arm, and rolls unbroken between our feet. Through the paving I can see foundations, a deeper line of walls, water moving green where the light reaches it. Then the road closes over them and the music resumes half a beat behind itself.
 
-Long enough to scar.
+The whole thing lasts a second. My body takes considerably longer to believe it has ended.
 
-For one breath, the underlayer surfaces.
+The woman grips my sleeve with both hands. She is staring across the road at a man holding the side of his face, although whatever moved beneath his skin is no longer visible. Farther up the lane, a boy stands with his mouth open while someone calls his name. A delivery cart hits the curb hard enough to throw its driver sideways. People are down between it and the square, some trying to get up, others frighteningly still.
 
-Shadows lift off the ground like they remember having wings. Skin misaligns with what it has been containing. Forms bleed through forms, higher geometries pressing against human outlines without permission or apology.
+“Put your hand here,” I tell her, moving her grip to my shoulder. “Can you breathe?”
 
-Hybrids everywhere are caught mid-translation.
+She nods without looking at me. There is blood beneath her nose. I give her the clean end of my sleeve, and she presses it to her face while I follow her gaze back across the road.
 
-Most people never see it cleanly.
+A chair stands where there was no chair before.
 
-They feel it instead.
+It is on the narrow island where the delivery carts turn, between two bent posts with nothing left strung between them. Dark wood, a woven seat repaired with a strip of pale cord, a back worn smooth where hands would lift it. An indoor chair, made for someone to sit down and stay awhile. Nobody has any business leaving it in a road.
 
-A drop. A vertigo. Knees buckling. Vision stuttering. Phones slipping from hands. The body reacting faster than the mind can invent a reason.
+I saw the cart pass through its lower rung. The memory arrives a fraction after everything else, clear enough that I look for broken wood beneath the wheel. There is none. The driver has climbed down and is staring at his axle; the chair stands untouched behind him.
 
-Some black out.
-Some scream.
-Some collapse where they stand, systems overwhelmed by a signal never meant for conscious reception.
+“Did you see?” the woman asks.
 
-The grid corrects itself immediately.
+“Yes.”
 
-Of course it does.
+She pulls my sleeve away from her face. “All of it?”
 
-But correction does not erase what happened. It seals it behind denial, footage glitches, shared confusion. The kind of event history will argue about forever without touching the truth.
+I look at her properly. Her pupils are wide, her breathing quick, but she is watching me now with an attention that has nothing to do with whether I can help her stand. I have known people with more than one shape. I have known people who spent a life making sure nobody else did.
 
-Power groups register the spike all at once.
+“I saw you fall,” I say. “I caught you.”
 
-They do not agree on what it means, but the conclusions converge fast:
+Her grip loosens a little. Above us a window opens, then another. Someone starts shouting for a doctor. The boy at the end of the lane finally answers his name, and the woman calling him makes a sound that seems to take the strength out of her legs. She crosses the distance on her knees.
 
-The grid is alive.
-Someone tried to collapse it.
-The hybrids can no longer pass unnoticed.
-And one person stayed conscious when the grid surged hard enough to kill weaker systems.
+Mariana comes out of the cloth shop with a folded blanket. She puts it around the woman beside me and asks where it hurts. While the woman checks herself, moving one hand cautiously along her ribs, Mariana glances toward the delivery cart.
 
-Ninneva is still standing.
+“That wasn’t there.”
 
-Not elevated.
-Not crowned.
-Not spared.
+A drop falls from the pale cord in the chair’s seat. The road around it is dry.
 
-Just present.
+“I know.”
 
-Watching the afterimage fade while the world around her tries to convince itself nothing happened.
+She watches another drop fall, then turns back to the woman. “Can you stay here a moment? I need to see who’s down by the cart.”
 
-She exhales.
+The woman says she can. I help her settle against the wall, retrieve the bottle from beneath my foot, and put it beside her. The bread has a dent in it but is otherwise better prepared for the evening than I am. When I stand, I expect the dizziness to come. There is nothing. My feet know where the street is, even with the older one still pressing beneath it.
 
-The rest of us now have to stand.
+Across the lane, the driver tries to lift the chair out of the way. He pulls once with one hand, then sets both feet and uses two. The wood does not creak. His cart passed through it; now he cannot shift it enough to free the road.
 
+“Leave it,” Mariana calls. “Help me with someone who can move.”
+
+He hesitates, looking at the narrow gap beside the posts, then follows her toward a man lying half under the cart. I join them. The man is conscious and furious about his ankle, which is a considerable relief. We move the cart rather than drag him out. He tells us how to do it throughout, including during the part when we are already doing exactly what he says.
+
+By the time we have him against the shop wall, the first steward has arrived from the square. His radio keeps breaking into words I cannot quite assemble. He presses it to his ear, asks somebody to repeat themselves, then looks up the hill toward the House. Its windows are bright against the evening. Along the gutters, black-silver dust is gathering into a continuous seam.
+
+The House has reached us through the swarm. I feel its attention touch my shoulder and move on, passing over the man’s swollen ankle, the woman under the blanket, the chair. At the last, it catches. The pale cord darkens as though a shadow has crossed it, although the light has not changed.
+
+My phone vibrates against the fittings in my bag. Zeke wants to know where I am. I send *Cloth shop. People are hurt*, then add, *We are still having the conversation you promised me.*
+
+His reply comes before I put the phone away.
+
+*Yes. Eli is bringing help. I’m keeping the upper passage open. Tell me when you leave.*
+
+For a moment I let myself feel the relief of knowing where he is and what he is doing. Then the steward raises his voice, and the whole lane begins trying to hear him.
+
+“Stay where you are. There’s been a display failure.”
+
+The man with the injured ankle looks up. “Was the fucking road on display?”
+
+A few people laugh, more sharply than the joke deserves. The steward glances at the radio again. Behind him, a woman holds her phone above the crowd, replaying the second in which the lane changed. I can see a smear of white across her screen and a wheel hanging at the wrong angle. She drags the picture back with her thumb.
+
+“There,” she says. “You can see it there.”
+
+The woman under the blanket turns her face toward the wall.
+
+A man leans over the phone. He points, says something I cannot hear, then looks directly at her. Recognition passes between him and another person in the crowd. It is an ugly little intimacy, two strangers discovering they might be entitled to ask a third one questions.
+
+“I know her,” he says. “She comes through here every week.”
+
+Mariana straightens from checking the injured man’s ankle. “Then you can help her get home.”
+
+“That’s not what I meant.”
+
+“I know.”
+
+She makes him move so a second blanket can pass. The woman with the phone lowers it, but two people are already asking her to send them the recording. At the end of the lane another man is insisting that his shows nothing at all. He was filming his daughter when it happened. Now he cannot find the part where she fell.
+
+The steward tells everyone to stop circulating faulty footage. Someone asks whether he has watched any of it. Someone else wants to know why the sponsored houses are still lit. The questions begin overlapping, and beneath them I hear a different one: how many of the people they see every day have been something else all along?
+
+I have no useful speech for a crowd that has just discovered it can be frightened of its neighbors. I turn toward the woman I caught. She is trying to stand without attracting attention, which makes it harder. I offer my arm and wait until she takes it.
+
+“Inside?” I ask.
+
+She looks at the shop door. “They’ll see me go.”
+
+“Yes.”
+
+Her hand tightens. I wish I had a better answer, but she has just watched a man call the street a broken display. I will not make another ordinary fact disappear for her. Mariana joins us, putting herself between the woman and the phones, and asks whether there is someone she wants called.
+
+“My sister.”
+
+“Can she come?”
+
+“I don’t want her walking through this.”
+
+“Then we’ll call from inside and work out where to meet her.”
+
+The woman considers the distance to the door. Behind us, the man who said he knew her is still talking. She lifts her head and walks, leaning on me more heavily than she wants to. Mariana holds the door while we pass. Nobody applauds our entrance. A woman at the cutting table simply moves a basket off a stool and brings a glass of water.
+
+The room smells of damp wool and lamp oil. Bolts of cloth stand against one wall; along the other, clean sheets have been laid out for the people coming in from the lane. The back passage is kept clear. I can hear someone pumping below us, followed by the uneven rush of water into a tank. The fittings in my bag knock against my hip as I help the woman sit.
+
+“You can let go,” she tells me.
+
+I had not noticed I was still holding her elbow. She draws the blanket closer, then looks at the blood on my sleeve. “Sorry.”
+
+“It’s been a competitive day for the shirt.”
+
+She laughs once, painfully, and accepts the water. Mariana gives her a phone and moves far enough away that she can speak to her sister without all of us listening. I take the bread and fittings to the counter. One corner of the receipt has gone soft where it pressed against my wet sleeve; the writing is still legible.
+
+“This is the one you wanted.”
+
+Mariana smooths it beside a delivery sheet. She follows the line beneath each total, then turns the older paper so I can see the same reference on both. The quantities are different. One is for what I bought this afternoon; the other includes the parts Eli came to collect.
+
+“Peter found it on work at the House too,” she says. “I want to know what account they think this kitchen belongs to.”
+
+“Does it belong to one?”
+
+“We paid for the parts. That’s all we agreed to.”
+
+The pump below us catches again, runs for longer, then stops. Mariana waits through the silence, listening. A woman calls up that the tank is filling. She closes her eyes for a moment before gathering the receipts.
+
+“Peter asked for a photograph. Do you mind?”
+
+“Send it. I’m going up there.”
+
+“To see Zeke?”
+
+“Yes.” I look toward the window, where the crowd is still visible above the stacked cloth. “He opened work I left in the House. He’s going to show me what he did with it.”
+
+She studies me without offering an opinion about whether I should go. “Do you want company?”
+
+“I don’t know yet.”
+
+“I can’t leave these people now. But you can call.” She reaches for my hand before I turn away, briefly, with the dry warmth of a person who has been carrying things all day. “You can come back too.”
+
+I nod. For a second it is difficult to do anything more elaborate. Then somebody needs the scissors she is standing in front of, and she moves, and the room continues.
+
+Outside, Eli has arrived with the narrow trolley and two people who know how to lift the injured man without making him pretend it does not hurt. The steward wants names before anyone leaves. Eli tells him he can walk beside the trolley and ask on the way. It is not the answer he wants, but the trolley is already moving. People step back to let it through.
+
+The delivery driver has left his cart against the opposite wall. To keep the lane open, he and another man have laid two boards across the gutter so smaller wheels can pass around the island. The chair remains between the posts, its wet patch no larger than when I first saw it. All this rearranging, and the one thing nobody put there has acquired the right to stay.
+
+I cross while the lane is clear. Up close I can see a repair at the bottom of one leg: a shorter piece of wood fitted beneath the old one, carefully shaped to keep the seat level. There is no ornament, no name cut into the back. Whoever mended it wanted a chair that would hold a person without rocking. The care in that small correction makes my throat ache more than the glimpse of wings did.
+
+I put my hand on the worn back. It is cool. Beneath my feet the old pressure continues, but nothing runs up through my arm. The chair does not ask me to steady it. After a day in which even a glass of water has required an opinion from somebody, I want badly to sit down.
+
+A drop lands on my boot. I look at the seat, then at the two bent posts. I know nothing about what will happen if I give it my weight. Wanting a place to rest is not going to make me learn that in the middle of this street.
+
+The swarm thickens along the nearer post. A few grains cross the gap toward my fingers, stop short of the wood, and return. The House is looking with me. I cannot tell whether it recognizes what we have found.
+
+“Does that belong to you?”
+
+The steward has come up behind me. Without the radio at his ear he looks younger, and tired enough that I almost feel sorry for him.
+
+“No.”
+
+“Then don’t touch it. We need to establish where it came from.”
+
+I take my hand away. “It appeared when the street changed.”
+
+He glances toward the people still waiting outside the shop, then back at the chair. “That’s not what I’m asking.”
+
+“It’s the answer I have.”
+
+His radio speaks again. This time I hear *upper passage*, followed by Zeke’s name. The steward turns his shoulder toward me and asks whether the passage has been cleared for use. I leave him waiting for the reply.
+
+At the top of the lane I look back once. Mariana stands in the shop doorway beside the woman under the blanket. Neither of them is watching me. They are looking for the sister coming to meet them, deciding which direction she can approach from without crossing the crowd. Between us, the chair sits in the space everyone has begun going around.
+
+I send Zeke a message: *Leaving now. Keep what you opened where I can see it.*
+
+*I will.*
+
+I put the phone away and continue toward the transfer hall. My notebook is still in my bag, heavier now that I know someone else has been reading the pages that came before it. I want to see him. I want him to tell me everything. Those wants can make the journey together; they do not have to arrive at the same answer.
+
+Inside the hall, the lights are steady. A woman near the entrance is peeling an orange, dropping each piece of skin into her cupped hand. Beyond her, the departure board lists seventeen rows of coordinates. I stop where I can read the western passages and look for the route to the House.
 
 ## Chapter Four
 ### The Gate That Knew Her Name
