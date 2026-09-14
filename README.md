@@ -28,7 +28,7 @@ See [Migration Queue](MIGRATION_QUEUE.md).
 
 ## Public Post Archive
 
-The Twitter/X archive and its sync tools moved to the separate [public Twitter archive](https://github.com/annimch04/twitter-archive) on September 9, 2026; its visibility was corrected to public on September 11. Earlier sanitized exports remain in this repository’s published history; ongoing archive work belongs in the dedicated repository.
+The canonical [Twitter/X public-post archive](archive/twitter/) lives here alongside the authored work. It includes sanitized post records, dated indexes, public context notes, and review-first sync tools. Raw platform exports, direct messages, deleted-post files, account data, and private collection batches stay outside the public repository. The [separate Twitter repository](https://github.com/annimch04/twitter-archive) is a legacy copy; ongoing updates belong here.
 
 Those posts are contemporaneous artifacts, not retroactively edited canon. Essays and developed pieces remain the canonical expression of the work. Over time, public posts may be linked across years by theme to show how an idea moved from fragment, signal, reply, or thread into notebook work, Markdown source, Git history, published essays, and fieldlight.com reading surfaces.
 

@@ -2,6 +2,3 @@
 .twitter-sync/
 __pycache__/
 *.pyc
-
-# Twitter archive is maintained in its own private repository.
-/archive/twitter/
