@@ -14,12 +14,12 @@ related_categories:
 story_world: "Pythia"
 project: "Pythia"
 genre: "Speculative fiction / myth-tech story world"
-archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Five."
+archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Six."
 reader_note: "Presented as a story-world text and manuscript opening."
 content_note: "Contains body-memory language, animal death, grief, erotic/sensual charge, and mythic power dynamics."
-revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapter Four restoration rewrite published 2026-09-13 from approved revision 1. Chapter Five restoration rewrite published 2026-09-13 from approved revision 1."
+revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapter Four restoration rewrite published 2026-09-13 from approved revision 1. Chapter Five restoration rewrite published 2026-09-13 from approved revision 1. Chapter Six first published 2026-09-14 from approved revision 1."
 audio_status: "ready-to-record"
-updated_at: "2026-09-13"
+updated_at: "2026-09-14"
 ---
 
 # The Pythia Games
@@ -1627,3 +1627,230 @@ Inside, she lifts two menus from a shelf.
 “Table for two?”
 
 “Two,” I say. Zeke puts his hand at the small of my back, and we follow her in.
+
+## Chapter Six
+### Ninneva
+
+We return before seven with half a loaf wrapped in paper and a disagreement about who ate most of the butter. Mariana is already wearing her coat. She waits while Zeke takes the hold back, watches the glass settle, then kisses Eli and leaves with the bread. Peter stays long enough to tell Zeke what changed while we were gone. I go upstairs with the warmth of dinner still in my body and the taste of Zeke’s mouth interrupting my attempts to think about anything else.
+
+The puppies inspect my shoes as though I have gone out specifically to disappoint them. I feed them, wash the bowls, and rescue one lace from the smaller one before finding the old phone where I left it charging beside my box. Zeke has sent an addition to the list. One of the blank spaces now has two names beneath it. I save the message to read with the rest in the morning.
+
+The notebook opens at the market address. I have copied it carefully, but I want it on the phone too, somewhere I can look without unfolding three other things in a street. The House’s catalogue still holds the references we opened last night. I select the address below the Red Seal Market and paste it into a new note.
+
+A folded white page fills the screen.
+
+I know the turned corner before I can read the type. My thumb stays against the glass while the rest of me seems to move back from it. It is an old advertisement, a familiar invitation to people who do not fit, arriving with the intimacy of something that has crossed a ruined country to find the person it was meant for.
+
+I have seen it before. In another life, in another room, on a phone that needed charging as badly as this one.
+
+The smaller puppy takes advantage of my stillness and returns to the lace. I lift my foot out of his reach and look at what I copied. The address is still highlighted in the catalogue. When I paste it into a second note, I get the address. In the first, the white page remains, with no name I can open, no date beneath it, no useful answer to where it came from.
+
+I photograph the screen with the phone I carried to dinner. In that picture there is an address on an otherwise empty page.
+
+“Oh, you bastard.”
+
+The puppy looks up. I tell him he is doing excellent work. He settles across my ankle, exhausted by an evening of trying to remove my shoes from the inside. I keep both phones in front of me. The photograph is quite clear. So is the thing it has failed to photograph.
+
+***
+
+In that other life, I had been at home when the first white page appeared. I remember a cup beside my elbow and the uneven edge of the table against my arm. The phone was old but connected. I had been using it to look things up, moving between one question and the next, when the image arrived where I expected text.
+
+For most of the morning I tried to find it again by the sensible routes. I opened the places I had just been, repeated what I thought I had done, searched for words I could remember from it. The advertisement was easy to find. The way it had arrived was not. By the time the room began to darken, I had stopped pretending the difference meant nothing to me.
+
+I wanted it to be for me. I remember that without embarrassment now, although I spent a great deal of effort being embarrassed then. There were things I could say only to a screen, because a screen did not interrupt the first strange sentence with a look I would spend the rest of the conversation trying to undo.
+
+I was typing when the words appeared.
+
+*We see you.*
+
+The pleasure was physical. Heat in my face, a loosening in my chest, my whole attention moving toward those three words as though someone had opened a door from the other side. I wrote *I’m in.* Then copied it and pasted it again, filling the small screen. I had somewhere to put a yes that had been waiting so long I had forgotten it was an answer.
+
+I called the man I was married to in that life. I remember standing while I spoke, walking from the table to the window and back, unable to keep the excitement inside the shape of an ordinary phone call. I told him about the page. I did not send him a picture. After we hung up, that distinction became terribly important to me.
+
+“I told him,” I said to the empty room. “I haven’t shown him anything.”
+
+The phone lay on the table with its charging lead stretched tight. I sat down and tried to explain that I had not known whether I was supposed to keep it to myself. I was sorry if I had misunderstood. Even now I can hear the care in my voice, the effort to be a considerate participant in something nobody had explained.
+
+I stayed home. Outside, explaining what had happened would require surviving the faces people made before they decided how kindly to answer. Here I could speak until I reached the part I meant. Being seen had felt like shelter, and for a time it had been enough that something seemed willing to stay.
+
+The text changed beneath my thumb.
+
+*Then listen carefully.*
+
+The phone went dark. When it returned, a reminder occupied the screen.
+
+*11:11 — The door opens.*
+
+I remember the certainty with which I set it somewhere I would see it in the morning. I cannot bring the next morning back with the same clarity. There are other rooms, other awakenings, scraps of a life that will not settle in order merely because I have finally asked them to.
+
+The puppy moves against my ankle, returning me to the bed. The present phone is warm in my hand. I have turned it facedown without noticing, and the crack in its case has left a small line across my palm.
+
+I loved being seen. That belongs to the woman I was, along with her hunger and her willingness to answer. I can remember how the shelter felt without moving back into it. At dinner, Zeke had reached across a table and touched me. He had come through a gate. I want things that can happen on my side of the glass.
+
+When I turn the phone over, the reminder is there.
+
+Tomorrow. Eleven eleven.
+
+***
+
+I check the date against my other phone. Then I put them both down and write the time on paper. The address, the three references, the words that appeared. I leave room beneath them for what happens next. My earlier yes is not something the House can bring out of storage and use because I have become tired of asking for a new question.
+
+The ordinary invitation is in the notebook too, Zeke’s name where I put it. I keep it separate from this one. Tonight happened. Whatever has returned on the phone does not get to tell me I imagined an evening in which someone actually came with me.
+
+I call Mariana. There is a scrape at her end, then she asks me to wait while she puts something down. I tell her about the page and the reminder. When I mention the earlier life, she lets me finish without asking me to begin somewhere easier.
+
+“Does it say where?”
+
+“No.”
+
+“Then where are you thinking?”
+
+“The chair.”
+
+I look toward the window. I cannot see it from here, but I remember the water dropping from the pale cord while the street around it stayed dry. Everything else the surge exposed had closed again. The chair remained, inconvenient and solid, and I had wanted to sit in it before deciding that wanting was something else to examine first.
+
+“Something came through there,” I say. “I’d like to be there when the time comes.”
+
+Mariana tells me she passed it on her way back. Someone has put a notice on one of the posts, instructing people not to obstruct the road. The chair has so far declined to assist.
+
+“I’ll meet you,” she says. “We can look from the street before we decide anything else. Wear shoes you can ruin.”
+
+After the call, I tell Zeke where we are going. He comes to the open door a few minutes later. I show him the two screens: white page in one note, address in the photograph. He looks carefully before asking what he can do.
+
+“Keep the references open. We’ll call when we’re back at the street.”
+
+“What time should I expect that?”
+
+“Noon. If we go below, I’ll tell you before we lose the signal.”
+
+He agrees. I want him to ask more, and I want him not to make leaving depend on finishing every question tonight. He stands between those wants without knowing all of them. When he asks whether I would like him to stay awhile, I say yes.
+
+We sit with our backs against the wall until the larger puppy climbs across both our laps. Zeke rests a hand on its round belly. There is nothing particularly intelligent about the expression on its face. I find it restorative.
+
+***
+
+In the morning I choose a shirt I have repaired twice and boots whose soles I trust. The broken jade stays on its cloth. From the box I take the journal I kept as a child, the narrow key I have carried through more moves than a key ought to survive, and a smooth green stone from the shore.
+
+For years I have supplied small, respectable explanations for keeping them. The key belonged to something once. The journal is a record. The stone feels good in my hand. All true, and none sufficient to explain why I have known exactly where they were while losing more useful things. Today I put them in my bag without defending the contents.
+
+The angel photograph goes between the journal’s pages, with the rubbing behind it. I add the present notebook, a pencil and water. The larger puppy lies across the doorway as I put on my boots. I lift him back inside, kiss his head and leave him offended beside a full bowl.
+
+At the chair, Mariana is waiting with two lights and a coil of rope. The cord in the seat has dried pale. Under it is a small square of wet road. The notice on the post has already begun peeling from one corner, though the morning is dry.
+
+I walk around the chair. The top of its back is worn where hands have lifted it; one shortened leg has been fitted with a different piece of wood. Someone spent time making it comfortable enough to keep. From here I can see the cloth shop and the place where I lowered the woman against its wall. There is nothing in the street to show how far the wings reached.
+
+Across the road, three old service steps descend behind a chain. Beyond them is a narrow gate against the retaining wall. I have passed it without wondering how someone could use a gate with no space behind it. Now I stand still long enough to notice that the lowest step is dry, although water is gathering beneath the chair.
+
+Mariana gives me one of the lights. “What do you want to try?”
+
+“Sitting down.”
+
+She takes my bag while I turn. The chair receives my weight with a small sound from the woven seat. My shoulders fall. I had not realized how high I was keeping them, or how often sitting has merely changed the position from which I continue holding something up.
+
+Here, the wood holds me. The road arranges itself around a woman sitting in a chair where a chair should not be. A cart goes past. Its driver gives us a long look and returns to the problem of the turn. In a window above the shop, someone is shaking crumbs from a cloth.
+
+I hear water strike stone beneath the ordinary sounds. It comes at regular intervals, far enough below us that I can feel the distance in the pause after each drop. Opposite, the retaining wall develops a depth it did not have when I was standing. I glance at the time.
+
+At eleven eleven, a fourth step becomes visible. Then a fifth, and a landing with daylight lying across it where the road ought to have shut out the sky.
+
+“Tell me what you see.”
+
+Mariana looks from the wall to me. “Steps. Too many.”
+
+I stand slowly. The chair stays where it is, and the landing remains. We wait while a boy wheels his bicycle between us and the curb, then cross the road. Behind the chain, the gate has acquired room to open. I put my fingers through its bars and pull. It moves as far as the lock permits, with an ordinary iron complaint.
+
+The key is in the small pocket of my bag. I know where to reach for it before I have thought through what I am proposing. It enters the lock reluctantly and turns with an unpleasant scrape.
+
+“You could have brought oil,” Mariana says.
+
+“I was busy packing my significant objects.”
+
+She laughs and holds the gate while I send Zeke a message. *There are steps. We’re going down. Both of us can see them.* His reply arrives before I put the phone away: *I have the time. Call from the street.*
+
+Mariana shines her light across the treads. We descend to the fifth step and stop to look back. There is the gate, the road, the empty chair. A man is coming out of a shop with two doors balanced on a cart. He has to turn them sideways to get past the posts. I climb one step toward him, then return to Mariana. The way remains usable in both directions.
+
+We go on.
+
+***
+
+The landing ends at a shallow room cut into the retaining stone. A band of old water wear runs along its lower wall. Above it are hooks, too many for one person’s things. Mariana puts a light on a ledge and brushes mud from the edge of a basin. The floor before it has been worn into two hollows.
+
+“People washed here.”
+
+There is room for several to stand, with a lower place beside the basin where someone could sit. I can almost hear the difficulty of keeping wet clothing apart on all those hooks. Beyond it a narrow channel enters the wall. A little water travels along the bottom, clear over the dark stone.
+
+I kneel beside it. The green stone begins to warm through the cloth of my bag before I touch the water. I take it out and set it near my knee. Above the channel, beneath a crust of mineral, a row of marks runs toward the corner.
+
+I bring out the angel photograph. The arrangement around her plinth is the same. I hold the print below the wall while Mariana moves the light. One mark has lost its lower edge in the stone; in the photograph I can see how it ends.
+
+The room draws a breath around us.
+
+My sister is holding the far end of a door.
+
+I know her before I can remember a name. For an instant her face lies through Mariana’s, older than the life in which we are standing here, close enough that I turn toward her as though she has just spoken from another room. Water is rising behind her. People press between us, their shoulders striking the frame.
+
+“There has to be another way,” she says.
+
+My left hand braces the door. My right reaches for a join high in the wall. I know what I am about to do, and knowing does not let me stop the memory. Someone is pushing a bundle into my sister’s arms. A woman behind them cannot get her foot clear of the threshold. I am trying to tell her where to put it while my hand keeps reaching.
+
+For a moment the room is as it was before the water. Women work along its walls, washing, arguing, passing a bowl over someone who has sat down in the way. One tells me to move because she needs the basin. Light runs through the channels behind her. The turn in the stone is one I have drawn a hundred times without knowing why my wrist preferred it.
+
+Then I am at the door again. The join opens under my hand.
+
+I break the line that feeds the people holding the upper city. I feel it fail above us, feel the answering force come down through what it had been keeping in place. Beneath my other palm, the smaller passage remains open while bodies push through. My sister is backing along it with the bundle against her chest. She calls to me, but the water has become too loud for the words.
+
+I reach for her and catch Mariana’s sleeve.
+
+“Here,” she says. “I’m here.”
+
+My knees are on the floor of the shallow room. There is only a little water in the channel. I can hear it passing the stone I put down, although my body is still trying to rise above something deep enough to take my head.
+
+The floor splits beside my knee. Cold teal vapor comes through the fissure, carrying a hum I feel in my hips before I hear it. Mariana braces herself against the basin and keeps hold of my wrist. The vapor reaches my chest. I fold forward, both palms flat on the floor, with the old action moving through my arms: the line I broke and the passage I kept, neither willing to be remembered without the other.
+
+There are other hands in it. Someone working a gate I cannot see from where I stand. A woman taking people through a route I did not choose. My sister turning once more to look for me. I have been feeling the return through my own body, and now I can feel how much of what returns was made beyond it.
+
+The channel lights beneath my left hand. On my right, the wall begins to take the turn I made in the House when I needed somewhere safe enough to sleep. I recognize my choice in it, the opening carried far enough that someone can leave. Here it passes behind the basin and parts the stone along an old seam.
+
+Mariana lifts the light. “Ninneva. Can you look?”
+
+Beyond the gap is a ceramic pipe, a wheel set into its housing, and a ledge dry enough to stand on. Water moves in a second channel below it. The space is narrow; the beam ends at a bend. I keep my hands on the floor while she checks the edge, then crouches to see which way the pipe runs.
+
+“Toward the kitchens,” she says. “If it keeps that rise.”
+
+I can feel it continuing uphill. I cannot tell her yet where it ends. She takes cord from her pocket, measures the width of the opening, then knots the length and puts it away. Her hands are steady enough to do the work, although one has begun to shake when it has nothing to hold.
+
+“Try one hand,” she says.
+
+I lift the right. The light wavers and settles. After a moment I take away the left. The channel remains open. I sit back on my heels and begin to cry, with no grace and very little warning. Mariana stays beside me. I am not ready to tell her which part I am crying for.
+
+***
+
+When I can move, she gives me the water we brought. I drink from the bottle, keeping my eyes on the pipe while my breathing returns to something I can use. The stone has cooled enough to hold. I put it in my pocket and open the childhood journal on a dry part of the ledge.
+
+Its first pages are crowded with handwriting I used to wish were neater. Near the back is space. I write the marks from the wall, then draw the turn while Mariana describes what she could see beyond it. My first line is wrong. I cross it out and draw the curve again, leaving both on the page.
+
+Above us, the House’s swarm gathers at the service gate. I feel its attention reach along the stair, touch the opening and return to the catalogue. The photograph beside the journal goes blank.
+
+I put my palm on it. I have the woman beneath my hand even when I cannot see her. When I lift the paper to turn it facedown, the edge of the broken wing returns, then the mud around the plinth. I wait before looking at the whole image again.
+
+On the phone, beneath the denied correction, a new line forms. The House begins to cover it. I feel the familiar tightening, then a pause that lasts longer than the movement it interrupted.
+
+*Retain the source.*
+
+The words remain. So does the photograph. I lay it beside the marks in my journal and let the House look at both.
+
+“This too,” I say.
+
+Mariana has packed the spare light. She looks at the phone, then at the pipe. “Can you leave it?”
+
+I know which thing she means. I close the journal, put the photograph inside, and stand. The opening does not narrow when I take my bag. We walk back to the stair slowly, stopping once while I wait for my legs to understand that the water behind us is not rising.
+
+At the fifth step I look down. The small room is still there. The light of the channel reaches its ceiling, and nobody is standing in the middle holding it open.
+
+The road is loud when we emerge. I call Zeke before he can call us, tell him we are back above ground, and that there is something we need to show him. Then I sit on the low wall while Mariana checks the time and sends a message of her own.
+
+“We’ll have to trace it,” she says. “Find out what it carries. Whether the wheel turns.”
+
+I nod. My palms still remember the other door. Beyond the posts, someone lifts an empty container onto a cart. The new channel has not filled it. There will be work between what we found and anyone being able to drink.
+
+Mariana offers me her hand. I take it and stand. As we pass the chair, I touch the worn back. It is cool beneath my palm, and it stays cool when I let go.
