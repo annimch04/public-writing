@@ -14,12 +14,12 @@ related_categories:
 story_world: "Pythia"
 project: "Pythia"
 genre: "Speculative fiction / myth-tech story world"
-archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Six."
+archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Seven."
 reader_note: "Presented as a story-world text and manuscript opening."
 content_note: "Contains body-memory language, animal death, grief, erotic/sensual charge, and mythic power dynamics."
-revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapter Four restoration rewrite published 2026-09-13 from approved revision 1. Chapter Five restoration rewrite published 2026-09-13 from approved revision 1. Chapter Six first published 2026-09-14 from approved revision 1."
+revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapter Four restoration rewrite published 2026-09-13 from approved revision 1. Chapter Five restoration rewrite published 2026-09-13 from approved revision 1. Chapter Six first published 2026-09-14 from approved revision 1. Chapter Seven first published 2026-09-17 from approved revision 1."
 audio_status: "ready-to-record"
-updated_at: "2026-09-14"
+updated_at: "2026-09-17"
 ---
 
 # The Pythia Games
@@ -1854,3 +1854,277 @@ The road is loud when we emerge. I call Zeke before he can call us, tell him we 
 I nod. My palms still remember the other door. Beyond the posts, someone lifts an empty container onto a cart. The new channel has not filled it. There will be work between what we found and anyone being able to drink.
 
 Mariana offers me her hand. I take it and stand. As we pass the chair, I touch the worn back. It is cool beneath my palm, and it stays cool when I let go.
+
+## Chapter Seven
+
+### Ninneva
+
+The kitchen has water for another hour. Mariana discovers this before we have finished telling Eli what we found. A woman comes out carrying a bucket, tips it far enough to show the bottom, and asks whether the promised cart has reached the square. Mariana looks at the road behind us, then takes the bucket.
+
+“Not yet. Keep that for the food.”
+
+“I was keeping it for the food.” The woman takes it back. “Then someone needed to wash the bowls.”
+
+Her name is Leda. She has a red patch at the base of her thumb where the skin has split, and flour in the crease of one elbow. Beside her, a young man is trying to fix a lid that no longer fits its pot. She introduces him as her son, Iven, without looking away from Mariana. He presses the lid down with both hands. When it springs back, he puts it on a different pot and discovers that it belongs there.
+
+“I've been working on that for ten minutes,” he says.
+
+Eli takes the empty vessel from him and turns it over. There is a dent in the bottom deep enough to catch a finger. They discuss whether it will stand on the stove while Mariana and Leda divide the remaining water between things that cannot wait. I stand in the doorway with an underground river still moving through my body and nothing to put in the bucket.
+
+We show Eli the drawing on a cleared end of the table. He recognizes the pipe's width from Mariana's knotted cord, though not the turn it takes beneath the street. He asks where the channel begins. I tell him what I could feel, then have to tell him how much of that I cannot place on a map.
+
+“Can you bring some here?” Leda asks.
+
+“I think so.”
+
+She waits. I look at the bucket beside her shoe and try again. “I don't know when.”
+
+Mariana pulls a stool close enough to sit. She has been on her feet since we left the chair, and there is dried mud from the basin along one sleeve. “We'll go back with Eli. Trace the pipe before anyone drinks from it.”
+
+“Today?”
+
+“Yes.”
+
+Leda nods once and lifts the bucket. I hear her measure water into a pot behind me. Each pour ends sooner than I expect.
+
+***
+
+By the time we return to the street, a cart has stopped outside the kitchen. The tank on its bed is green, shaded by a canvas stretched between four poles. Water ticks against the inside when the driver climbs down. A woman in a clean grey coat unfolds a small table beside the wheel, sets out a stack of cups and drinks the first one herself.
+
+People come out of doorways. Someone brings a stool for an old man. The driver puts a wooden block beneath the rear wheel and checks it with his foot before opening the tap. Nothing about the water looks enchanted. It falls into the cup with the dense, ordinary sound that has been missing from the kitchen all morning.
+
+Leda is already filling her bucket when the woman asks for her household token.
+
+“For the delivery record,” she says. “First names on this side. Anyone who shares your supply on the back.”
+
+Iven brings a small brass disc on a cord. His mother dries her hands on her skirt and lays it in the hollow of the table. A narrow sheet comes out beneath it. The woman tears the sheet free and turns it toward her.
+
+Thirty days of supply. No payment due on delivery. Under the quantities is a sentence about contribution once the household has recovered. Leda reads it twice, her wet finger leaving a mark beneath the line.
+
+“How much contribution?”
+
+“It's assessed against capacity. There wouldn't be much sense in asking you to repay what you haven't got.”
+
+“Whose capacity?” Iven asks.
+
+“The household's. You receive as a household.”
+
+Mariana has come to stand beside us. The woman recognizes her and straightens the stack of cups, although it is already straight. They greet each other by name; the woman is called Vessa. Mariana asks whether the kitchen can buy one delivery outright.
+
+“The patron has underwritten household relief. I can't enter it as a sale.” Vessa taps a line near the bottom. “But you're covered for shared cooking. We know people are helping one another.”
+
+Above the signature space, Leda's address is followed by two names. Below it, the patron's red seal has pressed so deeply into the paper that I can feel its shape with my eyes. I think of the broken circle beneath the angel, then realize I have stopped listening.
+
+Iven is saying he cannot promise autumn. He has been offered a place beyond the eastern crossing, repairing instrument springs. He leaves in six weeks if the passage is open.
+
+“Then you'll have work,” Vessa says, smiling. “That's exactly the sort of recovery the arrangement is meant to support.”
+
+“Will it keep him here?” Leda asks.
+
+“Placements are coordinated. They try to preserve existing plans.”
+
+Iven takes the sheet from his mother. The driver has closed the tap. Water runs from the end of the bucket's handle onto Leda's shoe, and she does not move it away.
+
+“I haven't signed,” she says.
+
+“The first bucket is yours.” Vessa reaches for another cup. “Take your time. We have to move on at three.”
+
+It is twenty minutes past two.
+
+***
+
+We carry the water inside. Leda puts the bucket on the table and begins filling a kettle. Iven keeps the agreement in his hand, reading as he walks. There is almost nothing to read. The broad promise of recovery takes up more room than the terms beneath it.
+
+Mariana asks him to hold it against the window. Along one edge, where the seal thins, a second line becomes visible. She has seen this before. I know it by the care with which she takes the sheet, keeping her fingers away from the place a signature would go.
+
+“Can we use your table?” she asks Leda.
+
+“You're at my table.”
+
+Mariana clears the wet cloth from one corner. In the harder light the small writing can be followed: the contribution may be reassessed; suitable placements may be substituted; the household record may be corrected to preserve continuity of service. The agreement names a schedule held somewhere else. It does not say what is in it.
+
+I read the word *substituted* again. For a moment the kitchen door is the door of my room, with the wrong man standing in it and the House waiting for me to discover the merit in what it has done.
+
+“Don't sign this,” I say.
+
+Leda puts the kettle down. “What are we drinking tomorrow?”
+
+“The channel—”
+
+“Tomorrow.”
+
+I stop. She has not raised her voice. She looks tired enough that doing so would be another expense.
+
+“We found a way below the street,” I tell her. “It stays open. We think we can connect it to the kitchen.”
+
+“Mariana told me. I'm glad.” She moves the kettle onto the stove. “I still need to know about tomorrow.”
+
+I look at Mariana. She is looking at the page, and she does not save me from the question.
+
+“I can pay for water elsewhere.”
+
+“How long?” Iven asks. “Because if we turn this down and your money runs out, he'll already have given our place to someone.”
+
+Leda touches his arm. “Let her answer.”
+
+I could offer what I have. I could call Zeke and ask what the House can spare. Yesterday we closed a gallery to free enough of its hold for two people to eat dinner outside. I have no idea how many households are waiting beside the cart.
+
+“For a few days,” I say. “I'd have to find someone who can deliver it.”
+
+“Then do that,” Leda says. “A few days would help.”
+
+Mariana folds the edge of the sheet back until the hidden line catches the light more clearly. “There's a laundress on the north lane who took an arrangement like this last winter. They moved her contribution from washing to a night hold. She couldn't leave her mother alone. When she objected, the deliveries stopped.”
+
+“Did she sign these terms?” I ask.
+
+“She doesn't have the first page anymore.” Mariana looks at Leda. “We got water to her. We didn't get the arrangement cancelled.”
+
+Iven lays both hands on the table. He has oil worked into the cuticles around his nails. “I can work here. Someone needs springs here.”
+
+His mother turns on him so quickly he draws back.
+
+“You spent two years getting that place.”
+
+“I know how long it took.”
+
+“Then stop offering it as though you found it in the road.”
+
+Through the doorway I can see the tank, the neat table, people moving their containers forward. Leda looks out too. Her anger goes nowhere useful; it settles in her shoulders. I recognize the effort of keeping it there.
+
+***
+
+Mariana calls the man who supplied the junction. He is two streets away and objects to coming until she reads the small line about correction. Then he asks her not to let anyone exchange the sheet.
+
+While we wait, I find a water carrier willing to make two small deliveries at dawn. The price is unpleasant. The second delivery depends on his getting through the south road, and he will not take money for something he cannot promise. We agree on the first. I write the amount and time on the back of an old receipt and give it to Leda. She tucks it beside the clock.
+
+“Now we have tomorrow,” she says.
+
+There is relief in it. I nearly let that relief carry me into promising the day after. Instead I help Iven move the empty vessels into the yard, so the carrier will have somewhere to put what he brings.
+
+The vendor arrives carrying a cloth bag that clinks when he sets it down. He has brought a part for Eli as well as a book. Its pages are swollen along the lower edge, the cover greasy where he holds it. He opens to a sheet pasted across two facing pages and puts Leda's offer beside it.
+
+“That one was mine,” he says. “Two months of supplied parts. Paid back in repair hours. I asked how many. They wrote forty.”
+
+The first sheet says forty. Beneath it is another, attached at one corner so it can be lifted. The later page says six months of available service. In the place where his work had been specified, there is now an assessment category.
+
+“What happened to the hours?” Iven asks.
+
+“They remained very grateful for them.”
+
+Mariana presses a finger beside the changed line. “When did you receive this?”
+
+“After the first delivery. They said the first page was an estimate.” He turns the upper sheet toward her. There is no such word on it.
+
+Leda studies the pages. “And if I take the water and refuse the work?”
+
+“They decide what you owe. Then you get to find out where they can collect it.”
+
+“Did they collect from you?”
+
+“I'm still finding that out.” He closes one hand over the book when I lean closer. “You can look here.”
+
+I sit down. He lets go of the page.
+
+The number beneath the offer's seal is familiar. I take out my notebook and find the kitchen-fittings receipt, still folded where I kept it around the parts. The characters match. So do the ones I copied from the House's open references. I put the three records beside each other, taking care not to place mine over his.
+
+“This was under an entry about me,” I say.
+
+“Did you buy something?” Leda asks.
+
+“No.” I look at the number long enough to stop wanting to call it an answer. “I don't know what it accounts for.”
+
+The vendor draws Leda's page back toward himself. “Well, it seems to be doing business.”
+
+Outside, the driver calls the time. Vessa begins collecting unused cups. Leda asks us all to move our things off the agreement so she can read it once more.
+
+***
+
+At the cart she asks for seven days instead of thirty, with only her name on the household line. Vessa can shorten the delivery period. She cannot remove Iven while he lives at the address.
+
+“He's leaving,” Leda says.
+
+“Then his record will move when he does.”
+
+“What moves with it?”
+
+Vessa's hand rests on the brass disc. “I can request a review.”
+
+Leda takes the token out from under her fingers. For a moment I think she will refuse. Behind us, Iven shifts the bucket to his other hand. It is empty again; the kitchen has used what they brought inside.
+
+“Seven days,” Leda says. “Give me the page before you enter it.”
+
+Vessa makes the change. Leda reads the new sheet, asks for a second copy and puts it against the first. We stand there while the driver fastens one corner of the canvas. Nothing is being hidden by a curtain. The water is beside us. The people waiting know that we are taking time from the route.
+
+“I don't agree to you moving his work,” Leda says.
+
+“I can put that in the remarks.”
+
+“Do it.”
+
+The sentence appears beneath their names. Leda reads it aloud, then presses her thumb into the hollow beside the disc. Iven turns away before she has lifted it.
+
+The seal warms. I feel the change at the edge of the road, a tension gathering along a line I had not noticed until something pulled it tight. Above the tank, one of the House's small winged scouts settles on the canvas. It tilts toward Leda's hand.
+
+The driver's tap opens. He fills the bucket, then the next. I want to knock the disc from the table. The wanting is so sudden that the water shivers inside the cups. Mariana's eyes meet mine, and behind her I see the woman I helped against the cloth-shop wall, waiting with a jug held close to her ribs.
+
+I put my hands beneath the bucket's handle. Iven has taken the other side. Together we lift it clear before it overflows.
+
+***
+
+Eli comes up from the service stair late in the afternoon. He has followed the pipe as far as a sealed branch beneath the kitchen yard. The wheel turns, but the spindle slips before it can open the valve. The vendor takes a bent pin from Eli's hand and swears at it with a familiarity I find encouraging.
+
+They need to drain the housing, replace the pin and inspect the branch. There is old sediment in the channel. Eli has filled two clear jars, one before disturbing the valve and one after, and neither is something I would put to my mouth. He sets them on the wall where no one will mistake them for drinking water.
+
+Iven kneels to look at the damaged pin. “I can cut that.”
+
+“Out of what?” the vendor asks.
+
+They go inside together to argue over the contents of his bag. Leda watches her son disappear into the kitchen. She has put the signed agreement in a dry bread tin, with the earlier offer beneath it.
+
+“I didn't give him away,” she says.
+
+“I know.”
+
+She looks directly at me. “You looked as though I had.”
+
+There is no useful thing to do with my face except let her see it. “I was angry.”
+
+“So was I.” She closes the tin and hands it to me. “Copy those. Bring them back before you go home.”
+
+I photograph each page against the clean part of the table. Leda stands beside me and checks every picture. The objection about Iven is legible beneath the seal; I enlarge it for her. When she is satisfied, she puts the papers away herself.
+
+Mariana returns with someone who knows how to test the water. The woman takes the jars, asks Eli three questions he can answer and two he cannot, and promises nothing until she has examined them. Mariana arranges to meet her in the morning. Two other women come for the evening cooking, bringing their own knives and news from streets I have never walked. Leda makes room for them by sending us into the yard.
+
+We spend what is left of the light uncovering the kitchen end of the pipe. I lift broken paving while Eli clears the soil from the join. Below my hand, the stone carries the turn I opened earlier. I could widen it. The impulse arrives with an image of water reaching every waiting vessel, and then with the memory of my sister on the far side of a door.
+
+“How far do you need?” I ask Eli.
+
+He points. I open enough room for his wrist and stop there. He reaches in, feels around the housing and asks for another inch.
+
+By dusk the pin is in. The valve moves. A thin run of brown water strikes the bottom of our test bucket, falters, and becomes a steadier stream. Iven leans against the wall to watch it with us, his sleeve wet to the shoulder. From the kitchen comes the sound of Leda arguing that someone has put too much salt in the pot.
+
+We fill the bucket twice and empty it onto the yard. On the third, we can see the bottom through the water. Eli labels the sample and closes the valve. Nobody drinks it. Iven leaves his tools on a shelf by the door for morning.
+
+***
+
+When I reach the House, Zeke is in the lower room with the references still open. He looks up before I speak. I want to put my bag down and walk into his arms; the wish has survived the day with an unreasonable freshness. Then I remember the photographs and take the phone out instead.
+
+“Water,” I say when he asks what happened. “We got some water.”
+
+I show him the page Leda signed and the earlier offer. He pulls a chair beside mine. His knee rests against my leg while we look, and I leave it there.
+
+The House recognizes the red seal. A delivery record opens beneath the old junction order. Leda's names, her address, seven days. Where the signed page says she objects to moving Iven's work, the display says *Placement preferences received. No restriction on reassignment.*
+
+Zeke reaches toward the line. I catch his wrist before he touches it.
+
+“Leave it beside hers.”
+
+He stops. Then he moves the delivery record to one side and opens my photograph at the same size. The House begins to smooth the edge between them. He holds them apart while I send Leda both pictures.
+
+Her reply comes while we are still looking.
+
+*That's not what I said.*
+
+A second message follows. *Keep them. I'll want them in the morning.*
+
+I put the phone down and take out the old page from my room, the invitation whose specificity the House had refused. For the first time, I lay it beside someone else's.
