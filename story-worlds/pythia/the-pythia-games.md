@@ -34,6 +34,8 @@ wah wah wah
         wah
 
 
+## Part I — The House of Want
+
 ## Chapter One
 ### Ninneva
 
@@ -1538,6 +1540,8 @@ Inside, she lifts two menus from a shelf.
 “Table for two?”
 
 “Two,” I say. Zeke puts his hand at the small of my back, and we follow her in.
+
+## Part II — The Exile’s Hour
 
 ## Chapter Six
 ### Ninneva
