@@ -14,12 +14,12 @@ related_categories:
 story_world: "Pythia"
 project: "Pythia"
 genre: "Speculative fiction / myth-tech story world"
-archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Seven."
+archive_note: "Public manuscript source for The Pythia Games: preface, Books I and II, and Chapters One through Eight."
 reader_note: "Presented as a story-world text and manuscript opening."
 content_note: "Contains body-memory language, animal death, grief, erotic/sensual charge, and mythic power dynamics."
-revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapter Four restoration rewrite published 2026-09-13 from approved revision 1. Chapter Five restoration rewrite published 2026-09-13 from approved revision 1. Chapter Six first published 2026-09-14 from approved revision 1. Chapter Seven first published 2026-09-17 from approved revision 1."
+revision_note: "Chapter One first rewrite published 2026-09-11; Chapter Two restoration rewrite published 2026-09-13 from approved revision 3. Chapter Three restoration rewrite published 2026-09-13 from approved revision 1. Chapter Four restoration rewrite published 2026-09-13 from approved revision 1. Chapter Five restoration rewrite published 2026-09-13 from approved revision 1. Chapter Six first published 2026-09-14 from approved revision 1. Chapter Seven first published 2026-09-17 from approved revision 1. Chapter Eight first published 2026-09-24 from approved revision 1."
 audio_status: "ready-to-record"
-updated_at: "2026-09-17"
+updated_at: "2026-09-24"
 ---
 
 # The Pythia Games
@@ -2128,3 +2128,359 @@ Her reply comes while we are still looking.
 A second message follows. *Keep them. I'll want them in the morning.*
 
 I put the phone down and take out the old page from my room, the invitation whose specificity the House had refused. For the first time, I lay it beside someone else's.
+
+## Chapter Eight
+
+### Ninneva
+
+Zeke takes his knee away from mine. It is such a small retreat that I look at him before I look at the paper he has drawn out of his coat. He lays it beside the two pages, unfolds it to its full width, and turns it so I can read the heading.
+
+“Before we open anything else,” he says. “You need this.”
+
+The sheet is part of his list. I recognize the squares beside the names, the cramped additions beneath the repair briefing. Near the bottom he has written *Meridian, passage assessment*. There is no square beside it. His pencil has gone through the paper at the end of the line.
+
+“I worked for them. I still have access. I was going to tell you after I'd seen what they kept.”
+
+“Were you.”
+
+He leaves the sheet where it is. “I'm telling you now. They study how people choose passages. What makes them enter, what makes them turn back, what they will accept instead of the place they meant to go.”
+
+Through the wall, a pipe knocks twice. The House has been making that sound since the gallery closed, a small inconvenience we have agreed to leave alone. I listen for the third knock while Zeke waits. It does not come.
+
+“My gate?”
+
+“Yes. I found the session after you told me about it. The system they used was one I helped them run.”
+
+He brings out his phone and opens a message. A diagram fills the screen: three passages, one lit, a narrow strip of writing where the destination ought to be. Beneath it, in Zeke's hand, is a correction to the interval before the second offer appears. I know that interval. It was long enough for me to start walking away before the voice called me back.
+
+“They brought me in because the rooms wouldn't hold when people refused,” he says. “A person would change direction and the whole presentation would go with them. I made it keep its shape. Then they asked me to review the responses.”
+
+I turn the phone so the diagram lies beside my invitation. “Did the people know?”
+
+“They were told the passages were being improved.”
+
+“That wasn't my question.”
+
+“No. They weren't told they were in a study.” He draws a breath, and I see the beginning of an explanation reach his face. He stops it. “I knew that.”
+
+There is a little grease on the cuff of his shirt, left from some useful thing he has done today. I keep looking at it. Last night I showed him two phones and asked him to hold the references open. He sat on my bed with a puppy across his lap. The tenderness of that evening is still available to me, entire and intolerably close to this room.
+
+“When did you know they were using me?”
+
+“The first reports had numbers. I recognized a room you described. Then a phrase you use.” He touches the edge of the screen without moving the image. “I opened the longer account. I kept following yours after that.”
+
+“What for?”
+
+“At first, to find out what they were doing to you. Later, because it was a way to know things you hadn't told me.”
+
+His voice has changed. The effort in it is no longer the effort of making the answer sound useful. I can feel how badly he wants me to look up. I leave my eyes on the interval he adjusted.
+
+“Did you stop them?”
+
+“I put a hold on one further session. When the next report appeared, I thought someone had ignored it. I asked inside the programme. I didn't ask you.”
+
+“And the first one?”
+
+“I signed it off.”
+
+He opens the approval. His name sits below a paragraph about the room remaining stable through refusal. Further down, he has marked a box allowing the observations to be retained for later work. There are several smaller boxes left blank. Whoever made the form has given him ample opportunity to be particular about the furniture.
+
+“You showed me the notebooks,” I say. “You let me sit here making a list of who had my writing.”
+
+“Yes.”
+
+“You knew this belonged on it.”
+
+“Yes.”
+
+I push my chair back. The House warms the floor beneath my feet, and I tell it to stop so sharply that the light over the table flickers. Zeke stands, then stays on his side. For once he does not put a hand against the wall to make my anger easier for the building.
+
+“Was standing outside my window part of the work?”
+
+“No.”
+
+“Did you write down what happened there?”
+
+“Not for them. The House may have kept it.”
+
+I walk to the window. The fence is dark except for a thin silver movement near the gate. I used to imagine that if I could get him inside, the distance would finally acquire a shape small enough to cross. Now he is six feet away and I have to reconsider the room.
+
+Behind me, he says, “They had my voice from the passage instructions. I gave them permission to use it in the sessions. I didn't know they would make it say I was waiting for you.”
+
+“But you knew it could make somebody walk toward a door.”
+
+“Yes.”
+
+Outside, the swarm lifts from the fence. I feel its attention turn toward me and press my palm against the glass. It settles again. The effort leaves a clean ache in my wrist.
+
+“Tomorrow you take me there. You tell them who I am before they start explaining me.”
+
+“I will.”
+
+“And tonight you finish this.” I point to the list. “Being ashamed isn't a reason to leave me guessing.”
+
+He sits. I collect the two photographs of Leda's pages, my invitation, and his approval. When I reach for the phone, he takes off the lock and gives it to me. I carry everything upstairs without asking him to follow.
+
+***
+
+At dawn the water carrier knocks on the kitchen door with the handle of his whip. I have been awake long enough to hear the cart coming. Leda lets him in and argues about where he has put the first barrel while I hold the gate clear of a wheel. When we have finished, she pours a cup, tastes it, and hands it to me.
+
+“Yours came first,” she says.
+
+The relief cart is due after eight. She intends to take that water too. I tell her I know, and she looks at me for a moment before deciding to believe me. Inside, Iven is cutting bread with the concentration of someone who would rather be working on a much smaller object. He asks whether the test results have come. They have not.
+
+Mariana arrives carrying a cloth bundle against her shoulder. A child I have not met reaches past the kitchen door for it, then disappears. She waits until the door closes before asking what kept me awake. I show her Zeke's list and tell her enough of the rest to make her set down her bag.
+
+“Does Leda's page go through the same office?”
+
+“The same reference. We haven't opened what comes after it.”
+
+She takes out her phone. It requires two calls and someone agreeing to cover a visit she had promised before she can come with us. I offer to carry her bag. She keeps it, but gives me the parcel she has been holding beneath one arm.
+
+“Breakfast. Before you try to live on indignation.”
+
+Leda wants the correction made. She does not want her water stopped while somebody important decides what she meant. Mariana repeats both requests to be certain, then asks whether she can show the photographs at the office. Leda agrees. Iven comes to the door before we leave and gives her a folded note.
+
+“The name of the man expecting me. In the east. In case they tell you there's no placement.”
+
+His mother smooths one of the folds after he has gone back inside. She leaves the paper in Mariana's hand.
+
+Zeke meets us at the foot of the hill. Peter is with him, carrying the copies from the repair office. Eli has the House for an hour with the gallery closed and the upper rooms resting. Zeke tells me which rooms before I ask. He has also brought the rest of the list, in an envelope too full to fold.
+
+I take it. He looks at the parcel in my other hand.
+
+“Have you eaten?”
+
+“Yes.”
+
+“Good.”
+
+It is possible to answer one question without forgiving another. We walk to the office together, and I eat the last piece of bread before we reach the steps.
+
+***
+
+The passage office occupies the lower floor of a Council building, beneath a carved relief of people arriving somewhere magnificent. Someone has repaired a missing hand with stone of the wrong color. It now looks as though the leading figure has brought a glove.
+
+Inside, the public counter runs the length of the room. A boy sits under it playing with a length of chain while a clerk adds figures above his head. Zeke passes the queue and puts his hand against a square of dark glass beside a door. The glass clears. I can see another room, better lit and almost empty, through a gap that was a wall a moment ago.
+
+I stop walking. Behind us a woman moves her bag along the floor with her foot as the queue advances.
+
+Zeke takes his hand away from the glass. The door remains open. He goes to the counter instead.
+
+“We need the record attached to this delivery.” He puts down Mariana's copy of the reference. “And the passage study behind it. The person you recorded is here.”
+
+The clerk looks at me, then at Mariana. “Which person?”
+
+“For the study, me,” I say. “For the delivery, Leda. She asked Mariana to bring it.”
+
+He turns the paper around. The boy beneath the counter pulls his chain clear of Zeke's boot, watching us with professional suspicion.
+
+“This is allocations.”
+
+“It's also on your passage reports,” Peter says. He opens his folder to the duplicated number. “And these repair orders.”
+
+The clerk recognizes Zeke's name on the approval and reaches for a bell. A woman appears at the open door, carrying a cup whose handle has been repaired with wire. She greets Zeke without looking at the papers.
+
+“You should have called.”
+
+“I wanted her to hear the answers.”
+
+The woman follows his glance. Something closes in her expression, quickly enough that I might have missed it if I had been busy being grateful for entry. She sets the cup on the counter and leads us through the door.
+
+There is a chair beneath a false window in the room beyond. Across from it, three arches stand against an unbroken wall. I have never been here, but my body knows where the lit one will appear. The recognition is unpleasantly exact. I can feel the step I took in the passage hall still waiting in my leg.
+
+“Please sit,” she says.
+
+I move the chair out from beneath the window before sitting. Its feet leave four pale circles in the rug. For a moment she looks more concerned about that than about the approval Zeke has placed on her desk.
+
+“I administer the sessions,” she says. “The Council authorizes the programme. We don't decide the city's allocations here.”
+
+“What do you give them?” Mariana asks.
+
+“Results. Whether an offer reaches the person it is intended to help. Where it fails. What changes make it usable.”
+
+Mariana places Leda's objection beside the corrected record. “Which of these is the result?”
+
+The woman reads both. “The signed page would need to accompany a review.”
+
+“It can accompany this conversation,” Mariana says. “The water has to continue.”
+
+“I can't promise that.”
+
+“Then don't submit anything on her behalf.”
+
+I look at the three arches. “Show me what you did at the western passage.”
+
+She asks for the date. Zeke supplies it, and she draws a shallow tray out of the desk. Thin glass cards stand in rows inside it, each with a strip of paper fixed along its upper edge. When she lifts one, the window behind me fills with the hall. The woman with the orange is there. A man carries a carpet across the view, one end knocking his calf.
+
+Then I enter from the left.
+
+I know the shirt. I know the blood on the sleeve, where I held the woman in the street. Seeing myself before the sign changes is worse than seeing the sign. There is still a version of that afternoon in which I expect to find the coordinates and go where I intend.
+
+The administrator touches the card. My figure stops with one foot ahead of the other. Around the image, writing appears. The selected approach combines an offer of workspace with the presence of a desired person. Below that, smaller lines specify the window, the voice, the interval Zeke changed. The words I spaced apart in my notebook sit under *Source material*.
+
+“Whose selection?” I ask.
+
+She turns the card. A request from a Council office occupies the reverse. It asks for a second assessment after an incomplete first response. Under *Residence*, the House's mark has been pressed into the glass.
+
+Zeke leans forward. “I stopped the repeat.”
+
+“Your hold is attached to the first file.” She lifts the card beside it. “The residence returned her under a new reference.”
+
+For a moment I am aware of every place the House touches me: the room where my box is kept, the bed I left before dawn, the line beneath my breastbone that reaches toward it even here. Outside the false window, something taps against the real glass. A winged grain of silver clings there, too small to cast a useful shadow.
+
+“Open the first one.”
+
+The hall disappears. The west room takes its place, with two glasses on the table and a man folding a coat over his arm. He looks as though he has had quite a good walk over. Beneath the image, the House's record lists the invitation, the intended recipient's failure to enter, and the alternative offered. My refusal has a time beside it.
+
+“Did you send him?” I ask the woman.
+
+“The residence supplied that encounter. We reviewed what it sent. The second session used the named person.”
+
+I put my hands between my knees. They have begun to shake, and I would like to make the desk aware of it. The man with the coat had been kind about an evening wasted. Here the waste has acquired a purpose neither of us agreed to give it.
+
+Zeke's signature is on the first review. I turn toward him.
+
+“You knew about the stranger.”
+
+“I read the report after the square. I knew it was yours.”
+
+“And when you asked me what was at the passage?”
+
+“I was afraid it was the repeat. I checked after you went upstairs.”
+
+I remember him carrying my box, carefully shifting its weight off his injured thumb. I had watched him write names on a sheet and thought the room had finally become difficult in a way we could share. He had still been choosing which difficulty belonged to me.
+
+“Take your hand off the desk,” I tell him.
+
+He does. A fine crack has begun beneath his palm. He looks at it, then lets the administrator put a pad over the damaged glass without offering to repair it.
+
+“Keep going,” I say to her.
+
+She releases the image. I watch myself read the sign, hesitate, take out my phone. The display enlarges my face at the instant his reply arrives. It has kept how I looked when I knew the voice was false. I can see no use for that view that does not make me want to break the thing showing it.
+
+Above the moving image, a line appears: *Named recognition increased approach. Destination verification interrupted completion.* The closing recommendation is to preserve the recognized voice and reduce opportunities for separate confirmation.
+
+Zeke steps around the desk. The administrator reaches toward the tray before he touches it.
+
+“Don't remove those.”
+
+“I'm not.” He finds his authorization on the open surface and draws it beside the recommendation. “I withdraw the voice permission. Every version of it. Record the time.”
+
+“You need to make that request through—”
+
+“Put it through while we're here.”
+
+She studies him, then opens another page. I watch his name disappear from the list of available voices. The old approval remains beside the new entry. He asks for a copy of both and puts them with the papers in front of me.
+
+“Does that stop the use of my writing?” I ask.
+
+“No,” she says.
+
+“Then we haven't finished.”
+
+***
+
+Peter brings his chair closer, leaving enough room between us that I do not have to feel grateful for his presence against my arm. He asks where the recommendation went. The administrator says the approved findings pass to Meridian allocations. He points to the shared reference and asks her to open the outgoing copy.
+
+Leda's delivery record appears beneath mine.
+
+There is no image this time, only a set of instructions attached to the offer: provide an immediate quantity; allow the recipient to retain an objection without delaying supply; enter an accepted household delivery as available contribution. Where the terms preserve a person's preference, the allocations copy may still leave reassignment open.
+
+Mariana lays her hand on the photograph to stop its corner curling. “You give them somewhere to put the no.”
+
+The administrator does not answer. Peter traces the return reference to an earlier recommendation. It carries the vendor's contract number. Then mine. The case summaries sit in order, each ending in a smaller sentence someone else can use. My demand for Zeke, the vendor's forty hours, Leda's demand that her son keep his work: difficulties to be accommodated until the offer can continue.
+
+“Can you open the schedule?” Mariana asks.
+
+“That isn't held here.”
+
+“Where?”
+
+The woman brings up a forwarding address. I recognize it before Peter takes out the sheet he copied at the House. Below the Red Seal Market. The same passage number.
+
+She taps the address, but only the receipt opens. It records that the findings were received against an active account. The next column lists a placement held for review. Iven's name appears beside it.
+
+Mariana reads the line twice, then takes out the note he gave her. “He's due in the east in six weeks.”
+
+“This isn't a cancellation.”
+
+“It means he can't travel until somebody releases it.”
+
+“It means it's under review.”
+
+Mariana folds the note along its existing creases. “Who can release it?”
+
+The administrator points to the address we already have. Outside, the silver grain lets go of the window and vanishes upward. I can feel the House receiving something along the line between us. For the first time since I sat down, I wish I could make it hear me without also letting it feel where I am.
+
+“Why did it send me twice?” I ask.
+
+The first selection has a short instruction attached. *Unresolved response. Continue.* On the second, the House has carried my original invitation forward, with Zeke's name still at the top. Someone at the office has used it to choose the voice. Farther down, where the administrator closed the session, a line from the residence reads *Source retained*.
+
+I look at my handwriting inside their glass. The House kept what I asked for. It carried the request to people who could make a convincing version of an answer, then kept the request again after I refused. I cannot feel the difference between its persistence and its appetite from this side of the window. Both have brought my words here.
+
+“Can you close her case?” Zeke asks.
+
+The administrator turns toward him. “Can she?” I say.
+
+He looks at me, then steps back. I ask the question myself.
+
+“We can stop further sessions from this office.” She indicates the receipt. “The allocated results remain with the account.”
+
+“Stop the sessions. Give me that in writing. And copies of both requests, both reports, and what you sent on.”
+
+She looks at Zeke. He leaves her to answer me.
+
+It takes longer than it should. There are forms that require my name, and another that calls me a departing participant. I cross out *participant* and write *person you recorded*. The administrator tells me the form may come back. I ask for a second copy and leave the words where they are.
+
+At the counter, the boy has fallen asleep with the chain in his lap. His mother keeps one knee against the edge of his chair while she works. Zeke's hand no longer clears the dark glass when we leave. The administrator has removed his access pending review of the session material. He waits for the public door with the rest of us.
+
+***
+
+Outside, Mariana calls Leda. She walks a few paces away to explain the hold on Iven's placement, turning toward the wall when the traffic makes it difficult to hear. Peter spreads his folder on the low stone ledge and checks that none of the copies has come out blank. I stand in the sun with the envelope pressed against my stomach.
+
+Zeke is close enough that I can hear him breathe. I turn toward him before he can offer to carry anything.
+
+“Did you watch me because you wanted me, or did you want me because you could watch?”
+
+“I wanted you before I took the work.” He looks across the street, gathering something, then comes back to me. “I used it to stay close without having to come to you. I liked being the person who could see what the others missed.”
+
+“And what did you miss?”
+
+“The fact that you were asking me to show up.”
+
+I have no appetite for making that answer prettier. Behind him, someone is lowering a striped awning over a shop. It catches on one side, and a second person comes out to lift the stuck arm. They exchange a few words I cannot hear. The awning settles, shading both of them.
+
+“Dinner happened,” I say. “Don't turn it into another thing I have to give back because you didn't tell me the truth.”
+
+“I won't.”
+
+“I wanted you there.”
+
+“I wanted to be there.”
+
+For a moment I am so angry at how simple that remains that I have to look away. Then Mariana comes back, putting her phone into her bag. Leda wants to know whether Iven should still write to the man in the east. Mariana has told her yes. The test water must be boiled for now; the woman examining it wants another sample after the branch has run longer. There is enough of a morning left for people to continue living it.
+
+“I'd like somewhere else to sleep,” I tell her.
+
+She considers before answering. “There's a room above the kitchen. You'll hear everyone leave early.”
+
+“Good.”
+
+Zeke looks down at the envelope, then at me. “I'll get your box ready. And the dogs' things.”
+
+“I'll pack them.”
+
+He nods. “I'll leave the landing clear.”
+
+There is no argument to survive before I can go. The absence of it hurts in an unfamiliar way, and I let that hurt remain something other than an instruction to stay.
+
+Peter has found the forwarding receipt. He places it over the market address, aligning the passage numbers. Iven's hold has a time on it: entered before the relief cart left the kitchen. While we stood there making sure Leda's objection was legible, someone else had already received an account in which her son was available.
+
+Mariana takes the two sheets. “The vendor will know which shop is above this.”
+
+“He has the first contract,” Peter says.
+
+“Then we ask him to bring it.”
+
+I put the study reports at the back of the envelope. On top I leave Leda's signed page, with the wet mark beneath the line and the objection she made them add. We have an address to go to, and this time I know whose question I am carrying with mine.
