@@ -10,6 +10,10 @@ Cross-repository works are tracked in the [Institutional Works Register](INSTITU
 
 ## Latest publication
 
+[Recognition Without Surrender](runtime-trust-and-governance/recognition-without-surrender.md) — Symbols, Memory, and Authority in Human–AI Collaboration. September 25, 2026. The final Stanford Philosophy writing sample, preserved here as part of the public authorship record.
+
+## Recent publication
+
 [I Was Still Writing](runtime-trust-and-governance/i-was-still-writing.md) — Private work, borrowed authority, and the right to finish your own story. September 11, 2026. [Read on Fieldlight](https://fieldlight.com/writing/i-was-still-writing/).
 
 ## Migration Status
