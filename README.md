@@ -10,6 +10,10 @@ Cross-repository works are tracked in the [Institutional Works Register](INSTITU
 
 ## Latest publication
 
+[The Barefoot Girls and the Boa Economy](fiction-myth-and-story-worlds/the-barefoot-girls-and-the-boa-economy.md) — An observed evening, told in a storybook voice for adults. September 29, 2026. [Read on Fieldlight](https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/).
+
+## Previously published
+
 [Recognition Without Surrender](runtime-trust-and-governance/recognition-without-surrender.md) — Symbols, Memory, and Authority in Human–AI Collaboration. September 25, 2026. The final Stanford Philosophy writing sample, preserved here as part of the public authorship record.
 
 ## Recent publication
