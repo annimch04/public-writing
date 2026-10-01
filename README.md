@@ -14,7 +14,7 @@ Cross-repository works are tracked in the [Institutional Works Register](INSTITU
 
 ## Previously published
 
-[Recognition Without Surrender](runtime-trust-and-governance/recognition-without-surrender.md) — Symbols, Memory, and Authority in Human–AI Collaboration. September 25, 2026. The final Stanford Philosophy writing sample, preserved here as part of the public authorship record.
+[Recognition Without Surrender](runtime-trust-and-governance/recognition-without-surrender.md) — Symbols, Memory, and Authority in Human–AI Collaboration. First published September 25, 2026; expanded September 30, 2026 with the Princeton writing sample’s treatment of emergence, responsive media, and revision. The Stanford version remains in the essay’s linked revision history.
 
 ## Recent publication
 
