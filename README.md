@@ -10,6 +10,10 @@ Cross-repository works are tracked in the [Institutional Works Register](INSTITU
 
 ## Latest publication
 
+[AI Regulation: Public Authority and Public Benefit](runtime-trust-and-governance/ai-regulation-public-authority-and-public-benefit.md) — [Read on Fieldlight](https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/). October 2, 2026.
+
+## Previous publication
+
 [The Barefoot Girls and the Boa Economy](fiction-myth-and-story-worlds/the-barefoot-girls-and-the-boa-economy.md) — An observed evening, told in a storybook voice for adults. September 29, 2026. [Read on Fieldlight](https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/).
 
 ## Previously published
