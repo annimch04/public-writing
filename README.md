@@ -10,6 +10,10 @@ Cross-repository works are tracked in the [Institutional Works Register](INSTITU
 
 ## Latest publication
 
+[Fascia as Infrastructure](field-cognition-and-consciousness/fascia-as-infrastructure.md) — [Read on Fieldlight](https://fieldlight.com/writing/fascia-as-infrastructure/). October 6, 2026.
+
+## Previous publication
+
 [AI Regulation: Public Authority and Public Benefit](runtime-trust-and-governance/ai-regulation-public-authority-and-public-benefit.md) — [Read on Fieldlight](https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/). October 2, 2026.
 
 ## Previous publication
