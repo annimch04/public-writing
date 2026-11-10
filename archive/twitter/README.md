@@ -102,4 +102,6 @@ The website layer should therefore show selected pathways, theme collections, an
 
 ## Current coverage
 
-The September 14 repair preserves 3,364 exact post/event records plus 101 separately counted public repost observations. [Count reconciliation and collection corrections](sync/2026-09-14-review.md#gap-repair--september-14-2026).
+The November 10, 2026 update preserves 3,478 post/event records plus 106 separately counted public repost observations. The newest collected authored post is dated November 8; Posts, Replies, and Reposts were checked November 10. Media are retained as public references. Public-profile collection does not establish completeness for unavailable posts or exact repost-action dates.
+
+[September count reconciliation and collection corrections](sync/2026-09-14-review.md#gap-repair--september-14-2026).

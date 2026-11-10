@@ -9,16 +9,16 @@ over time to published work by theme, thread, date, and provenance.
 
 ## Years
 
-- [2026](2026/README.md): 1979 posts
+- [2026](2026/README.md): 2093 posts
 - [2025](2025/README.md): 1385 posts
 
 ## Export Manifest
 
-- `generated_at_utc`: 2026-09-14T18:49:09.688809+00:00
-- `active_tweets`: 3364
+- `generated_at_utc`: 2026-11-10T19:15:59.283491+00:00
+- `active_tweets`: 3478
 - `canonical_repost_events`: 94
 - `canonical_self_repost_events`: 39
-- `media_references`: 306
+- `media_references`: 318
 
 Deleted posts, direct messages, account security records, IP logs, contacts, ads,
 likes, followers, and following records are excluded by policy.

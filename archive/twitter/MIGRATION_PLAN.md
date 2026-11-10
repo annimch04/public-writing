@@ -1,5 +1,7 @@
 # Twitter / X Archive Migration Plan
 
+Historical plan from July 2026; migration and incremental publication are complete. Current operation is documented in [sync/README.md](sync/README.md), and the repository moves in [REPOSITORY-LINEAGE.md](REPOSITORY-LINEAGE.md). The milestones and baseline counts below describe the original plan, not outstanding work.
+
 Archive export reviewed: 2026-07-22.
 
 ## Export Summary
