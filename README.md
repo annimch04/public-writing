@@ -48,7 +48,7 @@ New short posts and photographs are authored here in [stream](stream/), then del
 
 ## Public Post Archive
 
-New short posts and photos use the [Fieldlight stream publishing workflow](stream/README.md), available from a phone or Mac. [Write a new post](https://github.com/annimch04/public-writing/issues/new?template=stream-post.yml) or [read Everything on Fieldlight](https://fieldlight.com/stream/).
+New short posts and photos use the [Fieldlight publishing desk](https://fieldlight.com/post/), available from a phone or Mac. See the [publishing guide](stream/README.md), use the [GitHub issue form fallback](https://github.com/annimch04/public-writing/issues/new?template=stream-post.yml), or [read Everything on Fieldlight](https://fieldlight.com/stream/).
 
 The canonical [Twitter/X public-post archive](archive/twitter/) lives here alongside the authored work. It includes sanitized post records, dated indexes, public context notes, and review-first sync tools. Raw platform exports, direct messages, deleted-post files, account data, and private collection batches stay outside the public repository. The [separate Twitter repository](https://github.com/annimch04/twitter-archive) is a legacy copy; ongoing updates belong here.
 
