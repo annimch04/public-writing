@@ -4,6 +4,16 @@ Short posts and photos are authored here and appear on [Fieldlight’s Everythin
 
 ## Post from your phone or Mac
 
+Open the [Fieldlight publishing desk](https://fieldlight.com/post/). Write, add photos and descriptions if you like, then select **Publish**. A title is optional. Add the desk to your phone's Home Screen for quick access.
+
+Drafts and selected photos stay in this browser's IndexedDB. They are private until you publish, do not sync between devices, and are removed if you clear browser data.
+
+For the initial connection, use an **annimch04** fine-grained GitHub key restricted to **public-writing**, with **Contents: read and write**. The key stays in memory unless you choose **Remember this device**. That option encrypts it on this device with a separate unlock password of at least 12 characters; the password is not stored. Sign out locks the connection. **Forget this device** removes the remembered key.
+
+**Saved. Publishing…** means the canonical record is saved here. **Published** means that exact version has been verified in the public feed. The existing GitHub Actions website workflow checks for source changes about every ten minutes, plus build/deployment time; GitHub can delay scheduled jobs. Pending checks recover after reopening the desk. There is no separate publishing server.
+
+## GitHub issue form fallback
+
 1. Open [New stream post](https://github.com/annimch04/public-writing/issues/new?template=stream-post.yml), signed in as **annimch04**. Bookmark this link on your phone and Mac.
 2. Write in **Post**. Attach photos with GitHub’s image button or drag and drop. Add a short description between `![` and `]` in each photo’s image text. A title is optional.
 3. Check the publication box and submit. **Submitting publishes publicly.** The issue and its original attachments are also public; the form is not a private draft.
@@ -15,7 +25,9 @@ The post supports paragraphs, line breaks, ordinary links, and photos. HTTP(S) M
 
 ## Edit an existing post
 
-Edit the original issue’s **body** and save it. Keep the form’s section headings and publication checkbox. The owner must make the edit. The same issue updates the same post URL and feed identifier, retaining its original publication date. An unchanged body does not create a new revision or duplicate feed item.
+For a composer-created post, open **Your posts** in the publishing desk, select the post, edit, and publish the changes. Its URL and original publication date stay the same. The desk checks the version opened for editing and preserves your draft if another change conflicts.
+
+Earlier issue-created posts are read-only in the composer. Edit the original issue's **body** and save it, keeping the form's section headings and publication checkbox. The owner must make the edit. The same issue updates the same post URL and feed identifier, retaining its original publication date. An unchanged body does not create a new revision or duplicate feed item.
 
 Closing an issue does **not** unpublish its post. Editing a closed post still updates it. Withdrawal is a separate, deliberate source-and-site change; request withdrawal rather than closing the issue.
 
@@ -23,19 +35,19 @@ For maintainers, withdrawal also requires removing the issue’s `[Post]` title 
 
 ## Where the record lives
 
-- Canonical post: `stream/posts/post-<issue-number>.json`.
-- Canonical cleaned photos: `stream/media/post-<issue-number>/<content-hash>.jpg` or `.png`.
-- Public post: `https://fieldlight.com/stream/posts/post-<issue-number>/`.
+- Canonical post: `stream/posts/post-<numeric-id>.json`.
+- Canonical cleaned photos: `stream/media/post-<numeric-id>/<content-hash>.jpg` or `.png`.
+- Public post: `https://fieldlight.com/stream/posts/post-<numeric-id>/`.
 - Everything feeds: `https://fieldlight.com/stream/feed.xml` and `https://fieldlight.com/stream/feed.json`.
 - Publications feeds: `https://fieldlight.com/feed.xml` and `https://fieldlight.com/feed.json`.
 
-Each record has `id`, `published_at`, `updated_at`, `body`, `images`, `source_url`, `issue_url`, `content_hash`, and an optional `title`. Each image has its repository-relative `path` and descriptive `alt` text. The hash covers the title and original post text, including attachment references, so repeated events are idempotent. The JSON feed exposes this hash as `_fieldlight_content_hash` for exact-version publication checks.
+Each record has `id`, `published_at`, `updated_at`, `body`, `images`, `source_url`, `content_hash`, and an optional `title`. Composer records have `authoring: "fieldlight-composer"` and a numeric ID derived from the draft's stable UUID. Issue records use the issue number and include `issue_url`. Each image has its repository-relative `path` and descriptive `alt` text. Composer hashes cover the normalized title, body, and image records; issue hashes cover the title and original post text, including attachment references. Retries retain the same post identity. The JSON feed exposes `_fieldlight_content_hash` for exact-version publication checks.
 
-The copied images are re-encoded from pixels, removing EXIF, GPS, comments, and other embedded metadata from those copies. **This does not remove metadata from the original public GitHub attachments.** Remove sensitive metadata before uploading an original attachment.
+The composer re-encodes photographs before uploading, removing EXIF, GPS, comments, and other embedded metadata. The issue workflow cleans its copied photographs too, but **does not remove metadata from the original public GitHub attachments**. Remove sensitive metadata before attaching an original image to an issue. If this browser cannot decode a HEIC/HEIF photo, export a JPEG from Photos and choose that file.
 
 ## Publishing setup and maintenance
 
-This pipeline uses each repository’s own GitHub Actions token. It needs no personal access token, SSH key, deploy key, or cross-repository write secret.
+The issue-processing and website-deployment workflows use each repository's own GitHub Actions token. They need no personal access token, SSH key, deploy key, or cross-repository write secret. The composer's browser key is restricted to the canonical author repository and is never used by deployment automation.
 
 1. Install the issue form, publisher, tests, pinned photo dependencies, and workflow on `main` in `annimch04/public-writing`. Enable Issues and Actions. The workflow needs `contents: write` for canonical post commits and `issues: write` for its publication-status comments.
 2. Install the stream generator, templates, feeds, and independent scheduled Pages workflow in `fieldlight-institute/fieldlight.com`. That workflow reads this public repository, builds the website, and deploys with its own Pages permissions. Keep the existing `fieldlight.com` custom domain and Pages configuration.
