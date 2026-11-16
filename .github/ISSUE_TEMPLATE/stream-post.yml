@@ -1,0 +1,33 @@
+name: New stream post
+description: Publish a short post or photos to Fieldlight from your phone or Mac.
+title: "[Post] New post"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Submit publishes publicly:** this issue and its original attachments are public, too.
+        Use **Check publication** in the confirmation comment to see when your post is live.
+
+        Attach photos with the image button or drag and drop. Add a photo description between `![` and `]` in its image text.
+  - type: textarea
+    id: post
+    attributes:
+      label: Post
+      description: Text, up to eight attached photos, or both. JPEG, PNG, WebP, HEIC/HEIF, and still GIF are supported.
+      placeholder: Write your post here. Attach photos with the image button.
+    validations:
+      required: true
+  - type: input
+    id: post_title
+    attributes:
+      label: Title (optional)
+      description: Leave blank for a short untitled post.
+    validations:
+      required: false
+  - type: checkboxes
+    id: publication
+    attributes:
+      label: Publication
+      options:
+        - label: Publish this post publicly on Fieldlight.
+          required: true
