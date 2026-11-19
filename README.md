@@ -10,6 +10,10 @@ Cross-repository works are tracked in the [Institutional Works Register](INSTITU
 
 ## Latest publication
 
+[The Third Institution](runtime-trust-and-governance/the-third-institution.md) — [Read on Fieldlight](https://fieldlight.com/writing/the-third-institution/). 19 November 2026.
+
+## Previous publication
+
 [Fascia as Infrastructure](field-cognition-and-consciousness/fascia-as-infrastructure.md) — [Read on Fieldlight](https://fieldlight.com/writing/fascia-as-infrastructure/). October 6, 2026.
 
 ## Previous publication

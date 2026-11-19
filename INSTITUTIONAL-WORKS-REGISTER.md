@@ -38,6 +38,8 @@ The repositories do not have to contain identical files. They do have to state w
 
 | FL-IWR-009 | I Was Still Writing | Authored investigative essay | [`runtime-trust-and-governance/i-was-still-writing.md`](runtime-trust-and-governance/i-was-still-writing.md) | No separate institutional version | [Read](https://fieldlight.com/writing/i-was-still-writing/) | Author-owned source and Fieldlight reading surface; September 11, 2026 |
 
+| FL-IWR-010 | The Third Institution | Authored institutional-design essay | [`runtime-trust-and-governance/the-third-institution.md`](runtime-trust-and-governance/the-third-institution.md) | No separately adopted institutional version | [Read](https://fieldlight.com/writing/the-third-institution/) | Public authorship source; publication does not establish legal adoption of a charter |
+
 ## Provenance Records
 
 ### FL-IWR-001 — Institutional Transition Documentation Methodology
